@@ -1,0 +1,95 @@
+abstract_id,field,pred_unique_entity_count,gold_unique_entity_count,pred_mention_count,gold_mention_count,unique_entity_delta,mention_delta
+abs_001,Anatomical Entity,3,4,4,13,-1,-9
+abs_001,Measurement,0,4,0,5,-4,-5
+abs_001,Population,2,7,2,7,-5,-5
+abs_001,Symptom,6,8,12,24,-2,-12
+abs_001,Terms of Body Movements,1,6,1,6,-5,-5
+abs_002,Anatomical Entity,5,5,5,20,0,-15
+abs_002,Measurement,0,4,0,117,-4,-117
+abs_002,Population,3,5,10,10,-2,0
+abs_002,Symptom,0,2,0,8,-2,-8
+abs_002,Terms of Body Movements,7,6,16,10,1,6
+abs_003,Anatomical Entity,6,6,16,17,0,-1
+abs_003,Measurement,0,5,0,5,-5,-5
+abs_003,Population,1,4,6,4,-3,2
+abs_003,Symptom,3,5,6,9,-2,-3
+abs_003,Terms of Body Movements,5,5,12,13,0,-1
+abs_004,Anatomical Entity,4,3,4,10,1,-6
+abs_004,Measurement,0,9,0,9,-9,-9
+abs_004,Population,5,4,6,4,1,2
+abs_004,Symptom,5,7,10,22,-2,-12
+abs_004,Terms of Body Movements,3,2,4,2,1,2
+abs_005,Anatomical Entity,3,6,5,11,-3,-6
+abs_005,Measurement,0,5,0,5,-5,-5
+abs_005,Population,6,5,17,5,1,12
+abs_005,Symptom,4,3,4,6,1,-2
+abs_005,Terms of Body Movements,5,8,5,13,-3,-8
+abs_006,Anatomical Entity,10,11,19,22,-1,-3
+abs_006,Measurement,0,1,0,1,-1,-1
+abs_006,Population,2,7,2,15,-5,-13
+abs_006,Symptom,1,3,1,6,-2,-5
+abs_006,Terms of Body Movements,0,3,0,17,-3,-17
+abs_007,Anatomical Entity,3,5,8,10,-2,-2
+abs_007,Measurement,0,10,0,10,-10,-10
+abs_007,Population,1,6,5,7,-5,-2
+abs_007,Symptom,2,2,5,6,0,-1
+abs_007,Terms of Body Movements,7,7,20,22,0,-2
+abs_008,Anatomical Entity,5,6,11,15,-1,-4
+abs_008,Measurement,0,5,0,6,-5,-6
+abs_008,Population,1,5,5,10,-4,-5
+abs_008,Symptom,3,7,3,10,-4,-7
+abs_008,Terms of Body Movements,5,8,8,12,-3,-4
+abs_009,Anatomical Entity,11,10,37,40,1,-3
+abs_009,Measurement,0,8,0,14,-8,-14
+abs_009,Population,2,5,6,6,-3,0
+abs_009,Symptom,3,9,5,25,-6,-20
+abs_009,Terms of Body Movements,2,7,2,10,-5,-8
+abs_010,Anatomical Entity,1,2,1,2,-1,-1
+abs_010,Measurement,0,1,0,1,-1,-1
+abs_010,Population,3,3,3,3,0,0
+abs_010,Symptom,2,2,2,2,0,0
+abs_010,Terms of Body Movements,0,1,0,1,-1,-1
+abs_011,Anatomical Entity,9,7,19,17,2,2
+abs_011,Measurement,0,2,0,2,-2,-2
+abs_011,Symptom,0,2,0,4,-2,-4
+abs_011,Terms of Body Movements,3,9,4,12,-6,-8
+abs_012,Anatomical Entity,8,7,10,9,1,1
+abs_012,Measurement,0,8,0,9,-8,-9
+abs_012,Population,1,1,1,1,0,0
+abs_012,Symptom,0,2,0,2,-2,-2
+abs_012,Terms of Body Movements,12,11,39,48,1,-9
+abs_013,Anatomical Entity,2,3,4,10,-1,-6
+abs_013,Measurement,0,6,0,7,-6,-7
+abs_013,Population,1,5,2,5,-4,-3
+abs_013,Symptom,3,3,5,5,0,0
+abs_013,Terms of Body Movements,8,8,17,22,0,-5
+abs_014,Anatomical Entity,2,4,5,12,-2,-7
+abs_014,Measurement,0,2,0,2,-2,-2
+abs_014,Population,2,4,5,4,-2,1
+abs_014,Symptom,3,4,10,11,-1,-1
+abs_014,Terms of Body Movements,5,9,8,12,-4,-4
+abs_015,Anatomical Entity,7,7,13,20,0,-7
+abs_015,Measurement,0,3,0,3,-3,-3
+abs_015,Population,0,1,0,1,-1,-1
+abs_015,Symptom,2,2,2,2,0,0
+abs_015,Terms of Body Movements,5,8,13,17,-3,-4
+abs_016,Anatomical Entity,9,5,55,43,4,12
+abs_016,Measurement,0,5,0,5,-5,-5
+abs_016,Population,3,6,4,6,-3,-2
+abs_016,Symptom,6,5,9,8,1,1
+abs_016,Terms of Body Movements,10,7,31,32,3,-1
+abs_017,Anatomical Entity,11,12,29,32,-1,-3
+abs_017,Measurement,0,4,0,4,-4,-4
+abs_017,Population,4,5,11,7,-1,4
+abs_017,Symptom,3,2,11,10,1,1
+abs_017,Terms of Body Movements,10,15,13,24,-5,-11
+abs_018,Anatomical Entity,0,4,0,8,-4,-8
+abs_018,Measurement,0,14,0,14,-14,-14
+abs_018,Population,2,4,4,5,-2,-1
+abs_018,Symptom,2,2,8,8,0,0
+abs_018,Terms of Body Movements,4,5,8,9,-1,-1
+abs_019,Anatomical Entity,3,5,4,7,-2,-3
+abs_019,Measurement,0,4,0,5,-4,-5
+abs_019,Population,1,4,5,9,-3,-4
+abs_019,Symptom,2,1,7,6,1,1
+abs_019,Terms of Body Movements,3,5,5,8,-2,-3

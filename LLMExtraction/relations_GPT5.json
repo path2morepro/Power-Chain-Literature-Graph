@@ -1,0 +1,1444 @@
+{
+    "abs_001": [
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "medial longitudinal arch",
+            "evidence": "The collapse of medial longitudinal arch is called Flat Foot."
+        },
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "pronated foot",
+            "evidence": "flat foot is associated with pronated foot"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "prevalence_in",
+            "object": "7-14 year of age",
+            "evidence": "The prevalence of flatfoot is 17.1% in 7-14 years of age"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "prevalence_in",
+            "object": "613 year",
+            "evidence": "16.4% in 613 years"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "prevalence_in",
+            "object": "6-12 year of age",
+            "evidence": "17.2% in 6-12 years of age"
+        },
+        {
+            "subject": "abnormal alignment",
+            "relation": "contributes_to",
+            "object": "anterior knee pain",
+            "evidence": "Idiopathic anterior knee pain in nonathletic population ... is mainly attributed to abnormal alignment"
+        },
+        {
+            "subject": "muscular imbalance",
+            "relation": "contributes_to",
+            "object": "anterior knee pain",
+            "evidence": "Idiopathic anterior knee pain in nonathletic population ... is mainly attributed to abnormal alignment and muscular imbalance"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "contributes_to",
+            "object": "anterior knee pain",
+            "evidence": "Flat foot is one of the contributing factors to development of anterior knee pain."
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "anterior knee pain",
+            "evidence": "there is negative correlation between flatfoot and anterior knee pain"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "measured_by",
+            "object": "clarke' angle",
+            "evidence": "Clarke\u2019s Angle was measured from the foot print"
+        },
+        {
+            "subject": "anterior knee pain",
+            "relation": "measured_by",
+            "object": "kujala score",
+            "evidence": "Kujala Score was calculated from the Google form"
+        },
+        {
+            "subject": "anterior knee pain",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "anterior knee pain"
+        },
+        {
+            "subject": "pronated foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "pronated foot"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "flat foot"
+        },
+        {
+            "subject": "malalign",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "can malalign the knee joint"
+        },
+        {
+            "subject": "biomechanic of knee joint",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "alter the biomechanics of knee joint"
+        },
+        {
+            "subject": "clarke' angle",
+            "relation": "correlated_with",
+            "object": "anterior knee pain",
+            "evidence": "More reduction of Clarke\u2019s angle, more the severity of anterior knee pain."
+        }
+    ],
+    "abs_002": [
+        {
+            "subject": "joint congruence",
+            "relation": "correlated_with",
+            "object": "ankle motion",
+            "evidence": "the magnitude of ankle motion is influenced by joint congruence"
+        },
+        {
+            "subject": "ligament elasticity",
+            "relation": "correlated_with",
+            "object": "ankle motion",
+            "evidence": "the magnitude of ankle motion is influenced by ... ligament elasticity"
+        },
+        {
+            "subject": "ankle stiffness",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "lack of understanding on ankle stiffness between subjects with and without flat foot"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "flat foot"
+        },
+        {
+            "subject": "ankle motion",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle motion"
+        },
+        {
+            "subject": "ankle stiffness",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle stiffness"
+        },
+        {
+            "subject": "ankle stiffness",
+            "relation": "correlated_with",
+            "object": "dorsiflexion",
+            "evidence": "increased stiffness during ankle dorsiflexion"
+        },
+        {
+            "subject": "ankle stiffness",
+            "relation": "correlated_with",
+            "object": "plantar flexion",
+            "evidence": "no significant group difference during plantar flexion"
+        },
+        {
+            "subject": "dorsiflexion",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle dorsiflexion"
+        },
+        {
+            "subject": "plantar flexion",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "plantar flexion"
+        },
+        {
+            "subject": "joint stiffness measure",
+            "relation": "measured_by",
+            "object": "kinematic analysis",
+            "evidence": "need for kinematic analyses and joint stiffness measures during ankle dorsiflexion"
+        }
+    ],
+    "abs_003": [
+        {
+            "subject": "abnormal foot posture",
+            "relation": "contributes_to",
+            "object": "plantar fasciiti",
+            "evidence": "Abnormal foot posture ... are potential causes of plantar fasciitis"
+        },
+        {
+            "subject": "muscle performance",
+            "relation": "contributes_to",
+            "object": "plantar fasciiti",
+            "evidence": "poor muscle performance are potential causes of plantar fasciitis"
+        },
+        {
+            "subject": "muscle performance",
+            "relation": "located_in",
+            "object": "lower extremity",
+            "evidence": "lower extremity muscle performance"
+        },
+        {
+            "subject": "foot pressure",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "foot pressure"
+        },
+        {
+            "subject": "flat foot posture",
+            "relation": "associated_with",
+            "object": "foot posture",
+            "evidence": "flat foot postures"
+        },
+        {
+            "subject": "plantar heel pain",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "plantar heel pain"
+        },
+        {
+            "subject": "muscle strength",
+            "relation": "located_in",
+            "object": "hip",
+            "evidence": "The hip muscle strength was measured"
+        },
+        {
+            "subject": "reaction time",
+            "relation": "associated_with",
+            "object": "quadricep",
+            "evidence": "reaction time of the quadriceps"
+        },
+        {
+            "subject": "reaction time",
+            "relation": "associated_with",
+            "object": "hamstring",
+            "evidence": "reaction time of the ... hamstring"
+        },
+        {
+            "subject": "reaction time",
+            "relation": "associated_with",
+            "object": "plantar flexor",
+            "evidence": "reaction time of the ... plantar flexor muscles"
+        },
+        {
+            "subject": "foot pressure parameter",
+            "relation": "measured_by",
+            "object": "pedobarography",
+            "evidence": "Foot pressure parameters were assessed using pedobarography"
+        },
+        {
+            "subject": "muscle performance",
+            "relation": "associated_with",
+            "object": "plantar fasciiti",
+            "evidence": "differences in muscle performance between patients who have PF"
+        }
+    ],
+    "abs_004": [
+        {
+            "subject": "obesity",
+            "relation": "contributes_to",
+            "object": "mechanical low back pain",
+            "evidence": "well-established risk factors such as obesity"
+        },
+        {
+            "subject": "core muscle strength",
+            "relation": "contributes_to",
+            "object": "mechanical low back pain",
+            "evidence": "well-established risk factors such as ... core muscle strength"
+        },
+        {
+            "subject": "pes planu",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "pes planus (flat foot)"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "mechanical low back pain",
+            "evidence": "investigate the association between flat foot and MLBP"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "contributes_to",
+            "object": "mechanical low back pain",
+            "evidence": "flat foot is an independent risk factor for MLBP"
+        },
+        {
+            "subject": "mechanical low back pain",
+            "relation": "associated_with",
+            "object": "low back pain",
+            "evidence": "Mechanical low back pain (MLBP)"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "flat foot"
+        },
+        {
+            "subject": "foot posture",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "foot posture"
+        },
+        {
+            "subject": "foot posture",
+            "relation": "measured_by",
+            "object": "clarke' angle",
+            "evidence": "using Clarke\u2019s angle as an objective measure of foot posture"
+        },
+        {
+            "subject": "altered spinal biomechanic",
+            "relation": "located_in",
+            "object": "spinal",
+            "evidence": "altered spinal biomechanics"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "contributes_to",
+            "object": "altered spinal biomechanic",
+            "evidence": "likely due to altered spinal biomechanics"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "contributes_to",
+            "object": "compensatory postural change",
+            "evidence": "likely due to ... compensatory postural changes"
+        }
+    ],
+    "abs_005": [
+        {
+            "subject": "rotational abnormality",
+            "relation": "located_in",
+            "object": "lower limb",
+            "evidence": "identify rotational abnormalities of the lower limb"
+        },
+        {
+            "subject": "primary symptomatic flatfoot",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "primary symptomatic flatfoot"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "radiographs of the flat foot"
+        },
+        {
+            "subject": "rotation of the lower limb",
+            "relation": "located_in",
+            "object": "lower limb",
+            "evidence": "rotation of the lower limbs"
+        },
+        {
+            "subject": "femoral torsion",
+            "relation": "located_in",
+            "object": "femur",
+            "evidence": "femoral torsion"
+        },
+        {
+            "subject": "tibial torsion",
+            "relation": "located_in",
+            "object": "tibial",
+            "evidence": "tibial torsion"
+        },
+        {
+            "subject": "tibiofemoral rotation",
+            "relation": "associated_with",
+            "object": "femur",
+            "evidence": "tibiofemoral rotation"
+        },
+        {
+            "subject": "tibiofemoral rotation",
+            "relation": "associated_with",
+            "object": "tibial",
+            "evidence": "tibiofemoral rotation"
+        },
+        {
+            "subject": "hip and knee parameter",
+            "relation": "associated_with",
+            "object": "hip",
+            "evidence": "hip and knee parameters"
+        },
+        {
+            "subject": "hip and knee parameter",
+            "relation": "associated_with",
+            "object": "knee",
+            "evidence": "hip and knee parameters"
+        }
+    ],
+    "abs_006": [
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "leg muscle",
+            "evidence": "muscle tone and stiffness of leg muscles"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "leg muscle",
+            "evidence": "muscle tone and stiffness of leg muscles"
+        },
+        {
+            "subject": "flexible flat foot",
+            "relation": "associated_with",
+            "object": "muscle tone",
+            "evidence": "examine differences in the muscle tone ... according to types of flexible flat foot"
+        },
+        {
+            "subject": "flexible flat foot",
+            "relation": "associated_with",
+            "object": "stiffness",
+            "evidence": "examine differences in the muscle tone and stiffness ... according to types of flexible flat foot"
+        },
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "tibiali anterior muscle",
+            "evidence": "measure the muscle tone ... of the tibialis anterior muscle"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "tibiali anterior muscle",
+            "evidence": "measure the ... stiffness of the tibialis anterior muscle"
+        },
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "rectu femori muscle",
+            "evidence": "muscle tone ... of the rectus femoris muscle"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "rectu femori muscle",
+            "evidence": "stiffness of the rectus femoris muscle"
+        },
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "medial gastrocnemiu",
+            "evidence": "muscle tone ... of the medial gastrocnemius"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "medial gastrocnemiu",
+            "evidence": "stiffness of ... the medial gastrocnemius"
+        },
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "long head of the bicep femori muscle",
+            "evidence": "muscle tone ... of the long head of the biceps femoris muscle"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "long head of the bicep femori muscle",
+            "evidence": "stiffness of the long head of the biceps femoris muscle"
+        },
+        {
+            "subject": "muscle tone",
+            "relation": "located_in",
+            "object": "both lower extremity",
+            "evidence": "greater muscle tone ... of both lower extremities"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "located_in",
+            "object": "both lower extremity",
+            "evidence": "greater ... stiffness of both lower extremities"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "associated_with",
+            "object": "tibiali anterior",
+            "evidence": "stiffness was particularly higher in the TA"
+        },
+        {
+            "subject": "stiffness",
+            "relation": "associated_with",
+            "object": "medial gastrocnemiu",
+            "evidence": "stiffness was particularly higher in the ... MG muscles"
+        }
+    ],
+    "abs_007": [
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "muscular imbalance",
+            "evidence": "Flat foot might result in difficulties due to changes in biomechanics and muscular imbalances."
+        },
+        {
+            "subject": "isometric strength",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "determine the differences of isometric strength ... in participants with normal medial longitudinal arch and flat foot"
+        },
+        {
+            "subject": "range of motion",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "determine the differences of ... range of motion ... in participants with normal medial longitudinal arch and flat foot"
+        },
+        {
+            "subject": "ankle mobility",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "determine the differences of ... ankle mobility in participants with normal medial longitudinal arch and flat foot"
+        },
+        {
+            "subject": "foot arch",
+            "relation": "measured_by",
+            "object": "navicular drop test",
+            "evidence": "The navicular drop test was employed to identify foot arch."
+        },
+        {
+            "subject": "range of motion",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle joint range of motion"
+        },
+        {
+            "subject": "ankle mobility",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle mobility"
+        },
+        {
+            "subject": "arch height",
+            "relation": "correlated_with",
+            "object": "ankle mobility",
+            "evidence": "there were statistically significant differences between participants' arch height, ankle mobility, muscular strength, and range of motion"
+        },
+        {
+            "subject": "arch height",
+            "relation": "correlated_with",
+            "object": "range of motion",
+            "evidence": "Arch height with range of motion at dorsiflexion"
+        },
+        {
+            "subject": "foot arch",
+            "relation": "correlated_with",
+            "object": "calf muscle",
+            "evidence": "all variables except calf muscle circumference with foot arch (r=.100,p=.463)"
+        },
+        {
+            "subject": "foot arch",
+            "relation": "correlated_with",
+            "object": "isometric strength",
+            "evidence": "all variables except ... isometric muscular strength at dorsiflexion (r=.190,p=1.61)"
+        },
+        {
+            "subject": "range of motion",
+            "relation": "correlated_with",
+            "object": "plantar flexion",
+            "evidence": "range of motion at dorsiflexion with range of motion at plantar flexion (r=.095,p=.486)"
+        },
+        {
+            "subject": "range of motion",
+            "relation": "correlated_with",
+            "object": "dorsiflexion",
+            "evidence": "range of motion at dorsiflexion"
+        },
+        {
+            "subject": "range of motion",
+            "relation": "correlated_with",
+            "object": "plantar flexion",
+            "evidence": "range of motion at plantar flexion"
+        },
+        {
+            "subject": "foot arch",
+            "relation": "associated_with",
+            "object": "medial longitudinal arch",
+            "evidence": "participants with normal medial longitudinal arch"
+        }
+    ],
+    "abs_008": [
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "deformation",
+            "evidence": "Flat foot in children is a common deformation"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "associated_with",
+            "object": "collapse of the foot",
+            "evidence": "It is characterized by ... collapse of the foot"
+        },
+        {
+            "subject": "collapse of the foot",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "collapse of the foot"
+        },
+        {
+            "subject": "essential flat foot",
+            "relation": "associated_with",
+            "object": "lower limb rotational profile",
+            "evidence": "find a correlation between the essential flat foot in children and lower limb disorders torsional"
+        },
+        {
+            "subject": "lower limb rotational profile",
+            "relation": "located_in",
+            "object": "lower limb",
+            "evidence": "lower limb rotational profile"
+        },
+        {
+            "subject": "foot",
+            "relation": "measured_by",
+            "object": "contact index ii",
+            "evidence": "assessment of the morphology of the foot (Contact Index II)"
+        },
+        {
+            "subject": "bilateral flat foot",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "21 (19.1%) have bilateral flat feet"
+        },
+        {
+            "subject": "unilateral flat foot",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "7 (6.4%) have unilateral flat feet"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "femoral ant\u00e9torsion",
+            "evidence": "All children with flat feet have excessive femoral ant\u00e9torsion"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "hip intoeing",
+            "evidence": "45 (92%) are associated with a hip intoeing"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "insufficient external tibial torsion",
+            "evidence": "38 (80%) present an insufficient external tibial torsion"
+        },
+        {
+            "subject": "excessive internal rotation of the hip",
+            "relation": "located_in",
+            "object": "hip",
+            "evidence": "excessive internal rotation of the hip"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "excessive internal rotation of the hip",
+            "evidence": "significantly elevated correlation among the flat foot and excessive internal rotation of the hip"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "excessive femoral antetorsion",
+            "evidence": "correlation among the flat foot and ... excessive femoral antetorsion"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "insufficient external tibial torsion",
+            "evidence": "correlation among the flat foot and ... insufficient external tibial torsion"
+        }
+    ],
+    "abs_009": [
+        {
+            "subject": "knee osteoarthriti",
+            "relation": "associated_with",
+            "object": "medial longitudinal arch",
+            "evidence": "To describe the relationship between knee osteoarthritis (OA) and the medial longitudinal arch of the foot"
+        },
+        {
+            "subject": "medial longitudinal arch",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "the medial longitudinal arch of the foot"
+        },
+        {
+            "subject": "medial longitudinal arch",
+            "relation": "measured_by",
+            "object": "lateral meary' angle",
+            "evidence": "The lateral Meary's angle and anterior-posterior (AP) Meary\u2019s angle were used as an index of medial longitudinal arch"
+        },
+        {
+            "subject": "medial longitudinal arch",
+            "relation": "measured_by",
+            "object": "anterior posterior (anterior-posterior) meary' angle",
+            "evidence": "The lateral Meary's angle and anterior-posterior (AP) Meary\u2019s angle were used as an index of medial longitudinal arch"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "measured_by",
+            "object": "lateral meary' angle",
+            "evidence": "classifying the flat foot into two groups according to change in lateral Meary's angle range"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "correlated_with",
+            "object": "knee joint varu angle",
+            "evidence": "the Severe flat foot group had greater knee joint varus angle than the Mild flat foot group"
+        },
+        {
+            "subject": "lateral meary' angle",
+            "relation": "correlated_with",
+            "object": "varu angle",
+            "evidence": "The lateral Meary's angle showed a less correlation with the varus angle of the subtalar joint"
+        },
+        {
+            "subject": "varu angle",
+            "relation": "located_in",
+            "object": "subtalar",
+            "evidence": "varus angle of the subtalar joint"
+        },
+        {
+            "subject": "internal rotation angle",
+            "relation": "located_in",
+            "object": "talocrural",
+            "evidence": "The internal rotation angle of the talocrural joint"
+        },
+        {
+            "subject": "dorsiflexion angle",
+            "relation": "located_in",
+            "object": "subtalar",
+            "evidence": "the dorsiflexion angle of the subtalar joint"
+        },
+        {
+            "subject": "flat foot",
+            "relation": "contributes_to",
+            "object": "planovalgu deformity",
+            "evidence": "AP Meary's angle is not only a measure of arch height, but also a useful indicator for assessing planovalgus deformity"
+        },
+        {
+            "subject": "planovalgu deformity",
+            "relation": "associated_with",
+            "object": "flat foot",
+            "evidence": "Planovalgus deformity is characteristic of the pathology of adult flatfoot"
+        },
+        {
+            "subject": "planovalgu deformity",
+            "relation": "associated_with",
+            "object": "talocrural",
+            "evidence": "may reflect the effects of both talocrural and subtalar joint alignment"
+        },
+        {
+            "subject": "planovalgu deformity",
+            "relation": "associated_with",
+            "object": "subtalar",
+            "evidence": "may reflect the effects of both talocrural and subtalar joint alignment"
+        },
+        {
+            "subject": "hallux valgu",
+            "relation": "located_in",
+            "object": "big toe",
+            "evidence": "the relationship between hallux valgus and the angle of the big toe needs to be investigated"
+        },
+        {
+            "subject": "knee valgu alignment",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "knee valgus alignment"
+        },
+        {
+            "subject": "hindfoot alignment",
+            "relation": "located_in",
+            "object": "hindfoot",
+            "evidence": "hindfoot alignment"
+        },
+        {
+            "subject": "hindfoot alignment",
+            "relation": "associated_with",
+            "object": "knee valgu alignment",
+            "evidence": "the importance of correcting hindfoot alignment has been suggested for knee valgus alignment"
+        },
+        {
+            "subject": "arch height",
+            "relation": "associated_with",
+            "object": "arch",
+            "evidence": "AP Meary's angle is not only a measure of arch height"
+        }
+    ],
+    "abs_010": [
+        {
+            "subject": "tibial torsion",
+            "relation": "contributes_to",
+            "object": "patellofemoral pain",
+            "evidence": "Tibial torsion is a recognized cause of patellofemoral pain"
+        },
+        {
+            "subject": "tibial torsion",
+            "relation": "contributes_to",
+            "object": "instability",
+            "evidence": "Tibial torsion is a recognized cause of patellofemoral pain and instability"
+        },
+        {
+            "subject": "patellofemoral pain",
+            "relation": "located_in",
+            "object": "patellofemoral",
+            "evidence": "patellofemoral pain"
+        },
+        {
+            "subject": "tibial torsion",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "Tibial torsion"
+        },
+        {
+            "subject": "patellofemoral pain",
+            "relation": "prevalence_in",
+            "object": "paediatric population",
+            "evidence": "patellofemoral pain and instability in the paediatric population"
+        },
+        {
+            "subject": "instability",
+            "relation": "prevalence_in",
+            "object": "paediatric population",
+            "evidence": "patellofemoral pain and instability in the paediatric population"
+        }
+    ],
+    "abs_011": [
+        {
+            "subject": "fixed rotation",
+            "relation": "associated_with",
+            "object": "femur",
+            "evidence": "Fixed rotation of either the femur or tibia"
+        },
+        {
+            "subject": "fixed rotation",
+            "relation": "associated_with",
+            "object": "tibia",
+            "evidence": "Fixed rotation of either the femur or tibia"
+        },
+        {
+            "subject": "fixed rotation",
+            "relation": "correlated_with",
+            "object": "joint contact area",
+            "evidence": "Fixed rotation of either the femur or tibia has a significant influence on the patellofemoral joint contact areas"
+        },
+        {
+            "subject": "fixed rotation",
+            "relation": "correlated_with",
+            "object": "pressure",
+            "evidence": "Fixed rotation of either the femur or tibia has a significant influence on the patellofemoral joint contact areas and pressures"
+        },
+        {
+            "subject": "joint contact area",
+            "relation": "located_in",
+            "object": "patellofemoral",
+            "evidence": "patellofemoral joint contact areas"
+        },
+        {
+            "subject": "pressure",
+            "relation": "located_in",
+            "object": "patellofemoral",
+            "evidence": "patellofemoral joint contact areas and pressures"
+        },
+        {
+            "subject": "force vector",
+            "relation": "located_in",
+            "object": "lower limb",
+            "evidence": "force vector that naturally exists in bipedal lower-limb biomechanics"
+        },
+        {
+            "subject": "femoral rotation",
+            "relation": "correlated_with",
+            "object": "patellofemoral contact pressure",
+            "evidence": "femoral rotation results in an increase in patellofemoral contact pressures"
+        },
+        {
+            "subject": "tibial rotation",
+            "relation": "correlated_with",
+            "object": "patellofemoral contact pressure",
+            "evidence": "tibial rotation results in an increase in patellofemoral contact pressures"
+        },
+        {
+            "subject": "patellofemoral contact pressure",
+            "relation": "located_in",
+            "object": "patella",
+            "evidence": "patellofemoral contact pressures on the facets of the patella"
+        },
+        {
+            "subject": "patellar movement",
+            "relation": "located_in",
+            "object": "patella",
+            "evidence": "patellar movement"
+        },
+        {
+            "subject": "patellar movement",
+            "relation": "associated_with",
+            "object": "tibial tubercle",
+            "evidence": "the patella\u2019s distal attachment to the tibial tubercle influences the direction of patellar movement"
+        },
+        {
+            "subject": "patellofemoral pathology",
+            "relation": "contributes_to",
+            "object": "joint mechanic",
+            "evidence": "the determining factor in patellofemoral pathology is the derangement of normal joint mechanics"
+        },
+        {
+            "subject": "joint mechanic",
+            "relation": "located_in",
+            "object": "patellofemoral",
+            "evidence": "patellofemoral joint pathology"
+        }
+    ],
+    "abs_012": [
+        {
+            "subject": "tibial rotational alignment",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "tibial rotational alignment ... on the proximal tibia"
+        },
+        {
+            "subject": "posterior slope",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "posterior slope ... on the proximal tibia"
+        },
+        {
+            "subject": "tibial rotational alignment",
+            "relation": "correlated_with",
+            "object": "knee joint biomechanic",
+            "evidence": "combined influence of the tibial rotational alignment and posterior slope on knee joint biomechanics"
+        },
+        {
+            "subject": "posterior slope",
+            "relation": "correlated_with",
+            "object": "knee joint biomechanic",
+            "evidence": "combined influence of the tibial rotational alignment and posterior slope on knee joint biomechanics"
+        },
+        {
+            "subject": "contact pressure",
+            "relation": "located_in",
+            "object": "polyethylene liner",
+            "evidence": "contact pressure ... of polyethylene liner"
+        },
+        {
+            "subject": "contact area",
+            "relation": "located_in",
+            "object": "polyethylene liner",
+            "evidence": "contact area on the polyethylene liner"
+        },
+        {
+            "subject": "stress",
+            "relation": "located_in",
+            "object": "polyethylene liner",
+            "evidence": "stress of polyethylene liner"
+        },
+        {
+            "subject": "tensile stress",
+            "relation": "located_in",
+            "object": "soft tissue",
+            "evidence": "tensile stress of the soft tissue"
+        },
+        {
+            "subject": "posterior slope",
+            "relation": "correlated_with",
+            "object": "contact area",
+            "evidence": "The contact area on the polyethylene liner decreased with increasing posterior slope"
+        },
+        {
+            "subject": "posterior slope",
+            "relation": "correlated_with",
+            "object": "stress",
+            "evidence": "The stress increased with increasing posterior slope"
+        },
+        {
+            "subject": "posterior slope",
+            "relation": "correlated_with",
+            "object": "tensile stress",
+            "evidence": "The ligament and muscle tensile stress increased with increasing posterior slope"
+        },
+        {
+            "subject": "tensile stress",
+            "relation": "associated_with",
+            "object": "ligament",
+            "evidence": "ligament and muscle tensile stress"
+        },
+        {
+            "subject": "tensile stress",
+            "relation": "associated_with",
+            "object": "muscle",
+            "evidence": "ligament and muscle tensile stress"
+        },
+        {
+            "subject": "contact pressure",
+            "relation": "correlated_with",
+            "object": "posterior slope",
+            "evidence": "An increased posterior slope increases the contact pressure"
+        },
+        {
+            "subject": "neutral rotation",
+            "relation": "correlated_with",
+            "object": "stress",
+            "evidence": "the neutral rotation showed lower maximum stress compared with other rotational alignment"
+        }
+    ],
+    "abs_013": [
+        {
+            "subject": "knee osteoarthriti",
+            "relation": "associated_with",
+            "object": "three dimensional limb alignment",
+            "evidence": "the evaluation of three-dimensional limb alignment on two-dimensional radiographs is limited"
+        },
+        {
+            "subject": "alignment of lower limb",
+            "relation": "located_in",
+            "object": "lower limb",
+            "evidence": "alignments of lower limbs"
+        },
+        {
+            "subject": "weight bearing",
+            "relation": "correlated_with",
+            "object": "alignment of lower limb",
+            "evidence": "This study evaluated the three-dimensional changes induced by weight-bearing in the alignments of lower limbs"
+        },
+        {
+            "subject": "flexion",
+            "relation": "correlated_with",
+            "object": "standing position",
+            "evidence": "Greater flexion ... were observed in the standing position, as opposed to the supine position"
+        },
+        {
+            "subject": "adduction",
+            "relation": "correlated_with",
+            "object": "standing position",
+            "evidence": "Greater ... adduction ... were observed in the standing position, as opposed to the supine position"
+        },
+        {
+            "subject": "tibial internal rotation",
+            "relation": "correlated_with",
+            "object": "standing position",
+            "evidence": "Greater ... tibial internal rotation were observed in the standing position, as opposed to the supine position"
+        },
+        {
+            "subject": "tibial internal rotation",
+            "relation": "located_in",
+            "object": "tibial",
+            "evidence": "tibial internal rotation"
+        },
+        {
+            "subject": "three dimensional deformity",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "three-dimensional deformities in knees with osteoarthritis"
+        },
+        {
+            "subject": "weight bearing",
+            "relation": "contributes_to",
+            "object": "three dimensional deformity",
+            "evidence": "Weight-bearing makes greater the three-dimensional deformities in knees with osteoarthritis"
+        },
+        {
+            "subject": "tibial internal rotation",
+            "relation": "associated_with",
+            "object": "osteoarthritic change",
+            "evidence": "The greater tibial internal rotation due to weight-bearing is a key pathologic feature to detect early osteoarthritic change"
+        },
+        {
+            "subject": "osteoarthritic change",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "osteoarthritic change in knees undergoing osteoarthritis"
+        }
+    ],
+    "abs_014": [
+        {
+            "subject": "abnormal foot pronation",
+            "relation": "contributes_to",
+            "object": "patellofemoral pain",
+            "evidence": "Abnormal foot pronation and subsequent rotation of the lower extremity has been hypothesized as being contributory to patellofemoral pain"
+        },
+        {
+            "subject": "rotation",
+            "relation": "located_in",
+            "object": "lower extremity",
+            "evidence": "rotation of the lower extremity"
+        },
+        {
+            "subject": "foot pronation",
+            "relation": "located_in",
+            "object": "foot",
+            "evidence": "foot pronation"
+        },
+        {
+            "subject": "tibia internal rotation",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "tibia internal rotation"
+        },
+        {
+            "subject": "femoral internal rotation",
+            "relation": "located_in",
+            "object": "femur",
+            "evidence": "femoral internal rotation"
+        },
+        {
+            "subject": "peak foot pronation",
+            "relation": "associated_with",
+            "object": "foot pronation",
+            "evidence": "peak foot pronation"
+        },
+        {
+            "subject": "tibia rotation",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "tibia rotation"
+        },
+        {
+            "subject": "less femur internal rotation",
+            "relation": "located_in",
+            "object": "femur",
+            "evidence": "less femur internal rotation"
+        },
+        {
+            "subject": "decreased internal rotation",
+            "relation": "associated_with",
+            "object": "patellofemoral pain",
+            "evidence": "The finding of decreased internal rotation in the PFP group"
+        },
+        {
+            "subject": "decreased internal rotation",
+            "relation": "associated_with",
+            "object": "quadricep angle",
+            "evidence": "this motion may be a compensatory strategy to reduce the quadriceps angle"
+        }
+    ],
+    "abs_015": [
+        {
+            "subject": "tibial rotation",
+            "relation": "correlated_with",
+            "object": "in situ strain",
+            "evidence": "determine the effects of tibial rotation on in situ strain in the peripatellar retinaculum"
+        },
+        {
+            "subject": "in situ strain",
+            "relation": "located_in",
+            "object": "peripatellar retinaculum",
+            "evidence": "in situ strain in the peripatellar retinaculum"
+        },
+        {
+            "subject": "joint biomechanic",
+            "relation": "associated_with",
+            "object": "patellofemoral disorder",
+            "evidence": "Patellofemoral joint biomechanics demonstrate a strong correlation with the etiology of patellofemoral disorders"
+        },
+        {
+            "subject": "joint biomechanic",
+            "relation": "associated_with",
+            "object": "chondromalacia",
+            "evidence": "Patellofemoral joint biomechanics demonstrate a strong correlation with the etiology of patellofemoral disorders, such as chondromalacia"
+        },
+        {
+            "subject": "tibial rotation",
+            "relation": "associated_with",
+            "object": "joint biomechanic",
+            "evidence": "Patellofemoral joint biomechanics ... are significantly influenced by tibial rotation"
+        },
+        {
+            "subject": "contact pressure",
+            "relation": "correlated_with",
+            "object": "knee flexion angle",
+            "evidence": "inverse relationship between increasing knee flexion angles and the change in patellofemoral contact pressures"
+        },
+        {
+            "subject": "in situ strain",
+            "relation": "correlated_with",
+            "object": "knee flexion angle",
+            "evidence": "inverse relationship between increasing knee flexion angles and the change in ... in situ strain with tibial rotation"
+        },
+        {
+            "subject": "patella",
+            "relation": "located_in",
+            "object": "trochlear groove",
+            "evidence": "the patella is well-seated in the trochlear groove"
+        }
+    ],
+    "abs_016": [
+        {
+            "subject": "patellar tilting",
+            "relation": "located_in",
+            "object": "patella",
+            "evidence": "patellar tilting"
+        },
+        {
+            "subject": "tibial rotation",
+            "relation": "located_in",
+            "object": "tibia",
+            "evidence": "tibial rotation"
+        },
+        {
+            "subject": "femoral rotation",
+            "relation": "located_in",
+            "object": "femur",
+            "evidence": "femoral rotation"
+        },
+        {
+            "subject": "bone rotation",
+            "relation": "associated_with",
+            "object": "patellar tilting",
+            "evidence": "patellar tilting from the confounding effect of its neighboring bone rotation"
+        },
+        {
+            "subject": "abnormal motion",
+            "relation": "associated_with",
+            "object": "patellofemoral mechanic",
+            "evidence": "Abnormal motions of the tibia and the femur are believed to have an effect on patellofemoral mechanics"
+        },
+        {
+            "subject": "abnormal motion",
+            "relation": "associated_with",
+            "object": "patellofemoral pain syndrome",
+            "evidence": "Abnormal motions of the tibia and the femur are believed to have an effect on patellofemoral mechanics and therefore PFPS"
+        },
+        {
+            "subject": "patella tilt angle",
+            "relation": "associated_with",
+            "object": "femoral rotation",
+            "evidence": "relationship between the different measurements of patella tilt angle and the measurements of its neighboring bone rotation (femoral rotation)"
+        },
+        {
+            "subject": "patella tilt angle",
+            "relation": "associated_with",
+            "object": "tibial rotation",
+            "evidence": "relationship between the different measurements of patella tilt angle and the measurements of its neighboring bone rotation (tibial rotation)"
+        },
+        {
+            "subject": "patella tilt angle",
+            "relation": "associated_with",
+            "object": "femoral rotation relative to tibia",
+            "evidence": "relationship between the different measurements of patella tilt angle and the measurements of its neighboring bone rotation (femoral rotation relative to tibia)"
+        },
+        {
+            "subject": "femoral rotation",
+            "relation": "correlated_with",
+            "object": "patella tilt angle",
+            "evidence": "Patella tilt angle of Grelsamer increased with increase in femoral rotation"
+        },
+        {
+            "subject": "tibial rotation",
+            "relation": "correlated_with",
+            "object": "patella tilt angle",
+            "evidence": "Patella tilt angle of Grelsamer increased with increase in tibial rotation"
+        },
+        {
+            "subject": "femoral rotation",
+            "relation": "correlated_with",
+            "object": "patella tilt angle",
+            "evidence": "modified patella tilt angle of Fulkerson decreased with increase in femoral rotation"
+        },
+        {
+            "subject": "tibial rotation",
+            "relation": "correlated_with",
+            "object": "patella tilt angle",
+            "evidence": "modified patella tilt angle of Fulkerson decreased with increase in tibial rotation"
+        },
+        {
+            "subject": "bony malalignment",
+            "relation": "associated_with",
+            "object": "patella tilt angle",
+            "evidence": "the influence of bony malalignment on the patellar tilt"
+        },
+        {
+            "subject": "patellar malalignment",
+            "relation": "associated_with",
+            "object": "limb alignment",
+            "evidence": "patellar malalignment can not be treated separately independent of the related limb alignment"
+        }
+    ],
+    "abs_017": [
+        {
+            "subject": "patellofemoral pain syndrome",
+            "relation": "prevalence_in",
+            "object": "runner",
+            "evidence": "Patellofemoral pain syndrome (PFPS) is the most common injury in runners."
+        },
+        {
+            "subject": "eversion",
+            "relation": "contributes_to",
+            "object": "tibial internal rotation",
+            "evidence": "prolonged eversion at the rear-foot causes prolonged tibial internal rotation"
+        },
+        {
+            "subject": "eversion",
+            "relation": "contributes_to",
+            "object": "femoral internal rotation",
+            "evidence": "prolonged eversion at the rear-foot causes prolonged tibial internal rotation and excessive femoral internal rotation"
+        },
+        {
+            "subject": "eversion",
+            "relation": "located_in",
+            "object": "subtalar",
+            "evidence": "Since eversion occurs at the subtalar joint"
+        },
+        {
+            "subject": "tibial internal rotation",
+            "relation": "located_in",
+            "object": "tibial",
+            "evidence": "tibial internal rotation"
+        },
+        {
+            "subject": "femoral internal rotation",
+            "relation": "located_in",
+            "object": "femur",
+            "evidence": "femoral internal rotation"
+        },
+        {
+            "subject": "rearfoot eversion",
+            "relation": "located_in",
+            "object": "rear foot",
+            "evidence": "rearfoot eversion"
+        },
+        {
+            "subject": "hip internal rotation",
+            "relation": "located_in",
+            "object": "hip",
+            "evidence": "hip internal rotation"
+        },
+        {
+            "subject": "rear foot dorsiflexion",
+            "relation": "located_in",
+            "object": "rear foot",
+            "evidence": "reduced rear-foot dorsiflexion"
+        },
+        {
+            "subject": "knee internal rotation",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "increased knee internal rotation"
+        },
+        {
+            "subject": "dorsiflexion",
+            "relation": "located_in",
+            "object": "mid foot",
+            "evidence": "Subjects with PFPS also demonstrated increased dorsiflexion at the mid-foot."
+        },
+        {
+            "subject": "eversion",
+            "relation": "correlated_with",
+            "object": "rear foot dorsiflexion",
+            "evidence": "It was proposed that increased eversion was secondary to reduced rear-foot dorsiflexion"
+        },
+        {
+            "subject": "knee internal rotation",
+            "relation": "correlated_with",
+            "object": "eversion",
+            "evidence": "increased knee internal rotation corresponds well with excessive rear-foot eversion"
+        }
+    ],
+    "abs_018": [
+        {
+            "subject": "hip internal and external rotation",
+            "relation": "located_in",
+            "object": "hip",
+            "evidence": "Hip internal and external rotation"
+        },
+        {
+            "subject": "knee flexion",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "knee flexion"
+        },
+        {
+            "subject": "ankle dorsiflexion",
+            "relation": "located_in",
+            "object": "ankle",
+            "evidence": "ankle dorsiflexion"
+        },
+        {
+            "subject": "left knee flexion angle",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "left knee flexion angle"
+        },
+        {
+            "subject": "right knee flexion angle",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "right knee flexion angle"
+        },
+        {
+            "subject": "medial tibial stress syndrome",
+            "relation": "correlated_with",
+            "object": "left knee flexion angle",
+            "evidence": "According to the regression analysis result, MTSS history (right) and left knee flexion angle were found to be significantly related"
+        },
+        {
+            "subject": "medial tibial stress syndrome",
+            "relation": "associated_with",
+            "object": "knee flexion",
+            "evidence": "individuals with a history of MTSS had significantly greater height, while their running condition and knee flexion angle were significantly lower compared to those without a history of MTSS"
+        }
+    ],
+    "abs_019": [
+        {
+            "subject": "iliotibial band syndrome",
+            "relation": "prevalence_in",
+            "object": "runner",
+            "evidence": "Iliotibial band syndrome is the second most common running injury."
+        },
+        {
+            "subject": "biomechanical risk factor",
+            "relation": "associated_with",
+            "object": "iliotibial band syndrome",
+            "evidence": "biomechanical risk factors associated with Iliotibial band syndrome in runners"
+        },
+        {
+            "subject": "peak hip adduction",
+            "relation": "located_in",
+            "object": "hip",
+            "evidence": "peak hip adduction"
+        },
+        {
+            "subject": "peak knee internal rotation",
+            "relation": "located_in",
+            "object": "knee",
+            "evidence": "peak knee internal rotation"
+        },
+        {
+            "subject": "peak trunk ipsilateral",
+            "relation": "located_in",
+            "object": "trunk",
+            "evidence": "peak trunk ipsilateral"
+        },
+        {
+            "subject": "peak hip adduction",
+            "relation": "associated_with",
+            "object": "iliotibial band syndrome",
+            "evidence": "Female shod runners who went onto developing Iliotibial band syndrome presented with increased peak hip adduction"
+        },
+        {
+            "subject": "peak knee internal rotation",
+            "relation": "associated_with",
+            "object": "iliotibial band syndrome",
+            "evidence": "Female shod runners who went onto developing Iliotibial band syndrome presented with increased peak knee internal rotation"
+        },
+        {
+            "subject": "peak trunk ipsilateral",
+            "relation": "associated_with",
+            "object": "iliotibial band syndrome",
+            "evidence": "Female shod runners with Iliotibial band syndrome presented with increased: peak trunk ipsilateral during stance"
+        }
+    ]
+}

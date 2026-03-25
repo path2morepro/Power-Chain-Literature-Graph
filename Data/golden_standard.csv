@@ -1,0 +1,71 @@
+Abstract,Anatomical Adjective,Movement/Symptom Noun,Full Phrase,Type,Anatomical Location
+1,anterior,knee pain,anterior knee pain,symptom,Knee
+1,medial longitudinal,arch,medial longitudinal arch,movement,Foot
+2,ankle,stiffness,ankle stiffness,symptom,Ankle
+2,ankle,dorsiflexion,ankle dorsiflexion,movement,Ankle
+2,plantar,flexion,plantar flexion,movement,Ankle
+3,plantar,heel pain,plantar heel pain,symptom,Foot
+3,hip,muscle strength,hip muscle strength,movement,Hip
+3,plantar,flexor strength,plantar flexor strength,movement,Ankle
+4,mechanical low back,pain,mechanical low back pain,symptom,Spine
+4,spinal,biomechanics,spinal biomechanics,movement,Spine
+5,femoral,torsion,femoral torsion,movement,Femur
+5,tibial,torsion,tibial torsion,movement,Tibia
+5,tibiofemoral,rotation,tibiofemoral rotation,movement,Knee
+6,tibialis anterior,muscle stiffness,tibialis anterior muscle stiffness,symptom,Tibia
+6,medial gastrocnemius,muscle stiffness,medial gastrocnemius muscle stiffness,symptom,Ankle
+7,ankle,dorsiflexion,ankle dorsiflexion,movement,Ankle
+7,plantar,flexion,plantar flexion,movement,Ankle
+7,ankle,mobility,ankle mobility,movement,Ankle
+7,isometric muscular,strength,isometric muscular strength,movement,Ankle
+8,femoral,antetorsion,femoral antetorsion,movement,Femur
+8,hip,intoeing,hip intoeing,symptom,Hip
+8,tibial,torsion,tibial torsion,movement,Tibia
+8,internal,rotation of the hip,internal rotation of the hip,movement,Hip
+8,external tibial,torsion,external tibial torsion,movement,Tibia
+9,talocrural,internal rotation,talocrural internal rotation,movement,Ankle
+9,subtalar,dorsiflexion,subtalar dorsiflexion,movement,Subtalar joint
+9,subtalar,varus angle,subtalar varus angle,movement,Subtalar joint
+9,knee joint,varus angle,knee joint varus angle,symptom,Knee
+9,hindfoot,alignment,hindfoot alignment,movement,Foot
+10,tibial,torsion,tibial torsion,movement,Tibia
+10,patellofemoral,pain,patellofemoral pain,symptom,Patella / PF joint
+10,patellofemoral,instability,patellofemoral instability,symptom,Patella / PF joint
+11,femoral,rotation,femoral rotation,movement,Femur
+11,tibial,rotation,tibial rotation,movement,Tibia
+11,patellofemoral,contact pressure,patellofemoral contact pressure,symptom,Patella / PF joint
+11,patellar,movement,patellar movement,movement,Patella / PF joint
+12,tibial rotational,alignment,tibial rotational alignment,movement,Tibia
+12,posterior tibial,slope,posterior tibial slope,movement,Tibia
+12,ligament tensile,stress,ligament tensile stress,symptom,Knee
+12,internal,rotation of tibial component,internal rotation of tibial component,movement,Tibia
+13,tibial internal,rotation,tibial internal rotation,movement,Tibia
+13,knee,flexion,knee flexion,movement,Knee
+13,knee,adduction,knee adduction,movement,Knee
+14,foot,pronation,foot pronation,movement,Foot
+14,tibial internal,rotation,tibial internal rotation,movement,Tibia
+14,femoral internal,rotation,femoral internal rotation,movement,Femur
+14,patellofemoral,pain,patellofemoral pain,symptom,Patella / PF joint
+15,tibial,rotation,tibial rotation,movement,Tibia
+15,patellofemoral,contact pressure,patellofemoral contact pressure,symptom,Patella / PF joint
+15,peripatellar,retinaculum strain,peripatellar retinaculum strain,symptom,Patella / PF joint
+15,knee,flexion,knee flexion,movement,Knee
+16,femoral,rotation,femoral rotation,movement,Femur
+16,tibial,rotation,tibial rotation,movement,Tibia
+16,patellar,tilting,patellar tilting,movement,Patella / PF joint
+17,rearfoot,eversion,rearfoot eversion,movement,Rearfoot
+17,tibial internal,rotation,tibial internal rotation,movement,Tibia
+17,femoral internal,rotation,femoral internal rotation,movement,Femur
+17,hip internal,rotation,hip internal rotation,movement,Hip
+17,rearfoot,dorsiflexion,rearfoot dorsiflexion,movement,Rearfoot
+17,knee internal,rotation,knee internal rotation,movement,Knee
+17,mid-foot,dorsiflexion,mid-foot dorsiflexion,movement,Mid-foot
+18,hip internal,rotation,hip internal rotation,movement,Hip
+18,hip external,rotation,hip external rotation,movement,Hip
+18,knee,flexion,knee flexion,movement,Knee
+18,ankle,dorsiflexion,ankle dorsiflexion,movement,Ankle
+18,ankle,plantarflexion,ankle plantarflexion,movement,Ankle
+18,medial tibial,stress syndrome,medial tibial stress syndrome,symptom,Tibia
+19,hip,adduction,hip adduction,movement,Hip
+19,knee internal,rotation,knee internal rotation,movement,Knee
+19,trunk ipsilateral,lean,trunk ipsilateral lean,movement,Spine

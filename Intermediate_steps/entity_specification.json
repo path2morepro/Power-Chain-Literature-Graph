@@ -1,0 +1,5969 @@
+[
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 14
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "medical longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "pronated foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "pronated foot",
+            "position": 19
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 44
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "knee injury",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee injury",
+            "position": 55
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "muscular imbalance",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "muscular imbalance",
+            "position": 64
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "medical longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 77
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 93
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 97
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "medical longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "clarke\u2019 angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Clarke\u2019s Angle",
+            "position": 126
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 167
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 193
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "severity of knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "severity of knee pain",
+            "position": 232
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_form": "anterior knee pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "anterior knee pain",
+            "position": 245
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "medical longitudinal arch",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle motion",
+            "position": 5
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle stiffness",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle stiffness",
+            "position": 22
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 29
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle stiffness",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle stiffness",
+            "position": 37
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 45
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 87
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle dorsiflexion",
+            "position": 98
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 104
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "plantar flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "plantar flexion",
+            "position": 127
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "torque sensor"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 133
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 157
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle stiffness",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle stiffness",
+            "position": 162
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "kinematic analysis",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "kinematic analyses",
+            "position": 176
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "joint stiffness measure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "joint stiffness measures",
+            "position": 179
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "joint driving device"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "ankle dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle dorsiflexion",
+            "position": 183
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "ligament elasticity"
+        ]
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_form": "flat foot",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 188
+        },
+        "candidate_anatomies": [
+            "joint congruence",
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint driving device"
+        ],
+        "predicted_locations": [
+            "footplate"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 1
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "lower extremity muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "muscle performance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscle performance",
+            "position": 5
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "plantar fasciiti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "plantar fasciitis",
+            "position": 11
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "muscle performance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscle performance",
+            "position": 24
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 38
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "lower extremity muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "muscle performance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscle performance",
+            "position": 50
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "flat foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flat foot postures",
+            "position": 73
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "lower extremity muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 74
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "lower extremity muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "plantar heel pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "plantar heel pain",
+            "position": 79
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat feet",
+            "position": 85
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat feet",
+            "position": 90
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "reaction time",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "reaction time",
+            "position": 106
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "hip"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "foot pressure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Foot pressure",
+            "position": 122
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "reaction time",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "reaction time",
+            "position": 144
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "hip"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat feet",
+            "position": 165
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat feet",
+            "position": 171
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "plantar flexor"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "muscle performance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscle performance",
+            "position": 179
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 188
+        },
+        "candidate_anatomies": [
+            "muscle performance",
+            "lower extremity muscle performance",
+            "hip",
+            "quadricep",
+            "hamstring",
+            "plantar flexor"
+        ],
+        "predicted_locations": [
+            "lower extremity muscle performance"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Mechanical low back pain",
+            "position": 1
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 5
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "disability",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "disability",
+            "position": 11
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "flat foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "obesity",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "obesity",
+            "position": 19
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "bmi"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 51
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "clarke\u2019 angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Clarke\u2019s angle",
+            "position": 53
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "bmi"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 60
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "flat foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 87
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "clarke\u2019 angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Clarke\u2019s angle",
+            "position": 100
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "bmi"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 180
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 207
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "postural change",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "postural changes",
+            "position": 216
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "foot posture",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot posture",
+            "position": 221
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "flat foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "mechanical low back pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MLBP",
+            "position": 225
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_form": "symptom",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "symptoms",
+            "position": 237
+        },
+        "candidate_anatomies": [
+            "pes planu",
+            "flat foot",
+            "bmi",
+            "spinal biomechanic"
+        ],
+        "predicted_locations": [
+            "spinal biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "primary symptomatic flatfoot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "primary symptomatic flatfoot",
+            "position": 19
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "length",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "length",
+            "position": 71
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "rotations",
+            "position": 76
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "symptomatic primary flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "symptomatic primary flat feet",
+            "position": 81
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "unilateral flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "unilateral flat foot",
+            "position": 92
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "femoral torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral torsion",
+            "position": 157
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "tibial torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial torsion",
+            "position": 159
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "tibiofemoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibiofemoral rotation",
+            "position": 161
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_form": "primary symptomatic flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "primary symptomatic flat foot",
+            "position": 177
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "lower extremity"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_006",
+        "entity_form": "relax condition",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "relax condition",
+            "position": 193
+        },
+        "candidate_anatomies": [
+            "muscle tone",
+            "leg muscle",
+            "flexible flat foot",
+            "tibiali anterior muscle",
+            "rectu femori muscle",
+            "medial gastrocnemiu",
+            "bicep femori muscle",
+            "lower extremity",
+            "dominant leg",
+            "non dominant leg"
+        ],
+        "predicted_locations": [
+            "rectu femori muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "muscular imbalance",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "muscular imbalances",
+            "position": 32
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "isometric strength",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "isometric strength",
+            "position": 46
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 48
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "ankle mobility",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle mobility",
+            "position": 51
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 61
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "foot arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 81
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "foot arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 104
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Dorsiflexion",
+            "position": 108
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "isometric strength",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "isometric strength",
+            "position": 115
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "ankle mobility",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle mobility",
+            "position": 119
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "ankle mobility",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle mobility",
+            "position": 162
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "muscular strength",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscular strength",
+            "position": 164
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 167
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "plantar flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "plantar flexion",
+            "position": 173
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "calf muscle circumference",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "calf muscle circumference",
+            "position": 184
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "muscular strength",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "muscular strength",
+            "position": 193
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 201
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 207
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 213
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "plantar flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "plantar flexion",
+            "position": 217
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "medial longitudinal arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 230
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "foot arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "flat foot",
+            "position": 248
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "foot arch"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "ankle mobility",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle mobility",
+            "position": 258
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "range of motion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "range of motion",
+            "position": 265
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_form": "isometric strength",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "isometric strength",
+            "position": 269
+        },
+        "candidate_anatomies": [
+            "foot arch",
+            "biomechanic",
+            "medial longitudinal arch"
+        ],
+        "predicted_locations": [
+            "biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "flat foot",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Flat foot",
+            "position": 0
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "neurological abnormality",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "neurological abnormality",
+            "position": 26
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "morphostatic deformation"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "lower limb disorder",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "lower limb disorders",
+            "position": 67
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "morphostatic deformation"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "intoeing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "intoeing",
+            "position": 109
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "contact index ii"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "femoral ant\u00e9torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral ant\u00e9torsion",
+            "position": 111
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "femoral ant\u00e9torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "tibal torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibal torsion",
+            "position": 114
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "femoral ant\u00e9torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "femoral ant\u00e9torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral ant\u00e9torsion",
+            "position": 162
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "femoral ant\u00e9torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "intoeing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "intoeing",
+            "position": 171
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "contact index ii"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "external tibial torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "external tibial torsion",
+            "position": 178
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "femoral ant\u00e9torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "internal rotation",
+            "position": 197
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "morphostatic deformation"
+        ]
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_form": "external tibial torsion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "external tibial torsion",
+            "position": 225
+        },
+        "candidate_anatomies": [
+            "foot",
+            "plantar concavity",
+            "morphostatic deformation",
+            "contact index ii",
+            "femoral ant\u00e9torsion"
+        ],
+        "predicted_locations": [
+            "femoral ant\u00e9torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee osteoarthritis",
+            "position": 6
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee osteoarthritis",
+            "position": 33
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "dorsiflexion angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "dorsiflexion angle",
+            "position": 216
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "kl 1"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "planovalgu deformity",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "planovalgus deformity",
+            "position": 388
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "subtalar"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "hallux valgu",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "hallux valgus",
+            "position": 418
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "flat foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "hallux valgu",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "hallux valgus",
+            "position": 426
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "flat foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_form": "hindfoot alignment",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "hindfoot alignment",
+            "position": 466
+        },
+        "candidate_anatomies": [
+            "medial longitudinal arch",
+            "arch",
+            "foot",
+            "lower limb",
+            "knee",
+            "flat foot",
+            "talocrural",
+            "subtalar",
+            "kl 1",
+            "kl 2",
+            "big toe"
+        ],
+        "predicted_locations": [
+            "foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_010",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellofemoral pain",
+            "position": 10
+        },
+        "candidate_anatomies": [
+            "tibial torsion"
+        ],
+        "predicted_locations": [
+            "tibial torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_010",
+        "entity_form": "instability",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "instability",
+            "position": 13
+        },
+        "candidate_anatomies": [
+            "tibial torsion"
+        ],
+        "predicted_locations": [
+            "tibial torsion"
+        ]
+    },
+    {
+        "abstract_id": "abs_011",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 51
+        },
+        "candidate_anatomies": [
+            "femur",
+            "tibia",
+            "patellofemoral",
+            "knee",
+            "patella",
+            "ipsilateral facet",
+            "tibial tubercle",
+            "diarthrodial",
+            "body"
+        ],
+        "predicted_locations": [
+            "patellofemoral"
+        ]
+    },
+    {
+        "abstract_id": "abs_011",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 69
+        },
+        "candidate_anatomies": [
+            "femur",
+            "tibia",
+            "patellofemoral",
+            "knee",
+            "patella",
+            "ipsilateral facet",
+            "tibial tubercle",
+            "diarthrodial",
+            "body"
+        ],
+        "predicted_locations": [
+            "tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_011",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 111
+        },
+        "candidate_anatomies": [
+            "femur",
+            "tibia",
+            "patellofemoral",
+            "knee",
+            "patella",
+            "ipsilateral facet",
+            "tibial tubercle",
+            "diarthrodial",
+            "body"
+        ],
+        "predicted_locations": [
+            "patellofemoral"
+        ]
+    },
+    {
+        "abstract_id": "abs_011",
+        "entity_form": "patellar movement",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellar movement",
+            "position": 125
+        },
+        "candidate_anatomies": [
+            "femur",
+            "tibia",
+            "patellofemoral",
+            "knee",
+            "patella",
+            "ipsilateral facet",
+            "tibial tubercle",
+            "diarthrodial",
+            "body"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "tibial rotational alignment",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotational alignment",
+            "position": 11
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "tibial component"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 15
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior stabilized total knee arthroplasty",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior-stabilized total knee arthroplasty",
+            "position": 22
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "knee joint biomechanic"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 63
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "external rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "external rotation",
+            "position": 76
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "ligament"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 81
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 94
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 96
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "contact pressure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "contact pressure",
+            "position": 101
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "tensile stress",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tensile stress",
+            "position": 111
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 130
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 134
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing position",
+            "position": 134
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 144
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 148
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "internal rotation",
+            "position": 150
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "ligament"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "external rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "external rotation",
+            "position": 163
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "ligament"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 166
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "neutral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "neutral rotation",
+            "position": 172
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 176
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing position",
+            "position": 176
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "von mise stress",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "von Mises stress",
+            "position": 192
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 211
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 213
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 220
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 224
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 226
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "tensile stress",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tensile stress",
+            "position": 239
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 244
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 248
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "bending position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "bending position",
+            "position": 250
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "neutral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "neutral rotation",
+            "position": 255
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing",
+            "position": 268
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "soft tissue"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "standing position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing position",
+            "position": 268
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 273
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "contact pressure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "contact pressure",
+            "position": 277
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "tensile stress",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tensile stress",
+            "position": 288
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "neutral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "neutral rotation",
+            "position": 291
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "resection plane"
+        ]
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_form": "posterior slope",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "posterior slope",
+            "position": 296
+        },
+        "candidate_anatomies": [
+            "knee joint biomechanic",
+            "resection plane",
+            "proximal tibia",
+            "polyethene liner",
+            "soft tissue",
+            "tibial component",
+            "ligament",
+            "muscle"
+        ],
+        "predicted_locations": [
+            "proximal tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee osteoarthritis",
+            "position": 4
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee osteoarthritis",
+            "position": 17
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "three dimensional limb alignment",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "three-dimensional limb alignment",
+            "position": 23
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee osteoarthritis",
+            "position": 50
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "knee osteoarthriti",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "knee OA",
+            "position": 64
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "standing position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing positions",
+            "position": 83
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "standing position",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "standing positions",
+            "position": 109
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "kellgren lawrence grade",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Kellgren-Lawrence grade",
+            "position": 124
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flexion",
+            "position": 128
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "adduction",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "adduction",
+            "position": 129
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 131
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "kellgren lawrence grade",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Kellgren-Lawrence grade",
+            "position": 146
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "flexion",
+            "position": 155
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "adduction",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "adduction",
+            "position": 156
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 158
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "adduction",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "adduction",
+            "position": 172
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 186
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "weight bearing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Weight-bearing",
+            "position": 195
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 207
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 227
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "pathologic feature",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "pathologic feature",
+            "position": 236
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_form": "osteoarthritic change",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "osteoarthritic change",
+            "position": 241
+        },
+        "candidate_anatomies": [
+            "lower limb",
+            "knee"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "foot pronation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot pronation",
+            "position": 1
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellofemoral pain",
+            "position": 17
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 19
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 33
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "foot pronation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot pronation",
+            "position": 39
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "tibia internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibia internal rotation",
+            "position": 41
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "femoral internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral internal rotation",
+            "position": 45
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 52
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 60
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 66
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "foot pronation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot pronation",
+            "position": 104
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 111
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "femur internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femur internal rotation",
+            "position": 116
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 133
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "foot pronation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "foot pronation",
+            "position": 136
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "nonpainful individual",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "nonpainful individuals",
+            "position": 144
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "tibia"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFP",
+            "position": 154
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_form": "quadricep angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "quadriceps angle",
+            "position": 168
+        },
+        "candidate_anatomies": [
+            "lower extremity",
+            "tibia"
+        ],
+        "predicted_locations": [
+            "lower extremity"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 11
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "fuji pressure sensitive film"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "in situ strain",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "in situ strain",
+            "position": 14
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "patellofemoral contact pressure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellofemoral contact pressures",
+            "position": 22
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "patellofemoral"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "area",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "areas",
+            "position": 26
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "human cadaveric knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "patellofemoral disorder",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellofemoral disorders",
+            "position": 38
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "patellofemoral"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "chondromalacia",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "chondromalacia",
+            "position": 42
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 48
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "fuji pressure sensitive film"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "area",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "areas",
+            "position": 76
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "human cadaveric knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "in situ strain",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "in situ strain",
+            "position": 88
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "knee flexion angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion angles",
+            "position": 121
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "patellofemoral contact pressure",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellofemoral contact pressures",
+            "position": 128
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "patellofemoral"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "in situ strain",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "in situ strain",
+            "position": 132
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 136
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "fuji pressure sensitive film"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "knee flexion angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion angles",
+            "position": 140
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "knee extensor muscle"
+        ]
+    },
+    {
+        "abstract_id": "abs_015",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 164
+        },
+        "candidate_anatomies": [
+            "patella",
+            "peripatellar retinaculum",
+            "human cadaveric knee",
+            "patellofemoral",
+            "knee extensor muscle",
+            "fuji pressure sensitive film",
+            "trochlear groove"
+        ],
+        "predicted_locations": [
+            "fuji pressure sensitive film"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellar tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellar tilting",
+            "position": 5
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellar tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellar tilting",
+            "position": 10
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 23
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellofemoral pain",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellofemoral pain",
+            "position": 28
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 30
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellofemoral mechanic",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellofemoral mechanics",
+            "position": 46
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 50
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellar tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patellar tilting",
+            "position": 69
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilting",
+            "position": 84
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "limb alignment",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "limb alignment",
+            "position": 97
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "limb alignment"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 104
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "bilaterally painful knee",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "bilaterally painful knees",
+            "position": 130
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "unilaterally painful knee",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "unilaterally painful knees",
+            "position": 138
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 163
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 165
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 167
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilting",
+            "position": 176
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilt angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilt angle",
+            "position": 191
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 203
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 206
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 216
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 219
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilting",
+            "position": 225
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilt angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilt angle",
+            "position": 237
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "grelsamer",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Grelsamer",
+            "position": 244
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "limb alignment"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 249
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 252
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "sasaki",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Sasaki",
+            "position": 258
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "knee"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 264
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 266
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 269
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patella tilt angle",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "patella tilt angle",
+            "position": 276
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "fulkerson",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Fulkerson",
+            "position": 280
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "bone rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 285
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "tibial rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial rotation",
+            "position": 287
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "tibial rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "femoral rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral rotation",
+            "position": 290
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "femoral rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "bony malalignment",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "bony malalignment",
+            "position": 319
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "limb alignment"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellar malalignment",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellar malalignment",
+            "position": 331
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "limb alignment",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "limb alignment",
+            "position": 342
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "limb alignment"
+        ]
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_form": "patellar malalignment",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "patellar malalignment",
+            "position": 363
+        },
+        "candidate_anatomies": [
+            "patella",
+            "bone rotation",
+            "tibia",
+            "tibial rotation",
+            "femur",
+            "limb alignment",
+            "knee",
+            "quadricep",
+            "femoral rotation"
+        ],
+        "predicted_locations": [
+            "patella"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Patellofemoral pain syndrome",
+            "position": 0
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 3
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "injury",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "injury",
+            "position": 8
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 24
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "femoral internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "femoral internal rotation",
+            "position": 29
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 38
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 69
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "treadmill running",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "treadmill running",
+            "position": 90
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 98
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "tibial internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "tibial internal rotation",
+            "position": 105
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "hip internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "hip internal rotation",
+            "position": 110
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "weight bearing",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "weight-bearing",
+            "position": 129
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 170
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 175
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 190
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "rear foot dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "rear-foot dorsiflexion",
+            "position": 196
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "rear foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "knee internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee internal rotation",
+            "position": 200
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "walking",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "walking",
+            "position": 209
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "squatting",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "squatting",
+            "position": 211
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "subtalar"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 214
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "rear foot dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "rear-foot dorsiflexion",
+            "position": 232
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "rear foot"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "compensatory dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "compensatory dorsiflexion",
+            "position": 237
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "mid tarsal complex"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "knee internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee internal rotation",
+            "position": 253
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "tibial internal rotation"
+        ]
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_form": "patellofemoral pain syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "PFPS",
+            "position": 280
+        },
+        "candidate_anatomies": [
+            "foot",
+            "rear foot",
+            "tibial internal rotation",
+            "subtalar",
+            "talu",
+            "calcaneu",
+            "rearfoot",
+            "ankle",
+            "mid foot",
+            "mid tarsal complex",
+            "ankle mortise"
+        ],
+        "predicted_locations": [
+            "ankle mortise"
+        ]
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "medial tibial stress syndrome",
+            "position": 17
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 21
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 42
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 58
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "hip internal and external rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "Hip internal and external rotation",
+            "position": 96
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "knee flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion",
+            "position": 101
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "ankle dorsiflexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "ankle dorsiflexion",
+            "position": 104
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "plantarflexion rom",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "plantarflexion ROM",
+            "position": 107
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 158
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "knee flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion",
+            "position": 189
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "knee flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion",
+            "position": 197
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 209
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "knee flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion",
+            "position": 214
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 248
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "knee flexion",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee flexion",
+            "position": 258
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_form": "medial tibial stress syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "MTSS",
+            "position": 271
+        },
+        "candidate_anatomies": [],
+        "predicted_locations": []
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 1
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "running injury",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "running injury",
+            "position": 9
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "trunk"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 91
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 193
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "hip adduction",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "hip adduction",
+            "position": 200
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "knee internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee internal rotation",
+            "position": 205
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "stance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "stance",
+            "position": 209
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 214
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "knee internal rotation",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "knee internal rotation",
+            "position": 221
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "stance",
+        "field": "Terms of Body Movements",
+        "mention": {
+            "original_text": "stance",
+            "position": 229
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 243
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_form": "iliotibial band syndrome",
+        "field": "Symptom",
+        "mention": {
+            "original_text": "Iliotibial band syndrome",
+            "position": 294
+        },
+        "candidate_anatomies": [
+            "trunk",
+            "pelvi",
+            "lower limb"
+        ],
+        "predicted_locations": [
+            "lower limb"
+        ]
+    }
+]

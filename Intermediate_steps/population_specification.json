@@ -1,0 +1,24 @@
+{
+    "sex": {
+        "male": "A biological male individual or participant.",
+        "female": "A biological female individual or participant."
+    },
+    "age": {
+        "children": "Individuals in the pediatric or prepubescent age range.",
+        "young adult": "Individuals in the post-pubescence phase, typically from late teens to early thirties.",
+        "adult": "Physiologically mature individuals, typically in the middle-age range.",
+        "elderly": "Older individuals, often associated with age-related physiological or musculoskeletal changes."
+    },
+    "level": {
+        "athlete level": "Individuals with high physical performance, elite training status, or professional athletic background.",
+        "non-athlete": "Members of the general population without specialized or high-intensity physical training."
+    },
+    "condition": {
+        "patient": "Individuals exhibiting functional impairments, musculoskeletal discomfort, or biomechanical deviations such as flat feet or joint pain.",
+        "healthy": "Asymptomatic individuals with optimal biomechanical function and no reported physical impairments."
+    },
+    "study_group": {
+        "exposed group": "The cohort possessing the specific biomechanical characteristic or trait under observation.",
+        "control group": "The baseline or reference cohort representing the standard physiological state for comparison."
+    }
+}

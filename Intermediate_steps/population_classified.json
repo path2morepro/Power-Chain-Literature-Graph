@@ -1,0 +1,1799 @@
+[
+    {
+        "abstract_id": "abs_001",
+        "entity_id": "ent_098",
+        "entity_form": "nonathletic population",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "non-athlete",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "non-athlete"
+        ],
+        "mention": {
+            "original_text": "nonathletic population",
+            "position": 48
+        }
+    },
+    {
+        "abstract_id": "abs_001",
+        "entity_id": "ent_108",
+        "entity_form": "young adult",
+        "classification": {
+            "sex": null,
+            "age": "young adult",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "young adult"
+        ],
+        "mention": {
+            "original_text": "young adults",
+            "position": 100
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "patient",
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 25
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 41
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 54
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_090",
+        "entity_form": "flat foot group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "flat foot group",
+            "position": 87
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_090",
+        "entity_form": "flat foot group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "flat foot group",
+            "position": 104
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_085",
+        "entity_form": "control group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "control group",
+            "position": 111
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_090",
+        "entity_form": "flat foot group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "flat foot group",
+            "position": 133
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_085",
+        "entity_form": "control group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "control group",
+            "position": 140
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_090",
+        "entity_form": "flat foot group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "flat foot group",
+            "position": 157
+        }
+    },
+    {
+        "abstract_id": "abs_002",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [],
+        "mention": {
+            "original_text": "subjects",
+            "position": 186
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 30
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 66
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 77
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 163
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 182
+        }
+    },
+    {
+        "abstract_id": "abs_003",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 208
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 84
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_094",
+        "entity_form": "healthy control",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "healthy",
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "healthy",
+            "control group"
+        ],
+        "mention": {
+            "original_text": "healthy controls",
+            "position": 90
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_085",
+        "entity_form": "control group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "control group",
+            "position": 155
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_083",
+        "entity_form": "age",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "patient",
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "age",
+            "position": 191
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_092",
+        "entity_form": "gender",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "patient",
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "gender",
+            "position": 193
+        }
+    },
+    {
+        "abstract_id": "abs_004",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 226
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_081",
+        "entity_form": "adult patient",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "adult",
+            "patient"
+        ],
+        "mention": {
+            "original_text": "adult patients",
+            "position": 16
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 17
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 32
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_097",
+        "entity_form": "man",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "men",
+            "position": 34
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_107",
+        "entity_form": "woman",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "women",
+            "position": 34
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_097",
+        "entity_form": "man",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "men",
+            "position": 36
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_083",
+        "entity_form": "age",
+        "classification": {
+            "sex": "male",
+            "age": "adult",
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "male",
+            "adult",
+            "patient"
+        ],
+        "mention": {
+            "original_text": "age",
+            "position": 38
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_097",
+        "entity_form": "man",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "men",
+            "position": 60
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_097",
+        "entity_form": "man",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "men",
+            "position": 70
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 91
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 98
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_086",
+        "entity_form": "control subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "control subjects",
+            "position": 105
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_083",
+        "entity_form": "age",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "patient",
+            "control group"
+        ],
+        "mention": {
+            "original_text": "age",
+            "position": 109
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 131
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_086",
+        "entity_form": "control subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "control subjects",
+            "position": 133
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_081",
+        "entity_form": "adult patient",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "adult",
+            "patient"
+        ],
+        "mention": {
+            "original_text": "adult patients",
+            "position": 174
+        }
+    },
+    {
+        "abstract_id": "abs_005",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 175
+        }
+    },
+    {
+        "abstract_id": "abs_006",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "Subjects",
+            "position": 26
+        }
+    },
+    {
+        "abstract_id": "abs_006",
+        "entity_id": "ent_100",
+        "entity_form": "normal foot group",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "normal foot group",
+            "position": 35
+        }
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_id": "ent_102",
+        "entity_form": "participant",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "participants",
+            "position": 54
+        }
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_id": "ent_102",
+        "entity_form": "participant",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "participants",
+            "position": 83
+        }
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_id": "ent_102",
+        "entity_form": "participant",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "participants",
+            "position": 159
+        }
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_id": "ent_102",
+        "entity_form": "participant",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "participants",
+            "position": 221
+        }
+    },
+    {
+        "abstract_id": "abs_007",
+        "entity_id": "ent_102",
+        "entity_form": "participant",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "participants",
+            "position": 228
+        }
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_id": "ent_084",
+        "entity_form": "child",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "children"
+        ],
+        "mention": {
+            "original_text": "children",
+            "position": 3
+        }
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_id": "ent_084",
+        "entity_form": "child",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "children"
+        ],
+        "mention": {
+            "original_text": "children",
+            "position": 65
+        }
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_id": "ent_084",
+        "entity_form": "child",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "children"
+        ],
+        "mention": {
+            "original_text": "children",
+            "position": 79
+        }
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_id": "ent_084",
+        "entity_form": "child",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "children"
+        ],
+        "mention": {
+            "original_text": "children",
+            "position": 118
+        }
+    },
+    {
+        "abstract_id": "abs_008",
+        "entity_id": "ent_084",
+        "entity_form": "child",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "children"
+        ],
+        "mention": {
+            "original_text": "children",
+            "position": 156
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_093",
+        "entity_form": "healthy adult volunteer",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": "healthy",
+            "study_group": null
+        },
+        "classification_list": [
+            "adult",
+            "healthy"
+        ],
+        "mention": {
+            "original_text": "healthy adult volunteers",
+            "position": 27
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 31
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_093",
+        "entity_form": "healthy adult volunteer",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": "healthy",
+            "study_group": null
+        },
+        "classification_list": [
+            "adult",
+            "healthy"
+        ],
+        "mention": {
+            "original_text": "healthy adult volunteers",
+            "position": 44
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 48
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 105
+        }
+    },
+    {
+        "abstract_id": "abs_009",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 449
+        }
+    },
+    {
+        "abstract_id": "abs_010",
+        "entity_id": "ent_101",
+        "entity_form": "paediatric population",
+        "classification": {
+            "sex": null,
+            "age": "children",
+            "level": null,
+            "condition": "patient",
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "children",
+            "patient",
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "paediatric population",
+            "position": 16
+        }
+    },
+    {
+        "abstract_id": "abs_010",
+        "entity_id": "ent_082",
+        "entity_form": "adult population",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "adult"
+        ],
+        "mention": {
+            "original_text": "adult population",
+            "position": 25
+        }
+    },
+    {
+        "abstract_id": "abs_010",
+        "entity_id": "ent_080",
+        "entity_form": "adult orthopaedic surgeon",
+        "classification": {
+            "sex": null,
+            "age": "adult",
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "adult"
+        ],
+        "mention": {
+            "original_text": "adult orthopaedic surgeon",
+            "position": 45
+        }
+    },
+    {
+        "abstract_id": "abs_012",
+        "entity_id": "ent_095",
+        "entity_form": "healthy volunteer",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "healthy",
+            "study_group": null
+        },
+        "classification_list": [
+            "healthy"
+        ],
+        "mention": {
+            "original_text": "healthy volunteer",
+            "position": 40
+        }
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 58
+        }
+    },
+    {
+        "abstract_id": "abs_013",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 213
+        }
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 31
+        }
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_id": "ent_089",
+        "entity_form": "female subject",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "female subjects",
+            "position": 54
+        }
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 55
+        }
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_id": "ent_089",
+        "entity_form": "female subject",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "female subjects",
+            "position": 63
+        }
+    },
+    {
+        "abstract_id": "abs_014",
+        "entity_id": "ent_106",
+        "entity_form": "subject",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "subjects",
+            "position": 64
+        }
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_id": "ent_103",
+        "entity_form": "patient",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": "patient",
+            "study_group": null
+        },
+        "classification_list": [
+            "patient"
+        ],
+        "mention": {
+            "original_text": "patients",
+            "position": 108
+        }
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_id": "ent_087",
+        "entity_form": "female",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "females",
+            "position": 114
+        }
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_id": "ent_096",
+        "entity_form": "male",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "males",
+            "position": 114
+        }
+    },
+    {
+        "abstract_id": "abs_016",
+        "entity_id": "ent_096",
+        "entity_form": "male",
+        "classification": {
+            "sex": "male",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "male"
+        ],
+        "mention": {
+            "original_text": "males",
+            "position": 117
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 10
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_087",
+        "entity_form": "female",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "female",
+            "position": 34
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 36
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_087",
+        "entity_form": "female",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female"
+        ],
+        "mention": {
+            "original_text": "female",
+            "position": 63
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_088",
+        "entity_form": "female runner",
+        "classification": {
+            "sex": "female",
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "female",
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "female runners",
+            "position": 63
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 64
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_099",
+        "entity_form": "normal control",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "normal controls",
+            "position": 74
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 96
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_099",
+        "entity_form": "normal control",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "normal controls",
+            "position": 115
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 185
+        }
+    },
+    {
+        "abstract_id": "abs_017",
+        "entity_id": "ent_099",
+        "entity_form": "normal control",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": "control group"
+        },
+        "classification_list": [
+            "control group"
+        ],
+        "mention": {
+            "original_text": "normal controls",
+            "position": 205
+        }
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_id": "ent_091",
+        "entity_form": "football referee",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "football referees",
+            "position": 23
+        }
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_id": "ent_104",
+        "entity_form": "referee",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": "exposed group"
+        },
+        "classification_list": [
+            "athlete level",
+            "exposed group"
+        ],
+        "mention": {
+            "original_text": "referees",
+            "position": 24
+        }
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_id": "ent_104",
+        "entity_form": "referee",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "referees",
+            "position": 30
+        }
+    },
+    {
+        "abstract_id": "abs_018",
+        "entity_id": "ent_104",
+        "entity_form": "referee",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": null,
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [],
+        "mention": {
+            "original_text": "referees",
+            "position": 166
+        }
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 33
+        }
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 95
+        }
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 188
+        }
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 212
+        }
+    },
+    {
+        "abstract_id": "abs_019",
+        "entity_id": "ent_105",
+        "entity_form": "runner",
+        "classification": {
+            "sex": null,
+            "age": null,
+            "level": "athlete level",
+            "condition": null,
+            "study_group": null
+        },
+        "classification_list": [
+            "athlete level"
+        ],
+        "mention": {
+            "original_text": "runners",
+            "position": 247
+        }
+    }
+]

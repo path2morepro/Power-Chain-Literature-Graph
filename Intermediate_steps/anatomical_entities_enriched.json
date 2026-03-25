@@ -1,0 +1,2154 @@
+[
+    {
+        "entity_id": "ent_001",
+        "entity_form": "ankle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "ankle",
+                "position": 126
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "ankle",
+                "position": 250
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_226"
+        ]
+    },
+    {
+        "entity_id": "ent_002",
+        "entity_form": "ankle mortise",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "ankle mortise",
+                "position": 250
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_132"
+        ],
+        "related_movement_entity_ids": [
+            "ent_227"
+        ]
+    },
+    {
+        "entity_id": "ent_003",
+        "entity_form": "arch",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 13
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 101
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 332
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 358
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 379
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "arch",
+                "position": 494
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_004",
+        "entity_form": "bicep femori muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "biceps femoris muscle",
+                "position": 92
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_005",
+        "entity_form": "big toe",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "big toe",
+                "position": 433
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_006",
+        "entity_form": "biomechanic",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_007",
+                "original_text": "biomechanics",
+                "position": 30
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_148",
+            "ent_153",
+            "ent_181",
+            "ent_206"
+        ]
+    },
+    {
+        "entity_id": "ent_007",
+        "entity_form": "bmi",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_004",
+                "original_text": "BMI",
+                "position": 190
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_127"
+        ],
+        "related_movement_entity_ids": [
+            "ent_154"
+        ]
+    },
+    {
+        "entity_id": "ent_008",
+        "entity_form": "body",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "body",
+                "position": 198
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_009",
+        "entity_form": "bone rotation",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_016",
+                "original_text": "bone rotation",
+                "position": 19
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "bone rotation",
+                "position": 62
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "bone rotation",
+                "position": 200
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_172"
+        ]
+    },
+    {
+        "entity_id": "ent_010",
+        "entity_form": "calcaneu",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "calcaneus",
+                "position": 52
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "calcaneus",
+                "position": 141
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_011",
+        "entity_form": "contact index ii",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_008",
+                "original_text": "Contact Index II",
+                "position": 101
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "Contact Index II",
+                "position": 138
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_180"
+        ]
+    },
+    {
+        "entity_id": "ent_012",
+        "entity_form": "diarthrodial",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "diarthrodial joints",
+                "position": 194
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_013",
+        "entity_form": "dominant leg",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "dominant leg",
+                "position": 172
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "dominant leg",
+                "position": 182
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_014",
+        "entity_form": "femoral antétorsion",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_008",
+                "original_text": "femoral antétorsion",
+                "position": 111
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "femoral antétorsion",
+                "position": 162
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_014",
+            "ent_160",
+            "ent_217"
+        ]
+    },
+    {
+        "entity_id": "ent_015",
+        "entity_form": "femoral rotation",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 163
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 167
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 206
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 219
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 249
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 264
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 269
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 285
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femoral rotation",
+                "position": 290
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_015"
+        ]
+    },
+    {
+        "entity_id": "ent_016",
+        "entity_form": "femur",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "femur",
+                "position": 5
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "femur",
+                "position": 98
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "femur",
+                "position": 38
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_017",
+        "entity_form": "flat foot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_004",
+                "original_text": "Flat foot",
+                "position": 141
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 139
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 156
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 162
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 290
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 302
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "flat foot",
+                "position": 312
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_113",
+            "ent_115"
+        ],
+        "related_movement_entity_ids": [
+            "ent_169"
+        ]
+    },
+    {
+        "entity_id": "ent_018",
+        "entity_form": "flexible flat foot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "flexible flat foot",
+                "position": 23
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "flexible flat foot",
+                "position": 196
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_019",
+        "entity_form": "foot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_008",
+                "original_text": "foot",
+                "position": 1
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "foot",
+                "position": 42
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "foot",
+                "position": 63
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "foot",
+                "position": 100
+            },
+            {
+                "abstract_id": "abs_008",
+                "original_text": "foot",
+                "position": 194
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 16
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 140
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 157
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 163
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 291
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 303
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 313
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 367
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 399
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 466
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "foot",
+                "position": 490
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 21
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 89
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 102
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 124
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 166
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 193
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 196
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 221
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 232
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "foot",
+                "position": 260
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_114"
+        ],
+        "related_movement_entity_ids": [
+            "ent_019"
+        ]
+    },
+    {
+        "entity_id": "ent_020",
+        "entity_form": "foot arch",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_007",
+                "original_text": "foot arch",
+                "position": 2
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "foot arch",
+                "position": 98
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "foot arch",
+                "position": 188
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_114"
+        ],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_021",
+        "entity_form": "footplate",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_002",
+                "original_text": "footplate",
+                "position": 73
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_090",
+            "ent_166"
+        ]
+    },
+    {
+        "entity_id": "ent_022",
+        "entity_form": "fuji pressure sensitive film",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_015",
+                "original_text": "Fuji pressure-sensitive film",
+                "position": 81
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_220"
+        ]
+    },
+    {
+        "entity_id": "ent_023",
+        "entity_form": "hamstring",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "hamstring",
+                "position": 58
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "hamstring",
+                "position": 111
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_024",
+        "entity_form": "hip",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "hip",
+                "position": 56
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "hip",
+                "position": 93
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_207"
+        ]
+    },
+    {
+        "entity_id": "ent_025",
+        "entity_form": "human cadaveric knee",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_015",
+                "original_text": "human cadaveric knees",
+                "position": 51
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_151"
+        ]
+    },
+    {
+        "entity_id": "ent_026",
+        "entity_form": "ipsilateral facet",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "ipsilateral facets",
+                "position": 81
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_027",
+        "entity_form": "joint congruence",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_002",
+                "original_text": "joint congruence",
+                "position": 10
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_028",
+        "entity_form": "joint driving device",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_002",
+                "original_text": "joint-driving device",
+                "position": 83
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_182"
+        ]
+    },
+    {
+        "entity_id": "ent_029",
+        "entity_form": "kl 1",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "KL-1",
+                "position": 326
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_158"
+        ]
+    },
+    {
+        "entity_id": "ent_030",
+        "entity_form": "kl 2",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "KL-2",
+                "position": 328
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_031",
+        "entity_form": "knee",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_001",
+                "original_text": "knee joint",
+                "position": 216
+            },
+            {
+                "abstract_id": "abs_001",
+                "original_text": "knee joint",
+                "position": 224
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "knee joint",
+                "position": 130
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "knee joint",
+                "position": 295
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "knee",
+                "position": 29
+            },
+            {
+                "abstract_id": "abs_013",
+                "original_text": "knees",
+                "position": 55
+            },
+            {
+                "abstract_id": "abs_013",
+                "original_text": "knees",
+                "position": 202
+            },
+            {
+                "abstract_id": "abs_013",
+                "original_text": "knees",
+                "position": 244
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 110
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 124
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 132
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 136
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 140
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "knees",
+                "position": 154
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_109",
+            "ent_110",
+            "ent_119",
+            "ent_120",
+            "ent_138",
+            "ent_141",
+            "ent_145"
+        ],
+        "related_movement_entity_ids": [
+            "ent_154",
+            "ent_168",
+            "ent_183",
+            "ent_199",
+            "ent_210",
+            "ent_219",
+            "ent_227"
+        ]
+    },
+    {
+        "entity_id": "ent_032",
+        "entity_form": "knee extensor muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_015",
+                "original_text": "knee extensor muscles",
+                "position": 69
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_112"
+        ],
+        "related_movement_entity_ids": [
+            "ent_178",
+            "ent_186"
+        ]
+    },
+    {
+        "entity_id": "ent_033",
+        "entity_form": "knee joint biomechanic",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "knee joint biomechanics",
+                "position": 18
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_203"
+        ]
+    },
+    {
+        "entity_id": "ent_034",
+        "entity_form": "leg muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "leg muscles",
+                "position": 17
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_035",
+        "entity_form": "ligament",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "ligament",
+                "position": 236
+            },
+            {
+                "abstract_id": "abs_012",
+                "original_text": "ligament",
+                "position": 287
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_159",
+            "ent_179"
+        ]
+    },
+    {
+        "entity_id": "ent_036",
+        "entity_form": "ligament elasticity",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_002",
+                "original_text": "ligament elasticity",
+                "position": 13
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_147",
+            "ent_149",
+            "ent_150",
+            "ent_184"
+        ]
+    },
+    {
+        "entity_id": "ent_037",
+        "entity_form": "limb alignment",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_016",
+                "original_text": "limb alignment",
+                "position": 97
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "limb alignment",
+                "position": 342
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_111"
+        ],
+        "related_movement_entity_ids": [
+            "ent_037",
+            "ent_173"
+        ]
+    },
+    {
+        "entity_id": "ent_038",
+        "entity_form": "lower extremity",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_005",
+                "original_text": "lower extremities",
+                "position": 64
+            },
+            {
+                "abstract_id": "abs_005",
+                "original_text": "lower extremities",
+                "position": 171
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "lower extremities",
+                "position": 98
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "lower extremities",
+                "position": 209
+            },
+            {
+                "abstract_id": "abs_014",
+                "original_text": "lower extremity",
+                "position": 8
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_131"
+        ],
+        "related_movement_entity_ids": [
+            "ent_164",
+            "ent_165",
+            "ent_171",
+            "ent_205",
+            "ent_209",
+            "ent_222",
+            "ent_223"
+        ]
+    },
+    {
+        "entity_id": "ent_039",
+        "entity_form": "lower extremity muscle performance",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "lower extremity muscle performance",
+                "position": 22
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "lower extremity muscle performance",
+                "position": 48
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_167",
+            "ent_169"
+        ]
+    },
+    {
+        "entity_id": "ent_040",
+        "entity_form": "lower limb",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_005",
+                "original_text": "lower limb",
+                "position": 13
+            },
+            {
+                "abstract_id": "abs_005",
+                "original_text": "lower limb",
+                "position": 155
+            },
+            {
+                "abstract_id": "abs_005",
+                "original_text": "lower limbs",
+                "position": 155
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "lower limbs",
+                "position": 40
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "lower limbs",
+                "position": 70
+            },
+            {
+                "abstract_id": "abs_013",
+                "original_text": "lower limbs",
+                "position": 44
+            },
+            {
+                "abstract_id": "abs_019",
+                "original_text": "lower limb",
+                "position": 84
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_116",
+            "ent_128",
+            "ent_136",
+            "ent_137",
+            "ent_143",
+            "ent_144"
+        ],
+        "related_movement_entity_ids": [
+            "ent_146",
+            "ent_175",
+            "ent_187",
+            "ent_188",
+            "ent_212",
+            "ent_214",
+            "ent_216"
+        ]
+    },
+    {
+        "entity_id": "ent_041",
+        "entity_form": "medial gastrocnemiu",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "medial gastrocnemius",
+                "position": 83
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_042",
+        "entity_form": "medial longitudinal arch",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_001",
+                "original_text": "medial longitudinal arch",
+                "position": 4
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "medial longitudinal arch",
+                "position": 57
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "medial longitudinal arch",
+                "position": 75
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "medial longitudinal arch",
+                "position": 224
+            },
+            {
+                "abstract_id": "abs_007",
+                "original_text": "medial longitudinal arch",
+                "position": 237
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "medial longitudinal arch",
+                "position": 11
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "medial longitudinal arch",
+                "position": 99
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "medial longitudinal arch",
+                "position": 330
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_124"
+        ],
+        "related_movement_entity_ids": [
+            "ent_157",
+            "ent_191",
+            "ent_200"
+        ]
+    },
+    {
+        "entity_id": "ent_043",
+        "entity_form": "medical longitudinal arch",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_001",
+                "original_text": "medical longitudinal arch",
+                "position": 210
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_114",
+            "ent_124"
+        ],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_044",
+        "entity_form": "mid foot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "mid-foot",
+                "position": 221
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_045",
+        "entity_form": "mid tarsal complex",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "mid-tarsal complex",
+                "position": 241
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_155"
+        ]
+    },
+    {
+        "entity_id": "ent_046",
+        "entity_form": "morphostatic deformation",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_008",
+                "original_text": "morphostatic deformations",
+                "position": 47
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_121",
+            "ent_125"
+        ],
+        "related_movement_entity_ids": [
+            "ent_179"
+        ]
+    },
+    {
+        "entity_id": "ent_047",
+        "entity_form": "muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "muscle",
+                "position": 238
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_048",
+        "entity_form": "muscle performance",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "muscle performance",
+                "position": 5
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "muscle performance",
+                "position": 24
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "muscle performance",
+                "position": 50
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "muscle performance",
+                "position": 179
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_048",
+            "ent_170"
+        ]
+    },
+    {
+        "entity_id": "ent_049",
+        "entity_form": "muscle tone",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 12
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 67
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 122
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 154
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 176
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 203
+            },
+            {
+                "abstract_id": "abs_006",
+                "original_text": "muscle tone",
+                "position": 229
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_050",
+        "entity_form": "non dominant leg",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "non-dominant leg",
+                "position": 172
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_051",
+        "entity_form": "patella",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patella",
+                "position": 67
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patella",
+                "position": 85
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patella",
+                "position": 114
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patella",
+                "position": 125
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patella",
+                "position": 19
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patella",
+                "position": 93
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patella",
+                "position": 144
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patella",
+                "position": 156
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 5
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 10
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 69
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 84
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 176
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 191
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 225
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 237
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 276
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 313
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 323
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 331
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "patella",
+                "position": 363
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_051",
+            "ent_131",
+            "ent_132"
+        ],
+        "related_movement_entity_ids": [
+            "ent_051",
+            "ent_198"
+        ]
+    },
+    {
+        "entity_id": "ent_052",
+        "entity_form": "patellofemoral",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patellofemoral joint",
+                "position": 14
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patellofemoral joint",
+                "position": 171
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "patellofemoral joint",
+                "position": 186
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patellofemoral joint",
+                "position": 59
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "patellofemoral joint",
+                "position": 110
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_130"
+        ],
+        "related_movement_entity_ids": [
+            "ent_163",
+            "ent_197"
+        ]
+    },
+    {
+        "entity_id": "ent_053",
+        "entity_form": "pelvi",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_019",
+                "original_text": "pelvis",
+                "position": 82
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_054",
+        "entity_form": "peripatellar retinaculum",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_015",
+                "original_text": "peripatellar retinaculum",
+                "position": 19
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "peripatellar retinaculum",
+                "position": 93
+            },
+            {
+                "abstract_id": "abs_015",
+                "original_text": "peripatellar retinaculum",
+                "position": 156
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_055",
+        "entity_form": "pes planu",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_004",
+                "original_text": "pes planus",
+                "position": 30
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_056",
+        "entity_form": "plantar concavity",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_008",
+                "original_text": "plantar concavity",
+                "position": 36
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_057",
+        "entity_form": "plantar flexor",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "plantar flexor",
+                "position": 60
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "plantar flexor",
+                "position": 113
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "plantar flexor",
+                "position": 133
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "plantar flexor",
+                "position": 148
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_114",
+            "ent_134",
+            "ent_135"
+        ],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_058",
+        "entity_form": "polyethene liner",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "polyethene liner",
+                "position": 107
+            },
+            {
+                "abstract_id": "abs_012",
+                "original_text": "polyethene liner",
+                "position": 283
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_059",
+        "entity_form": "proximal tibia",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "proximal tibia",
+                "position": 70
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_202",
+            "ent_215"
+        ]
+    },
+    {
+        "entity_id": "ent_060",
+        "entity_form": "quadricep",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_003",
+                "original_text": "quadriceps",
+                "position": 57
+            },
+            {
+                "abstract_id": "abs_003",
+                "original_text": "quadriceps",
+                "position": 110
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "quadriceps",
+                "position": 158
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_061",
+        "entity_form": "rear foot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 21
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 166
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 193
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 196
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 232
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rear-foot",
+                "position": 260
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_019"
+        ]
+    },
+    {
+        "entity_id": "ent_062",
+        "entity_form": "rearfoot",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "rearfoot",
+                "position": 102
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_063",
+        "entity_form": "rectu femori muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "rectus femoris muscle",
+                "position": 78
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_139"
+        ],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_064",
+        "entity_form": "resection plane",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "resection plane",
+                "position": 59
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_152",
+            "ent_156",
+            "ent_192",
+            "ent_213",
+            "ent_225"
+        ]
+    },
+    {
+        "entity_id": "ent_065",
+        "entity_form": "soft tissue",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "soft tissue",
+                "position": 115
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_213"
+        ]
+    },
+    {
+        "entity_id": "ent_066",
+        "entity_form": "spinal biomechanic",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_004",
+                "original_text": "spinal biomechanics",
+                "position": 212
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_122",
+            "ent_142"
+        ],
+        "related_movement_entity_ids": [
+            "ent_204"
+        ]
+    },
+    {
+        "entity_id": "ent_067",
+        "entity_form": "subtalar",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "subtalar joint",
+                "position": 220
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "subtalar joint",
+                "position": 271
+            },
+            {
+                "abstract_id": "abs_009",
+                "original_text": "subtalar joint",
+                "position": 409
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "subtalar joint",
+                "position": 44
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_133"
+        ],
+        "related_movement_entity_ids": [
+            "ent_211"
+        ]
+    },
+    {
+        "entity_id": "ent_068",
+        "entity_form": "talocrural",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_009",
+                "original_text": "talocrural joint",
+                "position": 198
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_069",
+        "entity_form": "talu",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "talus",
+                "position": 50
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "talus",
+                "position": 139
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_070",
+        "entity_form": "tibia",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibia",
+                "position": 7
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibia",
+                "position": 69
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibia",
+                "position": 106
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibia",
+                "position": 109
+            },
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibia",
+                "position": 119
+            },
+            {
+                "abstract_id": "abs_014",
+                "original_text": "tibia",
+                "position": 41
+            },
+            {
+                "abstract_id": "abs_014",
+                "original_text": "tibia",
+                "position": 73
+            },
+            {
+                "abstract_id": "abs_014",
+                "original_text": "tibia",
+                "position": 107
+            },
+            {
+                "abstract_id": "abs_014",
+                "original_text": "tibia",
+                "position": 139
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 23
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 35
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 165
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 171
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 203
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 210
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 216
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 223
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 252
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 266
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 273
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 287
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibia",
+                "position": 294
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_126"
+        ],
+        "related_movement_entity_ids": [
+            "ent_070",
+            "ent_162"
+        ]
+    },
+    {
+        "entity_id": "ent_071",
+        "entity_form": "tibial component",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_012",
+                "original_text": "tibial component",
+                "position": 153
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_221"
+        ]
+    },
+    {
+        "entity_id": "ent_072",
+        "entity_form": "tibial internal rotation",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_017",
+                "original_text": "tibial internal rotation",
+                "position": 24
+            },
+            {
+                "abstract_id": "abs_017",
+                "original_text": "tibial internal rotation",
+                "position": 105
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_117"
+        ],
+        "related_movement_entity_ids": [
+            "ent_072",
+            "ent_162",
+            "ent_177",
+            "ent_187",
+            "ent_224"
+        ]
+    },
+    {
+        "entity_id": "ent_073",
+        "entity_form": "tibial rotation",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 23
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 165
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 203
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 216
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 252
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 266
+            },
+            {
+                "abstract_id": "abs_016",
+                "original_text": "tibial rotation",
+                "position": 287
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_070"
+        ]
+    },
+    {
+        "entity_id": "ent_074",
+        "entity_form": "tibial torsion",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_010",
+                "original_text": "tibial torsion",
+                "position": 41
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_118",
+            "ent_131"
+        ],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_075",
+        "entity_form": "tibial tubercle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_011",
+                "original_text": "tibial tubercle",
+                "position": 119
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_076",
+        "entity_form": "tibiali anterior muscle",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_006",
+                "original_text": "tibialis anterior muscle",
+                "position": 73
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_077",
+        "entity_form": "torque sensor",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_002",
+                "original_text": "torque sensor",
+                "position": 79
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": [
+            "ent_200"
+        ]
+    },
+    {
+        "entity_id": "ent_078",
+        "entity_form": "trochlear groove",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_015",
+                "original_text": "trochlear groove",
+                "position": 149
+            }
+        ],
+        "related_symptom_entity_ids": [],
+        "related_movement_entity_ids": []
+    },
+    {
+        "entity_id": "ent_079",
+        "entity_form": "trunk",
+        "field": "Anatomical Entity",
+        "mentions": [
+            {
+                "abstract_id": "abs_019",
+                "original_text": "trunk",
+                "position": 81
+            },
+            {
+                "abstract_id": "abs_019",
+                "original_text": "trunk",
+                "position": 226
+            }
+        ],
+        "related_symptom_entity_ids": [
+            "ent_140"
+        ],
+        "related_movement_entity_ids": []
+    }
+]
