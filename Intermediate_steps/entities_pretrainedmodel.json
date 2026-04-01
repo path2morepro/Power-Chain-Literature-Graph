@@ -13,36 +13,45 @@
             "pronated foot",
             "severity of knee pain"
         ],
-        "Terms of Body Movements": [
-            "Clarke's Angle"
-        ],
+        "Terms of Body Movements": [],
         "Population": [
             "nonathletic population",
             "young adults"
+        ],
+        "Measurement": [
+            "Kujala Score",
+            "Clarke’s angle",
+            "Pearson Correlation test",
+            "prevalence"
         ]
     },
     "2": {
         "Anatomical Entity": [
-            "ligament elasticity",
-            "torque sensor",
-            "joint congruence",
             "joint-driving device",
-            "footplate"
+            "ligament elasticity",
+            "footplate",
+            "torque sensor",
+            "joint congruence"
         ],
         "Symptom": [],
         "Terms of Body Movements": [
-            "plantar flexion",
             "ankle dorsiflexion",
+            "plantar flexion",
             "ankle motion",
-            "ankle stiffness",
             "flat foot",
-            "kinematic analyses",
-            "joint stiffness measures"
+            "ankle stiffness",
+            "ligament elasticity"
         ],
         "Population": [
             "subjects",
             "control group",
             "flat foot group"
+        ],
+        "Measurement": [
+            "kinematic analyses",
+            "joint stiffness measures",
+            "ankle stiffness",
+            "demographic factors"
         ]
     },
     "3": {
@@ -50,44 +59,43 @@
             "hip",
             "quadriceps",
             "hamstring",
-            "plantar flexor",
-            "lower extremity muscle performance",
-            "muscle performance"
+            "plantar flexor"
         ],
         "Symptom": [
             "plantar heel pain",
-            "plantar fasciitis",
-            "flat feet"
+            "plantar fasciitis"
         ],
         "Terms of Body Movements": [
             "flat foot postures",
             "Foot pressure",
-            "foot posture",
-            "muscle performance",
-            "reaction time"
+            "foot posture"
         ],
         "Population": [
             "patients"
+        ],
+        "Measurement": [
+            "pedobarography",
+            "reaction time",
+            "isokinetic device",
+            "handheld digital dynamometer",
+            "strength"
         ]
     },
     "4": {
         "Anatomical Entity": [
             "pes planus",
             "spinal biomechanics",
-            "Flat foot",
-            "BMI"
+            "flat foot"
         ],
         "Symptom": [
             "Mechanical low back pain",
-            "symptoms",
             "MLBP",
-            "disability",
-            "obesity"
+            "symptoms",
+            "disability"
         ],
         "Terms of Body Movements": [
-            "postural changes",
             "foot posture",
-            "Clarke's angle"
+            "postural changes"
         ],
         "Population": [
             "healthy controls",
@@ -95,6 +103,13 @@
             "age",
             "gender",
             "control group"
+        ],
+        "Measurement": [
+            "Clarke’s angle",
+            "chi-square",
+            "Numerical Rating Scale",
+            "independent t-tests",
+            "BMI"
         ]
     },
     "5": {
@@ -111,30 +126,34 @@
         ],
         "Terms of Body Movements": [
             "femoral torsion",
-            "tibial torsion",
             "tibiofemoral rotation",
-            "rotations",
-            "length"
+            "tibial torsion",
+            "rotations"
         ],
         "Population": [
             "control subjects",
             "adult patients",
             "patients",
             "women",
-            "men",
             "age"
+        ],
+        "Measurement": [
+            "Student t-test",
+            "length",
+            "sagittal planes",
+            "radiographs",
+            "coronal"
         ]
     },
     "6": {
         "Anatomical Entity": [
-            "rectus femoris muscle",
             "lower extremities",
             "tibialis anterior muscle",
-            "medial gastrocnemius",
+            "rectus femoris muscle",
             "non-dominant leg",
+            "medial gastrocnemius",
             "leg muscles",
             "dominant leg",
-            "muscle tone",
             "biceps femoris muscle",
             "flexible flat foot"
         ],
@@ -143,55 +162,70 @@
         ],
         "Terms of Body Movements": [],
         "Population": [
-            "Subjects",
+            "subjects",
             "normal foot group"
+        ],
+        "Measurement": [
+            "myotonometry",
+            "stiffness"
         ]
     },
     "7": {
         "Anatomical Entity": [
             "foot arch",
-            "medial longitudinal arch",
-            "biomechanics"
+            "medial longitudinal arch"
         ],
         "Symptom": [
-            "muscular imbalances",
-            "flat foot"
+            "muscular imbalances"
         ],
         "Terms of Body Movements": [
+            "plantar flexion",
             "ankle mobility",
             "range of motion",
-            "plantar flexion",
-            "isometric strength",
-            "Dorsiflexion",
-            "muscular strength",
-            "calf muscle circumference"
+            "Dorsiflexion"
         ],
         "Population": [
             "participants"
+        ],
+        "Measurement": [
+            "isometric strength",
+            "Pearson correlation coefficient",
+            "calf muscle circumference",
+            "goniometer",
+            "Handheld dynamometer",
+            "arch height",
+            "navicular drop test",
+            "muscular strength",
+            "Dorsiflexion Lunge Test",
+            "independent t-test",
+            "scores"
         ]
     },
     "8": {
         "Anatomical Entity": [
             "plantar concavity",
             "foot",
-            "Contact Index II",
-            "femoral ant\u00e9torsion",
             "morphostatic deformations"
         ],
         "Symptom": [
-            "Flat foot",
             "lower limb disorders",
+            "Flat foot",
             "neurological abnormality"
         ],
         "Terms of Body Movements": [
             "intoeing",
-            "tibal torsion",
             "internal rotation",
+            "tibal torsion",
+            "femoral antétorsion",
             "external tibial torsion",
-            "femoral ant\u00e9torsion"
+            "femoral antetorsion"
         ],
         "Population": [
             "children"
+        ],
+        "Measurement": [
+            "Contact Index II",
+            "multiple regression"
         ]
     },
     "9": {
@@ -200,13 +234,12 @@
             "talocrural joint",
             "knee joint",
             "lower limbs",
-            "flat foot",
             "big toe",
+            "flat foot",
             "medial longitudinal arch",
             "foot",
             "KL-2",
-            "KL-1",
-            "arch"
+            "KL-1"
         ],
         "Symptom": [
             "knee osteoarthritis",
@@ -214,12 +247,26 @@
             "hallux valgus"
         ],
         "Terms of Body Movements": [
-            "dorsiflexion angle",
             "hindfoot alignment"
         ],
         "Population": [
             "healthy adult volunteers",
             "patients"
+        ],
+        "Measurement": [
+            "lateral Meary's angle",
+            "varus angle",
+            "Kellgren-Lawrence grade",
+            "internal rotation angle",
+            "BMI",
+            "dorsiflexion angle",
+            "AP Meary's angle",
+            "radiographs",
+            "Meary's angle",
+            "X ray images",
+            "320-row upright computed tomography",
+            "knee joint three-dimensional angles",
+            "anterior-posterior (AP) Meary’s angle"
         ]
     },
     "10": {
@@ -235,6 +282,9 @@
             "adult population",
             "paediatric population",
             "adult orthopaedic surgeon"
+        ],
+        "Measurement": [
+            "best evidence"
         ]
     },
     "11": {
@@ -246,25 +296,37 @@
             "knee",
             "tibial tubercle",
             "diarthrodial joints",
-            "ipsilateral facets",
             "body"
         ],
-        "Symptom": [],
+        "Symptom": [
+            "pathology",
+            "derangement"
+        ],
         "Terms of Body Movements": [
             "tibial rotation",
             "patellar movement",
             "femoral rotation"
         ],
-        "Population": []
+        "Population": [],
+        "Measurement": [
+            "experimental data",
+            "biomechanical evidence",
+            "etiologic factors",
+            "force vector",
+            "theories",
+            "pressures",
+            "patellofemoral contact pressures"
+        ]
     },
     "12": {
         "Anatomical Entity": [
-            "polyethene liner",
             "soft tissue",
+            "polyethene liner",
             "ligament",
             "muscle",
             "proximal tibia",
             "tibial component",
+            "polyethylene liner",
             "resection plane",
             "knee joint biomechanics"
         ],
@@ -274,23 +336,34 @@
             "external rotation",
             "standing position",
             "neutral rotation",
-            "internal rotation",
             "standing",
-            "contact pressure",
-            "posterior slope",
-            "tibial rotational alignment",
+            "internal rotation",
             "posterior-stabilized total knee arthroplasty",
-            "tensile stress",
-            "von Mises stress"
+            "tibial rotational alignment"
         ],
         "Population": [
             "healthy volunteer"
+        ],
+        "Measurement": [
+            "contact pressure",
+            "von Mises stress",
+            "tensile stress",
+            "stress",
+            "contact area",
+            "area",
+            "posterior slope",
+            "3D geometrical model",
+            "Computer tomographic",
+            "computer simulation",
+            "magnetic resonance imaging",
+            "biomechanical results"
         ]
     },
     "13": {
         "Anatomical Entity": [
             "lower limbs",
-            "knees"
+            "knees",
+            "entire leg"
         ],
         "Symptom": [
             "knee osteoarthritis",
@@ -299,16 +372,22 @@
         ],
         "Terms of Body Movements": [
             "adduction",
-            "flexion",
             "tibial internal rotation",
+            "flexion",
             "Weight-bearing",
             "standing positions",
-            "three-dimensional limb alignment",
-            "Kellgren-Lawrence grade",
-            "pathologic feature"
+            "three-dimensional limb alignment"
         ],
         "Population": [
             "patients"
+        ],
+        "Measurement": [
+            "Kellgren-Lawrence grade",
+            "3D-3D surface registration technique",
+            "CT images",
+            "two-dimensional radiographs",
+            "320-row detector upright CT",
+            "conventional CT"
         ]
     },
     "14": {
@@ -325,12 +404,16 @@
             "foot pronation",
             "femoral internal rotation",
             "femur internal rotation",
-            "quadriceps angle",
             "tibia internal rotation"
         ],
         "Population": [
             "female subjects",
             "subjects"
+        ],
+        "Measurement": [
+            "quadriceps angle",
+            "six-camera motion analysis system",
+            "degrees"
         ]
     },
     "15": {
@@ -340,7 +423,6 @@
             "trochlear groove",
             "patella",
             "patellofemoral joint",
-            "Fuji pressure-sensitive film",
             "human cadaveric knees"
         ],
         "Symptom": [
@@ -349,24 +431,29 @@
         ],
         "Terms of Body Movements": [
             "tibial rotation",
-            "knee flexion angles",
-            "patellofemoral contact pressures",
-            "in situ strain",
-            "areas"
+            "knee flexion angles"
         ],
-        "Population": []
+        "Population": [],
+        "Measurement": [
+            "Fuji pressure-sensitive film",
+            "patellofemoral contact pressures",
+            "areas",
+            "knee flexion angles",
+            "in situ strain",
+            "variable reluctance transducers"
+        ]
     },
     "16": {
         "Anatomical Entity": [
             "tibia",
             "femur",
             "knees",
-            "bone rotation",
+            "patella",
             "tibial rotation",
+            "bone rotation",
             "quadriceps",
             "femoral rotation",
-            "limb alignment",
-            "patella"
+            "femoral"
         ],
         "Symptom": [
             "patellofemoral pain",
@@ -378,20 +465,20 @@
         ],
         "Terms of Body Movements": [
             "patellar tilting",
-            "patella tilt angle",
-            "patella tilting",
             "limb alignment",
-            "Sasaki",
-            "Grelsamer",
-            "tibial rotation",
-            "Fulkerson",
-            "patellofemoral mechanics",
-            "femoral rotation"
+            "patella tilting"
         ],
         "Population": [
             "patients",
             "females",
             "males"
+        ],
+        "Measurement": [
+            "patella tilt angle",
+            "Sasaki",
+            "Grelsamer",
+            "Fulkerson",
+            "axial CT images"
         ]
     },
     "17": {
@@ -399,14 +486,13 @@
             "talus",
             "calcaneus",
             "subtalar joint",
+            "ankle mortise",
             "rear-foot",
             "rearfoot",
-            "ankle mortise",
             "mid-foot",
             "mid-tarsal complex",
-            "ankle",
             "foot",
-            "tibial internal rotation"
+            "ankle"
         ],
         "Symptom": [
             "Patellofemoral pain syndrome",
@@ -415,21 +501,26 @@
         ],
         "Terms of Body Movements": [
             "squatting",
-            "walking",
             "knee internal rotation",
-            "treadmill running",
-            "rear-foot dorsiflexion",
+            "walking",
             "femoral internal rotation",
             "hip internal rotation",
-            "compensatory dorsiflexion",
-            "weight-bearing",
-            "tibial internal rotation"
+            "rear-foot dorsiflexion",
+            "treadmill running",
+            "tibial internal rotation",
+            "compensatory dorsiflexion"
         ],
         "Population": [
             "normal controls",
             "female runners",
             "female",
             "runners"
+        ],
+        "Measurement": [
+            "principal axis lengths",
+            "lower-limb joint angles",
+            "orientations",
+            "Computed tomography"
         ]
     },
     "18": {
@@ -447,6 +538,19 @@
         "Population": [
             "football referees",
             "referees"
+        ],
+        "Measurement": [
+            "left knee flexion angle",
+            "right knee flexion angle",
+            "height length",
+            "knee flexion angle",
+            "Pittsburgh Sleep Quality Index",
+            "Craig's test",
+            "Visual Analog Scale",
+            "heel elevation endurance test",
+            "navicular drop test",
+            "regression analysis result",
+            "goniometer"
         ]
     },
     "19": {
@@ -460,12 +564,20 @@
             "running injury"
         ],
         "Terms of Body Movements": [
-            "knee internal rotation",
             "hip adduction",
+            "knee internal rotation",
             "stance"
         ],
         "Population": [
             "runners"
+        ],
+        "Measurement": [
+            "confidence intervals",
+            "Forest plots",
+            "mean differences",
+            "effect sizes",
+            "methodological score",
+            "clinical impact"
         ]
     }
 }

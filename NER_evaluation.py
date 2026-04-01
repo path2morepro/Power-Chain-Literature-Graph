@@ -48,7 +48,7 @@ LLM_DIR = BASE_DIR / "LLMExtraction"
 DATA_DIR = BASE_DIR / "Data"
 
 PRED_ROUND_ONE_PATH = INTERMEDIATE_DIR / "entities_pretrainedmodel.json"
-GOLD_ROUND_ONE_PATH = LLM_DIR / "entities_GPT5.json"
+GOLD_ROUND_ONE_PATH = LLM_DIR / "entities_manual_gold.json"
 ROUND_TWO_METHOD1_PATH = INTERMEDIATE_DIR / "entities_2nd_pretrainedmodel.json"
 ROUND_TWO_METHOD2_PATH = INTERMEDIATE_DIR / "entity_specification.json"
 GOLD_STANDARD_PATH = DATA_DIR / "golden_standard.csv"

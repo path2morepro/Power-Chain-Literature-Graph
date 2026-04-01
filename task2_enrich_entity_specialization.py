@@ -1,5 +1,5 @@
 """
-Task 2 – Produce entities_specialization.json: a richer version of
+Task 2  Produce entities_specialization.json: a richer version of
 entity_specification.json that adds entity_id and the full mention block
 (matching the style used in normalized_entities.json).
 

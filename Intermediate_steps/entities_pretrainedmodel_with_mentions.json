@@ -44,6 +44,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "prevalence",
+                    "mention": {
+                        "original_text": "prevalence",
+                        "position": 22,
+                        "token_length": 1
+                    },
+                    "char_start": 139,
+                    "char_end": 149
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "anterior knee pain",
                     "mention": {
@@ -140,6 +152,30 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Kujala Score",
+                    "mention": {
+                        "original_text": "Kujala Score",
+                        "position": 135,
+                        "token_length": 2
+                    },
+                    "char_start": 820,
+                    "char_end": 832
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Pearson Correlation test",
+                    "mention": {
+                        "original_text": "Pearson Correlation test",
+                        "position": 143,
+                        "token_length": 3
+                    },
+                    "char_start": 870,
+                    "char_end": 894
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "anterior knee pain",
                     "mention": {
@@ -212,6 +248,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Clarke’s angle",
+                    "mention": {
+                        "original_text": "Clarke’s angle",
+                        "position": 239,
+                        "token_length": 2
+                    },
+                    "char_start": 1497,
+                    "char_end": 1511
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "anterior knee pain",
                     "mention": {
@@ -221,18 +269,6 @@
                     },
                     "char_start": 1534,
                     "char_end": 1552
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "Clarke's Angle",
-                    "mention": {
-                        "original_text": "Clarke's Angle",
-                        "position": null,
-                        "token_length": 2
-                    },
-                    "char_start": null,
-                    "char_end": null
                 }
             ]
         },
@@ -281,6 +317,30 @@
                 {
                     "source": "PRED",
                     "field": "Terms of Body Movements",
+                    "entity_form": "ligament elasticity",
+                    "mention": {
+                        "original_text": "ligament elasticity",
+                        "position": 13,
+                        "token_length": 2
+                    },
+                    "char_start": 88,
+                    "char_end": 107
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "ankle stiffness",
+                    "mention": {
+                        "original_text": "ankle stiffness",
+                        "position": 22,
+                        "token_length": 2
+                    },
+                    "char_start": 145,
+                    "char_end": 160
+                },
+                {
+                    "source": "PRED",
+                    "field": "Terms of Body Movements",
                     "entity_form": "ankle stiffness",
                     "mention": {
                         "original_text": "ankle stiffness",
@@ -313,6 +373,18 @@
                     },
                     "char_start": 195,
                     "char_end": 204
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "ankle stiffness",
+                    "mention": {
+                        "original_text": "ankle stiffness",
+                        "position": 37,
+                        "token_length": 2
+                    },
+                    "char_start": 253,
+                    "char_end": 268
                 },
                 {
                     "source": "PRED",
@@ -544,7 +616,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "ankle stiffness",
                     "mention": {
                         "original_text": "ankle stiffness",
@@ -557,6 +629,30 @@
                 {
                     "source": "PRED",
                     "field": "Terms of Body Movements",
+                    "entity_form": "ankle stiffness",
+                    "mention": {
+                        "original_text": "ankle stiffness",
+                        "position": 162,
+                        "token_length": 2
+                    },
+                    "char_start": 1024,
+                    "char_end": 1039
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "demographic factors",
+                    "mention": {
+                        "original_text": "demographic factors",
+                        "position": 168,
+                        "token_length": 2
+                    },
+                    "char_start": 1074,
+                    "char_end": 1093
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "kinematic analyses",
                     "mention": {
                         "original_text": "kinematic analyses",
@@ -568,7 +664,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "joint stiffness measures",
                     "mention": {
                         "original_text": "joint stiffness measures",
@@ -636,30 +732,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 5,
-                        "token_length": 2
-                    },
-                    "char_start": 31,
-                    "char_end": 49
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 5,
-                        "token_length": 2
-                    },
-                    "char_start": 31,
-                    "char_end": 49
-                },
-                {
-                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "plantar fasciitis",
                     "mention": {
@@ -669,42 +741,6 @@
                     },
                     "char_start": 74,
                     "char_end": 91
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "lower extremity muscle performance",
-                    "mention": {
-                        "original_text": "lower extremity muscle performance",
-                        "position": 22,
-                        "token_length": 4
-                    },
-                    "char_start": 153,
-                    "char_end": 187
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 24,
-                        "token_length": 2
-                    },
-                    "char_start": 169,
-                    "char_end": 187
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 24,
-                        "token_length": 2
-                    },
-                    "char_start": 169,
-                    "char_end": 187
                 },
                 {
                     "source": "PRED",
@@ -729,42 +765,6 @@
                     },
                     "char_start": 256,
                     "char_end": 268
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "lower extremity muscle performance",
-                    "mention": {
-                        "original_text": "lower extremity muscle performance",
-                        "position": 48,
-                        "token_length": 4
-                    },
-                    "char_start": 318,
-                    "char_end": 352
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 50,
-                        "token_length": 2
-                    },
-                    "char_start": 334,
-                    "char_end": 352
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 50,
-                        "token_length": 2
-                    },
-                    "char_start": 334,
-                    "char_end": 352
                 },
                 {
                     "source": "PRED",
@@ -876,30 +876,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat feet",
-                    "mention": {
-                        "original_text": "flat feet",
-                        "position": 85,
-                        "token_length": 2
-                    },
-                    "char_start": 554,
-                    "char_end": 563
-                },
-                {
-                    "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat feet",
-                    "mention": {
-                        "original_text": "flat feet",
-                        "position": 90,
-                        "token_length": 2
-                    },
-                    "char_start": 579,
-                    "char_end": 588
-                },
-                {
-                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "hip",
                     "mention": {
@@ -912,7 +888,43 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "strength",
+                    "mention": {
+                        "original_text": "strength",
+                        "position": 95,
+                        "token_length": 1
+                    },
+                    "char_start": 606,
+                    "char_end": 614
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "handheld digital dynamometer",
+                    "mention": {
+                        "original_text": "handheld digital dynamometer",
+                        "position": 100,
+                        "token_length": 3
+                    },
+                    "char_start": 636,
+                    "char_end": 664
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "strength",
+                    "mention": {
+                        "original_text": "strength",
+                        "position": 104,
+                        "token_length": 1
+                    },
+                    "char_start": 670,
+                    "char_end": 678
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "reaction time",
                     "mention": {
                         "original_text": "reaction time",
@@ -960,6 +972,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "isokinetic device",
+                    "mention": {
+                        "original_text": "isokinetic device",
+                        "position": 120,
+                        "token_length": 2
+                    },
+                    "char_start": 778,
+                    "char_end": 795
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "Foot pressure",
                     "mention": {
@@ -969,6 +993,30 @@
                     },
                     "char_start": 797,
                     "char_end": 810
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "pedobarography",
+                    "mention": {
+                        "original_text": "pedobarography",
+                        "position": 128,
+                        "token_length": 1
+                    },
+                    "char_start": 842,
+                    "char_end": 856
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "strength",
+                    "mention": {
+                        "original_text": "strength",
+                        "position": 130,
+                        "token_length": 1
+                    },
+                    "char_start": 862,
+                    "char_end": 870
                 },
                 {
                     "source": "PRED",
@@ -984,7 +1032,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "reaction time",
                     "mention": {
                         "original_text": "reaction time",
@@ -1017,54 +1065,6 @@
                     },
                     "char_start": 1057,
                     "char_end": 1065
-                },
-                {
-                    "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat feet",
-                    "mention": {
-                        "original_text": "flat feet",
-                        "position": 165,
-                        "token_length": 2
-                    },
-                    "char_start": 1071,
-                    "char_end": 1080
-                },
-                {
-                    "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat feet",
-                    "mention": {
-                        "original_text": "flat feet",
-                        "position": 171,
-                        "token_length": 2
-                    },
-                    "char_start": 1103,
-                    "char_end": 1112
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 179,
-                        "token_length": 2
-                    },
-                    "char_start": 1154,
-                    "char_end": 1172
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "muscle performance",
-                    "mention": {
-                        "original_text": "muscle performance",
-                        "position": 179,
-                        "token_length": 2
-                    },
-                    "char_start": 1154,
-                    "char_end": 1172
                 },
                 {
                     "source": "PRED",
@@ -1148,18 +1148,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "obesity",
-                    "mention": {
-                        "original_text": "obesity",
-                        "position": 19,
-                        "token_length": 1
-                    },
-                    "char_start": 131,
-                    "char_end": 138
-                },
-                {
-                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "pes planus",
                     "mention": {
@@ -1172,6 +1160,30 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "flat foot",
+                    "mention": {
+                        "original_text": "flat foot",
+                        "position": 32,
+                        "token_length": 2
+                    },
+                    "char_start": 224,
+                    "char_end": 233
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "flat foot",
+                    "mention": {
+                        "original_text": "flat foot",
+                        "position": 48,
+                        "token_length": 2
+                    },
+                    "char_start": 340,
+                    "char_end": 349
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "MLBP",
                     "mention": {
@@ -1181,6 +1193,18 @@
                     },
                     "char_start": 354,
                     "char_end": 358
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Clarke’s angle",
+                    "mention": {
+                        "original_text": "Clarke’s angle",
+                        "position": 53,
+                        "token_length": 2
+                    },
+                    "char_start": 365,
+                    "char_end": 379
                 },
                 {
                     "source": "PRED",
@@ -1232,15 +1256,63 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "Flat foot",
+                    "field": "Measurement",
+                    "entity_form": "Clarke’s angle",
                     "mention": {
-                        "original_text": "Flat foot",
-                        "position": 141,
+                        "original_text": "Clarke’s angle",
+                        "position": 100,
                         "token_length": 2
                     },
-                    "char_start": 944,
-                    "char_end": 953
+                    "char_start": 679,
+                    "char_end": 693
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "flat foot",
+                    "mention": {
+                        "original_text": "flat foot",
+                        "position": 108,
+                        "token_length": 2
+                    },
+                    "char_start": 728,
+                    "char_end": 737
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Numerical Rating Scale",
+                    "mention": {
+                        "original_text": "Numerical Rating Scale",
+                        "position": 120,
+                        "token_length": 3
+                    },
+                    "char_start": 793,
+                    "char_end": 815
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "chi-square",
+                    "mention": {
+                        "original_text": "chi-square",
+                        "position": 129,
+                        "token_length": 1
+                    },
+                    "char_start": 864,
+                    "char_end": 874
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "independent t-tests",
+                    "mention": {
+                        "original_text": "independent t-tests",
+                        "position": 131,
+                        "token_length": 2
+                    },
+                    "char_start": 879,
+                    "char_end": 898
                 },
                 {
                     "source": "PRED",
@@ -1268,7 +1340,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
+                    "field": "Measurement",
                     "entity_form": "BMI",
                     "mention": {
                         "original_text": "BMI",
@@ -1301,6 +1373,18 @@
                     },
                     "char_start": 1262,
                     "char_end": 1268
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "flat foot",
+                    "mention": {
+                        "original_text": "flat foot",
+                        "position": 199,
+                        "token_length": 2
+                    },
+                    "char_start": 1310,
+                    "char_end": 1319
                 },
                 {
                     "source": "PRED",
@@ -1385,18 +1469,6 @@
                     },
                     "char_start": 1580,
                     "char_end": 1588
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "Clarke's angle",
-                    "mention": {
-                        "original_text": "Clarke's angle",
-                        "position": null,
-                        "token_length": 2
-                    },
-                    "char_start": null,
-                    "char_end": null
                 }
             ]
         },
@@ -1469,18 +1541,6 @@
                 {
                     "source": "PRED",
                     "field": "Population",
-                    "entity_form": "men",
-                    "mention": {
-                        "original_text": "men",
-                        "position": 34,
-                        "token_length": 1
-                    },
-                    "char_start": 217,
-                    "char_end": 220
-                },
-                {
-                    "source": "PRED",
-                    "field": "Population",
                     "entity_form": "women",
                     "mention": {
                         "original_text": "women",
@@ -1489,18 +1549,6 @@
                     },
                     "char_start": 215,
                     "char_end": 220
-                },
-                {
-                    "source": "PRED",
-                    "field": "Population",
-                    "entity_form": "men",
-                    "mention": {
-                        "original_text": "men",
-                        "position": 36,
-                        "token_length": 1
-                    },
-                    "char_start": 225,
-                    "char_end": 228
                 },
                 {
                     "source": "PRED",
@@ -1516,15 +1564,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Population",
-                    "entity_form": "men",
+                    "field": "Measurement",
+                    "entity_form": "radiographs",
                     "mention": {
-                        "original_text": "men",
-                        "position": 60,
+                        "original_text": "radiographs",
+                        "position": 50,
                         "token_length": 1
                     },
-                    "char_start": 397,
-                    "char_end": 400
+                    "char_start": 315,
+                    "char_end": 326
                 },
                 {
                     "source": "PRED",
@@ -1540,19 +1588,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Population",
-                    "entity_form": "men",
-                    "mention": {
-                        "original_text": "men",
-                        "position": 70,
-                        "token_length": 1
-                    },
-                    "char_start": 483,
-                    "char_end": 486
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "length",
                     "mention": {
                         "original_text": "length",
@@ -1648,6 +1684,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Student t-test",
+                    "mention": {
+                        "original_text": "Student t-test",
+                        "position": 122,
+                        "token_length": 2
+                    },
+                    "char_start": 787,
+                    "char_end": 801
+                },
+                {
+                    "source": "PRED",
                     "field": "Population",
                     "entity_form": "patients",
                     "mention": {
@@ -1669,6 +1717,30 @@
                     },
                     "char_start": 870,
                     "char_end": 886
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "coronal",
+                    "mention": {
+                        "original_text": "coronal",
+                        "position": 137,
+                        "token_length": 1
+                    },
+                    "char_start": 894,
+                    "char_end": 901
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "sagittal planes",
+                    "mention": {
+                        "original_text": "sagittal planes",
+                        "position": 139,
+                        "token_length": 2
+                    },
+                    "char_start": 906,
+                    "char_end": 921
                 },
                 {
                     "source": "PRED",
@@ -1788,15 +1860,15 @@
             "entities": [
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 12,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 15,
+                        "token_length": 1
                     },
-                    "char_start": 67,
-                    "char_end": 78
+                    "char_start": 83,
+                    "char_end": 92
                 },
                 {
                     "source": "PRED",
@@ -1825,14 +1897,14 @@
                 {
                     "source": "PRED",
                     "field": "Population",
-                    "entity_form": "Subjects",
+                    "entity_form": "subjects",
                     "mention": {
-                        "original_text": "Subjects",
-                        "position": 26,
+                        "original_text": "subjects",
+                        "position": 31,
                         "token_length": 1
                     },
-                    "char_start": 151,
-                    "char_end": 159
+                    "char_start": 180,
+                    "char_end": 188
                 },
                 {
                     "source": "PRED",
@@ -1848,15 +1920,27 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "myotonometry",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 67,
-                        "token_length": 2
+                        "original_text": "myotonometry",
+                        "position": 61,
+                        "token_length": 1
                     },
-                    "char_start": 370,
-                    "char_end": 381
+                    "char_start": 333,
+                    "char_end": 345
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
+                    "mention": {
+                        "original_text": "stiffness",
+                        "position": 70,
+                        "token_length": 1
+                    },
+                    "char_start": 386,
+                    "char_end": 395
                 },
                 {
                     "source": "PRED",
@@ -1920,27 +2004,39 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 122,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 107,
+                        "token_length": 1
                     },
-                    "char_start": 706,
-                    "char_end": 717
+                    "char_start": 623,
+                    "char_end": 632
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 154,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 125,
+                        "token_length": 1
                     },
-                    "char_start": 895,
-                    "char_end": 906
+                    "char_start": 722,
+                    "char_end": 731
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
+                    "mention": {
+                        "original_text": "stiffness",
+                        "position": 157,
+                        "token_length": 1
+                    },
+                    "char_start": 911,
+                    "char_end": 920
                 },
                 {
                     "source": "PRED",
@@ -1968,15 +2064,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 176,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 179,
+                        "token_length": 1
                     },
-                    "char_start": 1024,
-                    "char_end": 1035
+                    "char_start": 1040,
+                    "char_end": 1049
                 },
                 {
                     "source": "PRED",
@@ -2016,15 +2112,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 203,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 206,
+                        "token_length": 1
                     },
-                    "char_start": 1209,
-                    "char_end": 1220
+                    "char_start": 1225,
+                    "char_end": 1234
                 },
                 {
                     "source": "PRED",
@@ -2040,15 +2136,27 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "muscle tone",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
                     "mention": {
-                        "original_text": "muscle tone",
-                        "position": 229,
-                        "token_length": 2
+                        "original_text": "stiffness",
+                        "position": 217,
+                        "token_length": 1
                     },
-                    "char_start": 1369,
-                    "char_end": 1380
+                    "char_start": 1294,
+                    "char_end": 1303
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stiffness",
+                    "mention": {
+                        "original_text": "stiffness",
+                        "position": 232,
+                        "token_length": 1
+                    },
+                    "char_start": 1385,
+                    "char_end": 1394
                 }
             ]
         },
@@ -2072,18 +2180,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "biomechanics",
-                    "mention": {
-                        "original_text": "biomechanics",
-                        "position": 30,
-                        "token_length": 1
-                    },
-                    "char_start": 195,
-                    "char_end": 207
-                },
-                {
-                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "muscular imbalances",
                     "mention": {
@@ -2096,7 +2192,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "isometric strength",
                     "mention": {
                         "original_text": "isometric strength",
@@ -2156,18 +2252,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat foot",
-                    "mention": {
-                        "original_text": "flat foot",
-                        "position": 61,
-                        "token_length": 2
-                    },
-                    "char_start": 411,
-                    "char_end": 420
-                },
-                {
-                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "medial longitudinal arch",
                     "mention": {
@@ -2177,18 +2261,6 @@
                     },
                     "char_start": 521,
                     "char_end": 545
-                },
-                {
-                    "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat foot",
-                    "mention": {
-                        "original_text": "flat foot",
-                        "position": 81,
-                        "token_length": 2
-                    },
-                    "char_start": 568,
-                    "char_end": 577
                 },
                 {
                     "source": "PRED",
@@ -2204,6 +2276,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "navicular drop test",
+                    "mention": {
+                        "original_text": "navicular drop test",
+                        "position": 91,
+                        "token_length": 3
+                    },
+                    "char_start": 634,
+                    "char_end": 653
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "foot arch",
                     "mention": {
@@ -2213,6 +2297,18 @@
                     },
                     "char_start": 679,
                     "char_end": 688
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Handheld dynamometer",
+                    "mention": {
+                        "original_text": "Handheld dynamometer",
+                        "position": 100,
+                        "token_length": 2
+                    },
+                    "char_start": 690,
+                    "char_end": 710
                 },
                 {
                     "source": "PRED",
@@ -2228,6 +2324,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Dorsiflexion Lunge Test",
+                    "mention": {
+                        "original_text": "Dorsiflexion Lunge Test",
+                        "position": 108,
+                        "token_length": 3
+                    },
+                    "char_start": 745,
+                    "char_end": 768
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "Dorsiflexion",
                     "mention": {
@@ -2240,7 +2348,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "isometric strength",
                     "mention": {
                         "original_text": "isometric strength",
@@ -2249,6 +2357,18 @@
                     },
                     "char_start": 789,
                     "char_end": 807
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "goniometer",
+                    "mention": {
+                        "original_text": "goniometer",
+                        "position": 117,
+                        "token_length": 1
+                    },
+                    "char_start": 809,
+                    "char_end": 819
                 },
                 {
                     "source": "PRED",
@@ -2264,6 +2384,30 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "independent t-test",
+                    "mention": {
+                        "original_text": "independent t-test",
+                        "position": 123,
+                        "token_length": 2
+                    },
+                    "char_start": 858,
+                    "char_end": 876
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Pearson correlation coefficient",
+                    "mention": {
+                        "original_text": "Pearson correlation coefficient",
+                        "position": 134,
+                        "token_length": 3
+                    },
+                    "char_start": 933,
+                    "char_end": 964
+                },
+                {
+                    "source": "PRED",
                     "field": "Population",
                     "entity_form": "participants",
                     "mention": {
@@ -2273,6 +2417,18 @@
                     },
                     "char_start": 1126,
                     "char_end": 1138
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "arch height",
+                    "mention": {
+                        "original_text": "arch height",
+                        "position": 160,
+                        "token_length": 2
+                    },
+                    "char_start": 1140,
+                    "char_end": 1151
                 },
                 {
                     "source": "PRED",
@@ -2288,7 +2444,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "muscular strength",
                     "mention": {
                         "original_text": "muscular strength",
@@ -2324,7 +2480,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "calf muscle circumference",
                     "mention": {
                         "original_text": "calf muscle circumference",
@@ -2348,7 +2504,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "muscular strength",
                     "mention": {
                         "original_text": "muscular strength",
@@ -2444,18 +2600,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat foot",
-                    "mention": {
-                        "original_text": "flat foot",
-                        "position": 230,
-                        "token_length": 2
-                    },
-                    "char_start": 1676,
-                    "char_end": 1685
-                },
-                {
-                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "medial longitudinal arch",
                     "mention": {
@@ -2468,15 +2612,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Symptom",
-                    "entity_form": "flat foot",
+                    "field": "Measurement",
+                    "entity_form": "scores",
                     "mention": {
-                        "original_text": "flat foot",
-                        "position": 248,
-                        "token_length": 2
+                        "original_text": "scores",
+                        "position": 243,
+                        "token_length": 1
                     },
-                    "char_start": 1802,
-                    "char_end": 1811
+                    "char_start": 1772,
+                    "char_end": 1778
                 },
                 {
                     "source": "PRED",
@@ -2504,7 +2648,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "isometric strength",
                     "mention": {
                         "original_text": "isometric strength",
@@ -2668,7 +2812,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
+                    "field": "Measurement",
                     "entity_form": "Contact Index II",
                     "mention": {
                         "original_text": "Contact Index II",
@@ -2689,18 +2833,6 @@
                     },
                     "char_start": 679,
                     "char_end": 687
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "femoral antétorsion",
-                    "mention": {
-                        "original_text": "femoral antétorsion",
-                        "position": 111,
-                        "token_length": 2
-                    },
-                    "char_start": 692,
-                    "char_end": 711
                 },
                 {
                     "source": "PRED",
@@ -2740,7 +2872,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
+                    "field": "Measurement",
                     "entity_form": "Contact Index II",
                     "mention": {
                         "original_text": "Contact Index II",
@@ -2761,18 +2893,6 @@
                     },
                     "char_start": 959,
                     "char_end": 967
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "femoral antétorsion",
-                    "mention": {
-                        "original_text": "femoral antétorsion",
-                        "position": 162,
-                        "token_length": 2
-                    },
-                    "char_start": 998,
-                    "char_end": 1017
                 },
                 {
                     "source": "PRED",
@@ -2812,6 +2932,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "multiple regression",
+                    "mention": {
+                        "original_text": "multiple regression",
+                        "position": 184,
+                        "token_length": 2
+                    },
+                    "char_start": 1141,
+                    "char_end": 1160
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "foot",
                     "mention": {
@@ -2833,6 +2965,18 @@
                     },
                     "char_start": 1238,
                     "char_end": 1255
+                },
+                {
+                    "source": "PRED",
+                    "field": "Terms of Body Movements",
+                    "entity_form": "femoral antetorsion",
+                    "mention": {
+                        "original_text": "femoral antetorsion",
+                        "position": 212,
+                        "token_length": 2
+                    },
+                    "char_start": 1311,
+                    "char_end": 1330
                 },
                 {
                     "source": "PRED",
@@ -2881,18 +3025,6 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "arch",
-                    "mention": {
-                        "original_text": "arch",
-                        "position": 13,
-                        "token_length": 1
-                    },
-                    "char_start": 99,
-                    "char_end": 103
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
                     "entity_form": "foot",
                     "mention": {
                         "original_text": "foot",
@@ -2901,6 +3033,30 @@
                     },
                     "char_start": 111,
                     "char_end": 115
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "radiographs",
+                    "mention": {
+                        "original_text": "radiographs",
+                        "position": 18,
+                        "token_length": 1
+                    },
+                    "char_start": 122,
+                    "char_end": 133
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "320-row upright computed tomography",
+                    "mention": {
+                        "original_text": "320-row upright computed tomography",
+                        "position": 20,
+                        "token_length": 4
+                    },
+                    "char_start": 138,
+                    "char_end": 173
                 },
                 {
                     "source": "PRED",
@@ -2976,6 +3132,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "BMI",
+                    "mention": {
+                        "original_text": "BMI",
+                        "position": 56,
+                        "token_length": 1
+                    },
+                    "char_start": 372,
+                    "char_end": 375
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "lower limbs",
                     "mention": {
@@ -2988,6 +3156,54 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "X ray images",
+                    "mention": {
+                        "original_text": "X ray images",
+                        "position": 81,
+                        "token_length": 3
+                    },
+                    "char_start": 516,
+                    "char_end": 528
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 85,
+                        "token_length": 3
+                    },
+                    "char_start": 534,
+                    "char_end": 555
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 86,
+                        "token_length": 2
+                    },
+                    "char_start": 542,
+                    "char_end": 555
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "anterior-posterior (AP) Meary’s angle",
+                    "mention": {
+                        "original_text": "anterior-posterior (AP) Meary’s angle",
+                        "position": 89,
+                        "token_length": 4
+                    },
+                    "char_start": 560,
+                    "char_end": 597
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "medial longitudinal arch",
                     "mention": {
@@ -2996,18 +3212,6 @@
                         "token_length": 3
                     },
                     "char_start": 623,
-                    "char_end": 647
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "arch",
-                    "mention": {
-                        "original_text": "arch",
-                        "position": 101,
-                        "token_length": 1
-                    },
-                    "char_start": 643,
                     "char_end": 647
                 },
                 {
@@ -3024,6 +3228,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Kellgren-Lawrence grade",
+                    "mention": {
+                        "original_text": "Kellgren-Lawrence grade",
+                        "position": 114,
+                        "token_length": 2
+                    },
+                    "char_start": 721,
+                    "char_end": 744
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "knee joint",
                     "mention": {
@@ -3033,6 +3249,18 @@
                     },
                     "char_start": 829,
                     "char_end": 839
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee joint three-dimensional angles",
+                    "mention": {
+                        "original_text": "knee joint three-dimensional angles",
+                        "position": 130,
+                        "token_length": 4
+                    },
+                    "char_start": 829,
+                    "char_end": 864
                 },
                 {
                     "source": "PRED",
@@ -3057,6 +3285,30 @@
                     },
                     "char_start": 903,
                     "char_end": 907
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 148,
+                        "token_length": 3
+                    },
+                    "char_start": 947,
+                    "char_end": 968
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 149,
+                        "token_length": 2
+                    },
+                    "char_start": 955,
+                    "char_end": 968
                 },
                 {
                     "source": "PRED",
@@ -3108,6 +3360,66 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "AP Meary's angle",
+                    "mention": {
+                        "original_text": "AP Meary's angle",
+                        "position": 166,
+                        "token_length": 3
+                    },
+                    "char_start": 1061,
+                    "char_end": 1077
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 167,
+                        "token_length": 2
+                    },
+                    "char_start": 1064,
+                    "char_end": 1077
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 185,
+                        "token_length": 3
+                    },
+                    "char_start": 1171,
+                    "char_end": 1192
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 186,
+                        "token_length": 2
+                    },
+                    "char_start": 1179,
+                    "char_end": 1192
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "internal rotation angle",
+                    "mention": {
+                        "original_text": "internal rotation angle",
+                        "position": 193,
+                        "token_length": 3
+                    },
+                    "char_start": 1223,
+                    "char_end": 1246
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "talocrural joint",
                     "mention": {
@@ -3120,7 +3432,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "dorsiflexion angle",
                     "mention": {
                         "original_text": "dorsiflexion angle",
@@ -3144,6 +3456,54 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "internal rotation angle",
+                    "mention": {
+                        "original_text": "internal rotation angle",
+                        "position": 239,
+                        "token_length": 3
+                    },
+                    "char_start": 1472,
+                    "char_end": 1495
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 258,
+                        "token_length": 3
+                    },
+                    "char_start": 1575,
+                    "char_end": 1596
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 259,
+                        "token_length": 2
+                    },
+                    "char_start": 1583,
+                    "char_end": 1596
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "varus angle",
+                    "mention": {
+                        "original_text": "varus angle",
+                        "position": 267,
+                        "token_length": 2
+                    },
+                    "char_start": 1632,
+                    "char_end": 1643
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "subtalar joint",
                     "mention": {
@@ -3153,6 +3513,30 @@
                     },
                     "char_start": 1651,
                     "char_end": 1665
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 285,
+                        "token_length": 3
+                    },
+                    "char_start": 1731,
+                    "char_end": 1752
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 286,
+                        "token_length": 2
+                    },
+                    "char_start": 1739,
+                    "char_end": 1752
                 },
                 {
                     "source": "PRED",
@@ -3189,6 +3573,18 @@
                     },
                     "char_start": 1793,
                     "char_end": 1803
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "varus angle",
+                    "mention": {
+                        "original_text": "varus angle",
+                        "position": 297,
+                        "token_length": 2
+                    },
+                    "char_start": 1804,
+                    "char_end": 1815
                 },
                 {
                     "source": "PRED",
@@ -3276,27 +3672,75 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "arch",
+                    "field": "Measurement",
+                    "entity_form": "AP Meary's angle",
                     "mention": {
-                        "original_text": "arch",
-                        "position": 332,
-                        "token_length": 1
+                        "original_text": "AP Meary's angle",
+                        "position": 340,
+                        "token_length": 3
                     },
-                    "char_start": 2022,
-                    "char_end": 2026
+                    "char_start": 2064,
+                    "char_end": 2080
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "arch",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
                     "mention": {
-                        "original_text": "arch",
-                        "position": 358,
-                        "token_length": 1
+                        "original_text": "Meary's angle",
+                        "position": 341,
+                        "token_length": 2
                     },
-                    "char_start": 2158,
-                    "char_end": 2162
+                    "char_start": 2067,
+                    "char_end": 2080
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lateral Meary's angle",
+                    "mention": {
+                        "original_text": "lateral Meary's angle",
+                        "position": 346,
+                        "token_length": 3
+                    },
+                    "char_start": 2093,
+                    "char_end": 2114
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 347,
+                        "token_length": 2
+                    },
+                    "char_start": 2101,
+                    "char_end": 2114
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "AP Meary's angle",
+                    "mention": {
+                        "original_text": "AP Meary's angle",
+                        "position": 349,
+                        "token_length": 3
+                    },
+                    "char_start": 2116,
+                    "char_end": 2132
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 350,
+                        "token_length": 2
+                    },
+                    "char_start": 2119,
+                    "char_end": 2132
                 },
                 {
                     "source": "PRED",
@@ -3312,15 +3756,27 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "arch",
+                    "field": "Measurement",
+                    "entity_form": "AP Meary's angle",
                     "mention": {
-                        "original_text": "arch",
-                        "position": 379,
-                        "token_length": 1
+                        "original_text": "AP Meary's angle",
+                        "position": 369,
+                        "token_length": 3
                     },
-                    "char_start": 2279,
-                    "char_end": 2283
+                    "char_start": 2227,
+                    "char_end": 2243
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Meary's angle",
+                    "mention": {
+                        "original_text": "Meary's angle",
+                        "position": 370,
+                        "token_length": 2
+                    },
+                    "char_start": 2230,
+                    "char_end": 2243
                 },
                 {
                     "source": "PRED",
@@ -3441,18 +3897,6 @@
                     },
                     "char_start": 2977,
                     "char_end": 2981
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "arch",
-                    "mention": {
-                        "original_text": "arch",
-                        "position": 494,
-                        "token_length": 1
-                    },
-                    "char_start": 2995,
-                    "char_end": 2999
                 }
             ]
         },
@@ -3509,6 +3953,18 @@
                     },
                     "char_start": 166,
                     "char_end": 182
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "best evidence",
+                    "mention": {
+                        "original_text": "best evidence",
+                        "position": 38,
+                        "token_length": 2
+                    },
+                    "char_start": 243,
+                    "char_end": 256
                 },
                 {
                     "source": "PRED",
@@ -3580,6 +4036,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "pressures",
+                    "mention": {
+                        "original_text": "pressures",
+                        "position": 19,
+                        "token_length": 1
+                    },
+                    "char_start": 118,
+                    "char_end": 127
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "knee",
                     "mention": {
@@ -3592,6 +4060,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "force vector",
+                    "mention": {
+                        "original_text": "force vector",
+                        "position": 41,
+                        "token_length": 2
+                    },
+                    "char_start": 241,
+                    "char_end": 253
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
@@ -3601,6 +4081,30 @@
                     },
                     "char_start": 326,
                     "char_end": 342
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "patellofemoral contact pressures",
+                    "mention": {
+                        "original_text": "patellofemoral contact pressures",
+                        "position": 58,
+                        "token_length": 3
+                    },
+                    "char_start": 369,
+                    "char_end": 401
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "pressures",
+                    "mention": {
+                        "original_text": "pressures",
+                        "position": 60,
+                        "token_length": 1
+                    },
+                    "char_start": 392,
+                    "char_end": 401
                 },
                 {
                     "source": "PRED",
@@ -3640,15 +4144,27 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "ipsilateral facets",
+                    "field": "Measurement",
+                    "entity_form": "patellofemoral contact pressures",
                     "mention": {
-                        "original_text": "ipsilateral facets",
-                        "position": 81,
-                        "token_length": 2
+                        "original_text": "patellofemoral contact pressures",
+                        "position": 76,
+                        "token_length": 3
                     },
-                    "char_start": 532,
-                    "char_end": 550
+                    "char_start": 492,
+                    "char_end": 524
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "pressures",
+                    "mention": {
+                        "original_text": "pressures",
+                        "position": 78,
+                        "token_length": 1
+                    },
+                    "char_start": 515,
+                    "char_end": 524
                 },
                 {
                     "source": "PRED",
@@ -3772,6 +4288,66 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "biomechanical evidence",
+                    "mention": {
+                        "original_text": "biomechanical evidence",
+                        "position": 128,
+                        "token_length": 2
+                    },
+                    "char_start": 849,
+                    "char_end": 871
+                },
+                {
+                    "source": "PRED",
+                    "field": "Symptom",
+                    "entity_form": "pathology",
+                    "mention": {
+                        "original_text": "pathology",
+                        "position": 141,
+                        "token_length": 1
+                    },
+                    "char_start": 955,
+                    "char_end": 964
+                },
+                {
+                    "source": "PRED",
+                    "field": "Symptom",
+                    "entity_form": "derangement",
+                    "mention": {
+                        "original_text": "derangement",
+                        "position": 144,
+                        "token_length": 1
+                    },
+                    "char_start": 972,
+                    "char_end": 983
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "experimental data",
+                    "mention": {
+                        "original_text": "experimental data",
+                        "position": 152,
+                        "token_length": 2
+                    },
+                    "char_start": 1041,
+                    "char_end": 1058
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "theories",
+                    "mention": {
+                        "original_text": "theories",
+                        "position": 160,
+                        "token_length": 1
+                    },
+                    "char_start": 1100,
+                    "char_end": 1108
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "patellofemoral joint",
                     "mention": {
@@ -3781,6 +4357,18 @@
                     },
                     "char_start": 1176,
                     "char_end": 1196
+                },
+                {
+                    "source": "PRED",
+                    "field": "Symptom",
+                    "entity_form": "pathology",
+                    "mention": {
+                        "original_text": "pathology",
+                        "position": 173,
+                        "token_length": 1
+                    },
+                    "char_start": 1197,
+                    "char_end": 1206
                 },
                 {
                     "source": "PRED",
@@ -3817,6 +4405,30 @@
                     },
                     "char_start": 1351,
                     "char_end": 1355
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "etiologic factors",
+                    "mention": {
+                        "original_text": "etiologic factors",
+                        "position": 205,
+                        "token_length": 2
+                    },
+                    "char_start": 1382,
+                    "char_end": 1399
+                },
+                {
+                    "source": "PRED",
+                    "field": "Symptom",
+                    "entity_form": "pathology",
+                    "mention": {
+                        "original_text": "pathology",
+                        "position": 211,
+                        "token_length": 1
+                    },
+                    "char_start": 1417,
+                    "char_end": 1426
                 }
             ]
         },
@@ -3840,7 +4452,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -3876,6 +4488,42 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "computer simulation",
+                    "mention": {
+                        "original_text": "computer simulation",
+                        "position": 28,
+                        "token_length": 2
+                    },
+                    "char_start": 202,
+                    "char_end": 221
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Computer tomographic",
+                    "mention": {
+                        "original_text": "Computer tomographic",
+                        "position": 31,
+                        "token_length": 2
+                    },
+                    "char_start": 232,
+                    "char_end": 252
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "magnetic resonance imaging",
+                    "mention": {
+                        "original_text": "magnetic resonance imaging",
+                        "position": 34,
+                        "token_length": 3
+                    },
+                    "char_start": 257,
+                    "char_end": 283
+                },
+                {
+                    "source": "PRED",
                     "field": "Population",
                     "entity_form": "healthy volunteer",
                     "mention": {
@@ -3885,6 +4533,18 @@
                     },
                     "char_start": 294,
                     "char_end": 311
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "3D geometrical model",
+                    "mention": {
+                        "original_text": "3D geometrical model",
+                        "position": 48,
+                        "token_length": 3
+                    },
+                    "char_start": 348,
+                    "char_end": 368
                 },
                 {
                     "source": "PRED",
@@ -3900,7 +4560,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -3936,7 +4596,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -3972,7 +4632,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "contact pressure",
                     "mention": {
                         "original_text": "contact pressure",
@@ -3981,6 +4641,30 @@
                     },
                     "char_start": 689,
                     "char_end": 705
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "area",
+                    "mention": {
+                        "original_text": "area",
+                        "position": 103,
+                        "token_length": 1
+                    },
+                    "char_start": 707,
+                    "char_end": 711
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 105,
+                        "token_length": 1
+                    },
+                    "char_start": 716,
+                    "char_end": 722
                 },
                 {
                     "source": "PRED",
@@ -3996,7 +4680,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "tensile stress",
                     "mention": {
                         "original_text": "tensile stress",
@@ -4004,6 +4688,18 @@
                         "token_length": 2
                     },
                     "char_start": 751,
+                    "char_end": 765
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 112,
+                        "token_length": 1
+                    },
+                    "char_start": 759,
                     "char_end": 765
                 },
                 {
@@ -4020,7 +4716,43 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "contact area",
+                    "mention": {
+                        "original_text": "contact area",
+                        "position": 121,
+                        "token_length": 2
+                    },
+                    "char_start": 813,
+                    "char_end": 825
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "area",
+                    "mention": {
+                        "original_text": "area",
+                        "position": 122,
+                        "token_length": 1
+                    },
+                    "char_start": 821,
+                    "char_end": 825
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "polyethylene liner",
+                    "mention": {
+                        "original_text": "polyethylene liner",
+                        "position": 125,
+                        "token_length": 2
+                    },
+                    "char_start": 833,
+                    "char_end": 851
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4104,6 +4836,30 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "contact area",
+                    "mention": {
+                        "original_text": "contact area",
+                        "position": 158,
+                        "token_length": 2
+                    },
+                    "char_start": 1056,
+                    "char_end": 1068
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "area",
+                    "mention": {
+                        "original_text": "area",
+                        "position": 159,
+                        "token_length": 1
+                    },
+                    "char_start": 1064,
+                    "char_end": 1068
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "external rotation",
                     "mention": {
@@ -4116,7 +4872,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4164,7 +4920,31 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "contact area",
+                    "mention": {
+                        "original_text": "contact area",
+                        "position": 187,
+                        "token_length": 2
+                    },
+                    "char_start": 1238,
+                    "char_end": 1250
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "area",
+                    "mention": {
+                        "original_text": "area",
+                        "position": 188,
+                        "token_length": 1
+                    },
+                    "char_start": 1246,
+                    "char_end": 1250
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "von Mises stress",
                     "mention": {
                         "original_text": "von Mises stress",
@@ -4172,6 +4952,18 @@
                         "token_length": 3
                     },
                     "char_start": 1272,
+                    "char_end": 1288
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 194,
+                        "token_length": 1
+                    },
+                    "char_start": 1282,
                     "char_end": 1288
                 },
                 {
@@ -4200,7 +4992,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 216,
+                        "token_length": 1
+                    },
+                    "char_start": 1403,
+                    "char_end": 1409
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4260,7 +5064,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "tensile stress",
                     "mention": {
                         "original_text": "tensile stress",
@@ -4272,7 +5076,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 240,
+                        "token_length": 1
+                    },
+                    "char_start": 1559,
+                    "char_end": 1565
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4320,6 +5136,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 260,
+                        "token_length": 1
+                    },
+                    "char_start": 1702,
+                    "char_end": 1708
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "standing",
                     "mention": {
@@ -4344,7 +5172,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4356,7 +5184,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "contact pressure",
                     "mention": {
                         "original_text": "contact pressure",
@@ -4365,6 +5193,18 @@
                     },
                     "char_start": 1830,
                     "char_end": 1846
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 280,
+                        "token_length": 1
+                    },
+                    "char_start": 1851,
+                    "char_end": 1857
                 },
                 {
                     "source": "PRED",
@@ -4392,7 +5232,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "tensile stress",
                     "mention": {
                         "original_text": "tensile stress",
@@ -4400,6 +5240,18 @@
                         "token_length": 2
                     },
                     "char_start": 1899,
+                    "char_end": 1913
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "stress",
+                    "mention": {
+                        "original_text": "stress",
+                        "position": 289,
+                        "token_length": 1
+                    },
+                    "char_start": 1907,
                     "char_end": 1913
                 },
                 {
@@ -4416,7 +5268,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "posterior slope",
                     "mention": {
                         "original_text": "posterior slope",
@@ -4425,6 +5277,18 @@
                     },
                     "char_start": 1950,
                     "char_end": 1965
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "biomechanical results",
+                    "mention": {
+                        "original_text": "biomechanical results",
+                        "position": 304,
+                        "token_length": 2
+                    },
+                    "char_start": 1998,
+                    "char_end": 2019
                 }
             ]
         },
@@ -4469,6 +5333,18 @@
                     },
                     "char_start": 176,
                     "char_end": 208
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "two-dimensional radiographs",
+                    "mention": {
+                        "original_text": "two-dimensional radiographs",
+                        "position": 27,
+                        "token_length": 2
+                    },
+                    "char_start": 212,
+                    "char_end": 239
                 },
                 {
                     "source": "PRED",
@@ -4532,6 +5408,30 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "CT images",
+                    "mention": {
+                        "original_text": "CT images",
+                        "position": 71,
+                        "token_length": 2
+                    },
+                    "char_start": 505,
+                    "char_end": 514
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "entire leg",
+                    "mention": {
+                        "original_text": "entire leg",
+                        "position": 75,
+                        "token_length": 2
+                    },
+                    "char_start": 522,
+                    "char_end": 532
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "standing positions",
                     "mention": {
@@ -4541,6 +5441,42 @@
                     },
                     "char_start": 565,
                     "char_end": 583
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "conventional CT",
+                    "mention": {
+                        "original_text": "conventional CT",
+                        "position": 86,
+                        "token_length": 2
+                    },
+                    "char_start": 590,
+                    "char_end": 605
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "320-row detector upright CT",
+                    "mention": {
+                        "original_text": "320-row detector upright CT",
+                        "position": 89,
+                        "token_length": 4
+                    },
+                    "char_start": 610,
+                    "char_end": 637
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "entire leg",
+                    "mention": {
+                        "original_text": "entire leg",
+                        "position": 103,
+                        "token_length": 2
+                    },
+                    "char_start": 717,
+                    "char_end": 727
                 },
                 {
                     "source": "PRED",
@@ -4556,7 +5492,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
+                    "entity_form": "3D-3D surface registration technique",
+                    "mention": {
+                        "original_text": "3D-3D surface registration technique",
+                        "position": 114,
+                        "token_length": 4
+                    },
+                    "char_start": 785,
+                    "char_end": 821
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
                     "entity_form": "Kellgren-Lawrence grade",
                     "mention": {
                         "original_text": "Kellgren-Lawrence grade",
@@ -4604,7 +5552,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "Kellgren-Lawrence grade",
                     "mention": {
                         "original_text": "Kellgren-Lawrence grade",
@@ -4736,18 +5684,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "pathologic feature",
-                    "mention": {
-                        "original_text": "pathologic feature",
-                        "position": 236,
-                        "token_length": 2
-                    },
-                    "char_start": 1650,
-                    "char_end": 1668
-                },
-                {
-                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "osteoarthritic change",
                     "mention": {
@@ -4849,6 +5785,18 @@
                     },
                     "char_start": 217,
                     "char_end": 220
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "degrees",
+                    "mention": {
+                        "original_text": "degrees",
+                        "position": 37,
+                        "token_length": 1
+                    },
+                    "char_start": 242,
+                    "char_end": 249
                 },
                 {
                     "source": "PRED",
@@ -4996,6 +5944,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "six-camera motion analysis system",
+                    "mention": {
+                        "original_text": "six-camera motion analysis system",
+                        "position": 85,
+                        "token_length": 4
+                    },
+                    "char_start": 593,
+                    "char_end": 626
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "foot pronation",
                     "mention": {
@@ -5104,7 +6064,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "quadriceps angle",
                     "mention": {
                         "original_text": "quadriceps angle",
@@ -5136,7 +6096,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "in situ strain",
                     "mention": {
                         "original_text": "in situ strain",
@@ -5172,7 +6132,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "patellofemoral contact pressures",
                     "mention": {
                         "original_text": "patellofemoral contact pressures",
@@ -5184,7 +6144,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "areas",
                     "mention": {
                         "original_text": "areas",
@@ -5268,7 +6228,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "areas",
                     "mention": {
                         "original_text": "areas",
@@ -5280,7 +6240,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
+                    "field": "Measurement",
                     "entity_form": "Fuji pressure-sensitive film",
                     "mention": {
                         "original_text": "Fuji pressure-sensitive film",
@@ -5292,7 +6252,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "in situ strain",
                     "mention": {
                         "original_text": "in situ strain",
@@ -5328,6 +6288,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "variable reluctance transducers",
+                    "mention": {
+                        "original_text": "variable reluctance transducers",
+                        "position": 100,
+                        "token_length": 3
+                    },
+                    "char_start": 709,
+                    "char_end": 740
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "patellofemoral joint",
                     "mention": {
@@ -5337,6 +6309,18 @@
                     },
                     "char_start": 786,
                     "char_end": 806
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angles",
+                    "mention": {
+                        "original_text": "knee flexion angles",
+                        "position": 121,
+                        "token_length": 3
+                    },
+                    "char_start": 880,
+                    "char_end": 899
                 },
                 {
                     "source": "PRED",
@@ -5352,7 +6336,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "patellofemoral contact pressures",
                     "mention": {
                         "original_text": "patellofemoral contact pressures",
@@ -5364,7 +6348,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "in situ strain",
                     "mention": {
                         "original_text": "in situ strain",
@@ -5385,6 +6369,18 @@
                     },
                     "char_start": 975,
                     "char_end": 990
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angles",
+                    "mention": {
+                        "original_text": "knee flexion angles",
+                        "position": 140,
+                        "token_length": 3
+                    },
+                    "char_start": 1002,
+                    "char_end": 1021
                 },
                 {
                     "source": "PRED",
@@ -5529,6 +6525,18 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
+                    "entity_form": "femoral",
+                    "mention": {
+                        "original_text": "femoral",
+                        "position": 21,
+                        "token_length": 1
+                    },
+                    "char_start": 154,
+                    "char_end": 161
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
                     "entity_form": "tibia",
                     "mention": {
                         "original_text": "tibia",
@@ -5552,15 +6560,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 23,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 28,
+                        "token_length": 1
                     },
-                    "char_start": 166,
-                    "char_end": 181
+                    "char_start": 211,
+                    "char_end": 218
                 },
                 {
                     "source": "PRED",
@@ -5612,15 +6620,15 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "patellofemoral mechanics",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "patellofemoral mechanics",
+                        "original_text": "femoral",
                         "position": 46,
-                        "token_length": 2
+                        "token_length": 1
                     },
-                    "char_start": 310,
-                    "char_end": 334
+                    "char_start": 317,
+                    "char_end": 324
                 },
                 {
                     "source": "PRED",
@@ -5693,18 +6701,6 @@
                     },
                     "char_start": 569,
                     "char_end": 584
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "limb alignment",
-                    "mention": {
-                        "original_text": "limb alignment",
-                        "position": 97,
-                        "token_length": 2
-                    },
-                    "char_start": 661,
-                    "char_end": 675
                 },
                 {
                     "source": "PRED",
@@ -5864,6 +6860,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "axial CT images",
+                    "mention": {
+                        "original_text": "axial CT images",
+                        "position": 148,
+                        "token_length": 3
+                    },
+                    "char_start": 988,
+                    "char_end": 1003
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "knees",
                     "mention": {
@@ -5889,18 +6897,18 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "femoral rotation",
+                        "original_text": "femoral",
                         "position": 163,
-                        "token_length": 2
+                        "token_length": 1
                     },
                     "char_start": 1083,
-                    "char_end": 1099
+                    "char_end": 1090
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Anatomical Entity",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -5936,31 +6944,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 165,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 167,
+                        "token_length": 1
                     },
-                    "char_start": 1101,
-                    "char_end": 1116
+                    "char_start": 1118,
+                    "char_end": 1125
                 },
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
-                    "mention": {
-                        "original_text": "femoral rotation",
-                        "position": 167,
-                        "token_length": 2
-                    },
-                    "char_start": 1118,
-                    "char_end": 1134
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6020,7 +7016,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "patella tilt angle",
                     "mention": {
                         "original_text": "patella tilt angle",
@@ -6041,6 +7037,18 @@
                     },
                     "char_start": 1343,
                     "char_end": 1356
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
+                    "mention": {
+                        "original_text": "femoral",
+                        "position": 202,
+                        "token_length": 1
+                    },
+                    "char_start": 1358,
+                    "char_end": 1365
                 },
                 {
                     "source": "PRED",
@@ -6068,31 +7076,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 203,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 206,
+                        "token_length": 1
                     },
-                    "char_start": 1367,
-                    "char_end": 1382
+                    "char_start": 1388,
+                    "char_end": 1395
                 },
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
-                    "mention": {
-                        "original_text": "femoral rotation",
-                        "position": 206,
-                        "token_length": 2
-                    },
-                    "char_start": 1388,
-                    "char_end": 1404
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6113,6 +7109,18 @@
                     },
                     "char_start": 1417,
                     "char_end": 1422
+                },
+                {
+                    "source": "PRED",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
+                    "mention": {
+                        "original_text": "femoral",
+                        "position": 215,
+                        "token_length": 1
+                    },
+                    "char_start": 1448,
+                    "char_end": 1455
                 },
                 {
                     "source": "PRED",
@@ -6140,31 +7148,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 216,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 219,
+                        "token_length": 1
                     },
-                    "char_start": 1457,
-                    "char_end": 1472
+                    "char_start": 1478,
+                    "char_end": 1485
                 },
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
-                    "mention": {
-                        "original_text": "femoral rotation",
-                        "position": 219,
-                        "token_length": 2
-                    },
-                    "char_start": 1478,
-                    "char_end": 1494
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6224,7 +7220,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "patella tilt angle",
                     "mention": {
                         "original_text": "patella tilt angle",
@@ -6236,7 +7232,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "Grelsamer",
                     "mention": {
                         "original_text": "Grelsamer",
@@ -6249,18 +7245,18 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "femoral rotation",
+                        "original_text": "femoral",
                         "position": 249,
-                        "token_length": 2
+                        "token_length": 1
                     },
                     "char_start": 1666,
-                    "char_end": 1682
+                    "char_end": 1673
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Anatomical Entity",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6296,19 +7292,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
-                    "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 252,
-                        "token_length": 2
-                    },
-                    "char_start": 1688,
-                    "char_end": 1703
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "Sasaki",
                     "mention": {
                         "original_text": "Sasaki",
@@ -6321,18 +7305,18 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "femoral rotation",
+                        "original_text": "femoral",
                         "position": 264,
-                        "token_length": 2
+                        "token_length": 1
                     },
                     "char_start": 1764,
-                    "char_end": 1780
+                    "char_end": 1771
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Anatomical Entity",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6368,31 +7352,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 266,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 269,
+                        "token_length": 1
                     },
-                    "char_start": 1782,
-                    "char_end": 1797
+                    "char_start": 1802,
+                    "char_end": 1809
                 },
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
-                    "mention": {
-                        "original_text": "femoral rotation",
-                        "position": 269,
-                        "token_length": 2
-                    },
-                    "char_start": 1802,
-                    "char_end": 1818
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6428,7 +7400,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "patella tilt angle",
                     "mention": {
                         "original_text": "patella tilt angle",
@@ -6440,7 +7412,7 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Measurement",
                     "entity_form": "Fulkerson",
                     "mention": {
                         "original_text": "Fulkerson",
@@ -6453,18 +7425,18 @@
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "femoral rotation",
+                        "original_text": "femoral",
                         "position": 285,
-                        "token_length": 2
+                        "token_length": 1
                     },
                     "char_start": 1913,
-                    "char_end": 1929
+                    "char_end": 1920
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
+                    "field": "Anatomical Entity",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6500,31 +7472,19 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "tibial rotation",
+                    "field": "Anatomical Entity",
+                    "entity_form": "femoral",
                     "mention": {
-                        "original_text": "tibial rotation",
-                        "position": 287,
-                        "token_length": 2
+                        "original_text": "femoral",
+                        "position": 290,
+                        "token_length": 1
                     },
-                    "char_start": 1931,
-                    "char_end": 1946
+                    "char_start": 1951,
+                    "char_end": 1958
                 },
                 {
                     "source": "PRED",
                     "field": "Anatomical Entity",
-                    "entity_form": "femoral rotation",
-                    "mention": {
-                        "original_text": "femoral rotation",
-                        "position": 290,
-                        "token_length": 2
-                    },
-                    "char_start": 1951,
-                    "char_end": 1967
-                },
-                {
-                    "source": "PRED",
-                    "field": "Terms of Body Movements",
                     "entity_form": "femoral rotation",
                     "mention": {
                         "original_text": "femoral rotation",
@@ -6605,18 +7565,6 @@
                     },
                     "char_start": 2228,
                     "char_end": 2249
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "limb alignment",
-                    "mention": {
-                        "original_text": "limb alignment",
-                        "position": 342,
-                        "token_length": 2
-                    },
-                    "char_start": 2309,
-                    "char_end": 2323
                 },
                 {
                     "source": "PRED",
@@ -6733,18 +7681,6 @@
                     },
                     "char_start": 141,
                     "char_end": 150
-                },
-                {
-                    "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "tibial internal rotation",
-                    "mention": {
-                        "original_text": "tibial internal rotation",
-                        "position": 24,
-                        "token_length": 3
-                    },
-                    "char_start": 168,
-                    "char_end": 192
                 },
                 {
                     "source": "PRED",
@@ -6904,6 +7840,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "lower-limb joint angles",
+                    "mention": {
+                        "original_text": "lower-limb joint angles",
+                        "position": 85,
+                        "token_length": 3
+                    },
+                    "char_start": 552,
+                    "char_end": 575
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "foot",
                     "mention": {
@@ -6976,18 +7924,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Anatomical Entity",
-                    "entity_form": "tibial internal rotation",
-                    "mention": {
-                        "original_text": "tibial internal rotation",
-                        "position": 105,
-                        "token_length": 3
-                    },
-                    "char_start": 705,
-                    "char_end": 729
-                },
-                {
-                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "tibial internal rotation",
                     "mention": {
@@ -7024,6 +7960,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Computed tomography",
+                    "mention": {
+                        "original_text": "Computed tomography",
+                        "position": 117,
+                        "token_length": 2
+                    },
+                    "char_start": 796,
+                    "char_end": 815
+                },
+                {
+                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "foot",
                     "mention": {
@@ -7048,18 +7996,6 @@
                 },
                 {
                     "source": "PRED",
-                    "field": "Terms of Body Movements",
-                    "entity_form": "weight-bearing",
-                    "mention": {
-                        "original_text": "weight-bearing",
-                        "position": 129,
-                        "token_length": 1
-                    },
-                    "char_start": 866,
-                    "char_end": 880
-                },
-                {
-                    "source": "PRED",
                     "field": "Anatomical Entity",
                     "entity_form": "talus",
                     "mention": {
@@ -7081,6 +8017,30 @@
                     },
                     "char_start": 957,
                     "char_end": 966
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "principal axis lengths",
+                    "mention": {
+                        "original_text": "principal axis lengths",
+                        "position": 150,
+                        "token_length": 3
+                    },
+                    "char_start": 1021,
+                    "char_end": 1043
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "orientations",
+                    "mention": {
+                        "original_text": "orientations",
+                        "position": 154,
+                        "token_length": 1
+                    },
+                    "char_start": 1048,
+                    "char_end": 1060
                 },
                 {
                     "source": "PRED",
@@ -7524,6 +8484,42 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "navicular drop test",
+                    "mention": {
+                        "original_text": "navicular drop test",
+                        "position": 79,
+                        "token_length": 3
+                    },
+                    "char_start": 512,
+                    "char_end": 531
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Craig's test",
+                    "mention": {
+                        "original_text": "Craig's test",
+                        "position": 82,
+                        "token_length": 2
+                    },
+                    "char_start": 533,
+                    "char_end": 545
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "heel elevation endurance test",
+                    "mention": {
+                        "original_text": "heel elevation endurance test",
+                        "position": 85,
+                        "token_length": 4
+                    },
+                    "char_start": 551,
+                    "char_end": 580
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "Hip internal and external rotation",
                     "mention": {
@@ -7572,6 +8568,42 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "goniometer",
+                    "mention": {
+                        "original_text": "goniometer",
+                        "position": 114,
+                        "token_length": 1
+                    },
+                    "char_start": 764,
+                    "char_end": 774
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Pittsburgh Sleep Quality Index",
+                    "mention": {
+                        "original_text": "Pittsburgh Sleep Quality Index",
+                        "position": 121,
+                        "token_length": 4
+                    },
+                    "char_start": 813,
+                    "char_end": 843
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Visual Analog Scale",
+                    "mention": {
+                        "original_text": "Visual Analog Scale",
+                        "position": 153,
+                        "token_length": 3
+                    },
+                    "char_start": 1046,
+                    "char_end": 1065
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "MTSS",
                     "mention": {
@@ -7596,6 +8628,42 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "height length",
+                    "mention": {
+                        "original_text": "height length",
+                        "position": 179,
+                        "token_length": 2
+                    },
+                    "char_start": 1234,
+                    "char_end": 1247
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "left knee flexion angle",
+                    "mention": {
+                        "original_text": "left knee flexion angle",
+                        "position": 188,
+                        "token_length": 4
+                    },
+                    "char_start": 1284,
+                    "char_end": 1307
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angle",
+                    "mention": {
+                        "original_text": "knee flexion angle",
+                        "position": 189,
+                        "token_length": 3
+                    },
+                    "char_start": 1289,
+                    "char_end": 1307
+                },
+                {
+                    "source": "PRED",
                     "field": "Terms of Body Movements",
                     "entity_form": "knee flexion",
                     "mention": {
@@ -7605,6 +8673,30 @@
                     },
                     "char_start": 1289,
                     "char_end": 1301
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "right knee flexion angle",
+                    "mention": {
+                        "original_text": "right knee flexion angle",
+                        "position": 196,
+                        "token_length": 4
+                    },
+                    "char_start": 1324,
+                    "char_end": 1348
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angle",
+                    "mention": {
+                        "original_text": "knee flexion angle",
+                        "position": 197,
+                        "token_length": 3
+                    },
+                    "char_start": 1330,
+                    "char_end": 1348
                 },
                 {
                     "source": "PRED",
@@ -7620,6 +8712,18 @@
                 },
                 {
                     "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "regression analysis result",
+                    "mention": {
+                        "original_text": "regression analysis result",
+                        "position": 206,
+                        "token_length": 3
+                    },
+                    "char_start": 1379,
+                    "char_end": 1405
+                },
+                {
+                    "source": "PRED",
                     "field": "Symptom",
                     "entity_form": "MTSS",
                     "mention": {
@@ -7629,6 +8733,30 @@
                     },
                     "char_start": 1407,
                     "char_end": 1411
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "left knee flexion angle",
+                    "mention": {
+                        "original_text": "left knee flexion angle",
+                        "position": 213,
+                        "token_length": 4
+                    },
+                    "char_start": 1432,
+                    "char_end": 1455
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angle",
+                    "mention": {
+                        "original_text": "knee flexion angle",
+                        "position": 214,
+                        "token_length": 3
+                    },
+                    "char_start": 1437,
+                    "char_end": 1455
                 },
                 {
                     "source": "PRED",
@@ -7653,6 +8781,18 @@
                     },
                     "char_start": 1663,
                     "char_end": 1667
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "knee flexion angle",
+                    "mention": {
+                        "original_text": "knee flexion angle",
+                        "position": 258,
+                        "token_length": 3
+                    },
+                    "char_start": 1736,
+                    "char_end": 1754
                 },
                 {
                     "source": "PRED",
@@ -7781,6 +8921,66 @@
                     },
                     "char_start": 610,
                     "char_end": 617
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "Forest plots",
+                    "mention": {
+                        "original_text": "Forest plots",
+                        "position": 136,
+                        "token_length": 2
+                    },
+                    "char_start": 896,
+                    "char_end": 908
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "mean differences",
+                    "mention": {
+                        "original_text": "mean differences",
+                        "position": 141,
+                        "token_length": 2
+                    },
+                    "char_start": 943,
+                    "char_end": 959
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "confidence intervals",
+                    "mention": {
+                        "original_text": "confidence intervals",
+                        "position": 144,
+                        "token_length": 2
+                    },
+                    "char_start": 964,
+                    "char_end": 984
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "clinical impact",
+                    "mention": {
+                        "original_text": "clinical impact",
+                        "position": 150,
+                        "token_length": 2
+                    },
+                    "char_start": 1008,
+                    "char_end": 1023
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "methodological score",
+                    "mention": {
+                        "original_text": "methodological score",
+                        "position": 179,
+                        "token_length": 2
+                    },
+                    "char_start": 1207,
+                    "char_end": 1227
                 },
                 {
                     "source": "PRED",
@@ -7925,6 +9125,18 @@
                     },
                     "char_start": 1711,
                     "char_end": 1718
+                },
+                {
+                    "source": "PRED",
+                    "field": "Measurement",
+                    "entity_form": "effect sizes",
+                    "mention": {
+                        "original_text": "effect sizes",
+                        "position": 267,
+                        "token_length": 2
+                    },
+                    "char_start": 1841,
+                    "char_end": 1853
                 },
                 {
                     "source": "PRED",

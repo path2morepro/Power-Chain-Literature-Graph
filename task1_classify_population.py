@@ -1,5 +1,5 @@
 """
-Task 1 – Classify population entities in normalized_entities.json
+Task 1  Classify population entities in normalized_entities.json
 using the GLiNER2 model and population_specification.json as the labelling standard.
 
 Output file: population_classified.json

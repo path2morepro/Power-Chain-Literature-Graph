@@ -1,0 +1,807 @@
+{
+  "Abstract 1": {
+    "entities": {
+      "Anatomical Entity": [
+        "pronated foot",
+        "knee joint"
+      ],
+      "Terms of Body Movements": [
+        "collapse",
+        "pronated",
+        "abnormal alignment",
+        "muscular imbalance",
+        "malalign"
+      ],
+      "Symptom": [
+        "flatfoot",
+        "Idiopathic anterior knee pain",
+        "anterior knee pain",
+        "knee injury",
+        "abnormal alignment",
+        "muscular imbalance",
+        "knee pain",
+        "medical",
+        "Medial longitudinal Arch",
+        "Flat foot"
+      ],
+      "Population": [
+        "7-14 years of age",
+        "613 years",
+        "6-12 years of age",
+        "nonathletic population",
+        "young adults",
+        "Vadodara City",
+        "Total 284 subjects"
+      ],
+      "Measurement": [
+        "Clarke's Angle",
+        "Kujala Score",
+        "Pearson Correlation test",
+        "Google form",
+        "Clarke’s Angle"
+      ]
+    }
+  },
+  "Abstract 2": {
+    "entities": {
+      "Anatomical Entity": [
+        "ankle",
+        "joint",
+        "ligament",
+        "footplate"
+      ],
+      "Terms of Body Movements": [
+        "ankle stiffness",
+        "dorsiflexion",
+        "plantar flexion",
+        "kinematic analyses",
+        "joint stiffness measures",
+        "congruence",
+        "elasticity,"
+      ],
+      "Symptom": [
+        "flat foot",
+        "increased stiffness"
+      ],
+      "Population": [
+        "subjects with and without flat foot",
+        "forty-five age- and gender-matched subjects",
+        "flat foot group",
+        "control group",
+        "subjects with flat foot"
+      ],
+      "Measurement": [
+        "torque sensor",
+        "joint-driving device",
+        "(mean ± standard deviation)",
+        "t = −2.11, p = 0.04).",
+        "t = 0.64, p = 0.06).",
+        "(0.37 ± 0.16",
+        "0.28 ± 0.10",
+        "(0.35 ± 0.15",
+        "0.33 ± 0.07"
+      ]
+    }
+  },
+  "Abstract 3": {
+    "entities": {
+      "Anatomical Entity": [
+        "lower extremity",
+        "hip",
+        "quadriceps",
+        "hamstring",
+        "plantar flexor"
+      ],
+      "Terms of Body Movements": [
+        "foot posture",
+        "foot pressure",
+        "reaction time",
+        "muscle performance",
+        "muscle strength",
+        "foot postures."
+      ],
+      "Symptom": [
+        "plantar fasciitis",
+        "PF",
+        "abnormal foot postures",
+        "flat foot postures",
+        "plantar heel pain",
+        "flat feet."
+      ],
+      "Population": [
+        "patients who have PF with and without abnormal foot postures",
+        "Seventy patients with plantar heel pain",
+        "37 flat feet and 33 without flat feet",
+        "PF patients with flat feet"
+      ],
+      "Measurement": [
+        "handheld digital dynamometer",
+        "isokinetic device",
+        "pedobarography",
+        "p = 0.008",
+        "p = 0.007"
+      ]
+    }
+  },
+  "Abstract 4": {
+    "entities": {
+      "Anatomical Entity": [
+        "foot posture",
+        "spinal biomechanics",
+        "foot"
+      ],
+      "Terms of Body Movements": [
+        "altered spinal biomechanics",
+        "compensatory postural changes",
+        "core muscle strength."
+      ],
+      "Symptom": [
+        "Mechanical low back pain",
+        "MLBP",
+        "obesity",
+        "pes planus",
+        "flat foot",
+        "LBP",
+        "symptoms"
+      ],
+      "Population": [
+        "Fifty patients diagnosed with MLBP",
+        "50 healthy controls",
+        "individuals with flat feet",
+        "MLBP patients"
+      ],
+      "Measurement": [
+        "Clarke's angle",
+        "Numerical Rating Scale",
+        "NRS",
+        "chi-square",
+        "independent t-tests",
+        "p < 0.05",
+        "OR: 6.29",
+        "95% CI: 2.52-15.69",
+        "BMI",
+        "Clarke’s angle"
+      ]
+    }
+  },
+  "Abstract 5": {
+    "entities": {
+      "Anatomical Entity": [
+        "lower limb",
+        "lower extremities",
+        "flat foot",
+        "femoral torsion",
+        "tibial torsion",
+        "tibiofemoral",
+        "lower limbs"
+      ],
+      "Terms of Body Movements": [
+        "rotational abnormalities",
+        "rotation",
+        "coronal",
+        "sagittal",
+        "femoral torsion",
+        "tibial torsion",
+        "tibiofemoral rotation",
+        "weight-bearing upright"
+      ],
+      "Symptom": [
+        "primary symptomatic flatfoot",
+        "symptomatic primary flat feet",
+        "flat foot"
+      ],
+      "Population": [
+        "adult patients with primary symptomatic flatfoot",
+        "24 patients",
+        "12 women, 12 men",
+        "31 symptomatic primary flat feet",
+        "30 control subjects",
+        "age: 40 years)",
+        "7 patients;",
+        "17 patients)"
+      ],
+      "Measurement": [
+        "radiographs",
+        "weight-bearing upright EOS® examination",
+        "Three-dimensional reconstructions",
+        "derived measurements",
+        "Student t-test"
+      ]
+    }
+  },
+  "Abstract 6": {
+    "entities": {
+      "Anatomical Entity": [
+        "leg muscles",
+        "tibialis anterior muscle",
+        "TA",
+        "rectus femoris muscle",
+        "RF",
+        "medial gastrocnemius",
+        "MG",
+        "long head of the biceps femoris muscle",
+        "BF",
+        "lower extremities",
+        "leg"
+      ],
+      "Terms of Body Movements": [
+        "muscle tone",
+        "stiffness",
+        "relax condition"
+      ],
+      "Symptom": [
+        "flexible flat foot",
+        "flexible flat feet",
+        "flat foot."
+      ],
+      "Population": [
+        "30 subjects",
+        "normal foot group",
+        "NFG",
+        "group with both flexible flat feet",
+        "BFFG",
+        "group with flexible flat feet on one side",
+        "OFFG"
+      ],
+      "Measurement": [
+        "myotonometry"
+      ]
+    }
+  },
+  "Abstract 7": {
+    "entities": {
+      "Anatomical Entity": [
+        "foot arch",
+        "medial longitudinal arch",
+        "arch height",
+        "ankle joint",
+        "calf muscle"
+      ],
+      "Terms of Body Movements": [
+        "movement",
+        "range of motion",
+        "ankle mobility",
+        "dorsiflexion",
+        "plantar flexion",
+        "isometric strength",
+        "isometric muscular strength"
+      ],
+      "Symptom": [
+        "Flat foot",
+        "flat foot",
+        "muscular imbalances"
+      ],
+      "Population": [
+        "twenty-eight normal medial longitudinal arch",
+        "twenty-eight with flat foot participants",
+        "participants with normal medial longitudinal arch",
+        "participants with flat foot",
+        "normal medial longitudinal arch group",
+        "flat foot group"
+      ],
+      "Measurement": [
+        "navicular drop test",
+        "Handheld dynamometer",
+        "Dorsiflexion Lunge Test",
+        "goniometer",
+        "independent t-test",
+        "Pearson correlation coefficient",
+        "r=.100, p=.463",
+        "r=.190, p=1.61",
+        "r=.190, p=.160",
+        "r=.095, p=.486",
+        "(r=.100,p=.463),",
+        "(r=.190,p=1.61).",
+        "(r=.190,p=.160),",
+        "(r=.095,p=.486)"
+      ]
+    }
+  },
+  "Abstract 8": {
+    "entities": {
+      "Anatomical Entity": [
+        "foot",
+        "plantar concavity",
+        "lower limb",
+        "hip",
+        "femoral",
+        "tibial"
+      ],
+      "Terms of Body Movements": [
+        "lower limb rotational profile",
+        "intoeing",
+        "femoral antétorsion",
+        "tibial torsion",
+        "hip intoeing",
+        "insufficient external tibial torsion",
+        "excessive internal rotation of the hip",
+        "excessive femoral antetorsion",
+        "tibal torsion)."
+      ],
+      "Symptom": [
+        "Flat foot",
+        "flat feet",
+        "deformation",
+        "congenital or neurological abnormality",
+        "collapse of the foot",
+        "morphostatic deformations",
+        "essential flat foot",
+        "disorders torsional."
+      ],
+      "Population": [
+        "children",
+        "110 children",
+        "220 feet",
+        "aged between 3 and 6 years old",
+        "children with flat feet"
+      ],
+      "Measurement": [
+        "Contact Index II",
+        "multiple regression",
+        "F = 70.36, r = 0.77, P < 0.001",
+        "F = 54.78, r = 0.73, P < 0.001",
+        "F = 7.79, r = 0.37, P < 0.001"
+      ]
+    }
+  },
+  "Abstract 9": {
+    "entities": {
+      "Anatomical Entity": [
+        "knee",
+        "medial longitudinal arch",
+        "foot",
+        "lower limbs",
+        "talocrural joint",
+        "subtalar joint",
+        "big toe",
+        "hallux valgus",
+        "arch",
+        "talocrural",
+        "hindfoot"
+      ],
+      "Terms of Body Movements": [
+        "internal rotation angle",
+        "dorsiflexion angle",
+        "varus angle",
+        "knee joint varus angle",
+        "knee valgus alignment",
+        "subtalar joint alignment",
+        "talocrural joint alignment",
+        "alignment"
+      ],
+      "Symptom": [
+        "knee osteoarthritis",
+        "OA",
+        "medial knee OA",
+        "flat foot",
+        "moderate flat foot",
+        "planovalgus deformity",
+        "adult flatfoot",
+        "Severe flat feet",
+        "Mild flat feet"
+      ],
+      "Population": [
+        "healthy adult volunteers",
+        "patients with knee osteoarthritis",
+        "116 lower limbs of 62 healthy adult volunteers and patients with medial knee OA",
+        "normal, mild, and severe group",
+        "Mild and Severe OA groups"
+      ],
+      "Measurement": [
+        "radiographs",
+        "320-row upright computed tomography",
+        "CT",
+        "X ray images",
+        "lateral Meary's angle",
+        "anterior-posterior (AP) Meary's angle",
+        "Kellgren-Lawrence grade",
+        "three-dimensional angles",
+        "AP Meary's angle",
+        "KL-1 to KL-2,3."
+      ]
+    }
+  },
+  "Abstract 10": {
+    "entities": {
+      "Anatomical Entity": [
+        "Tibial",
+        "patellofemoral"
+      ],
+      "Terms of Body Movements": [
+        "Tibial torsion"
+      ],
+      "Symptom": [
+        "patellofemoral pain",
+        "instability"
+      ],
+      "Population": [
+        "paediatric population",
+        "adult population",
+        "adult orthopaedic surgeon"
+      ],
+      "Measurement": [
+        "review article"
+      ]
+    }
+  },
+  "Abstract 11": {
+    "entities": {
+      "Anatomical Entity": [
+        "femur",
+        "tibia",
+        "patellofemoral joint",
+        "knee",
+        "patella",
+        "tibial tubercle",
+        "lower-limb",
+        "patella’s",
+        "femoral",
+        "tibial"
+      ],
+      "Terms of Body Movements": [
+        "Fixed rotation",
+        "femoral rotation",
+        "tibial rotation",
+        "contact areas",
+        "pressures",
+        "force vector",
+        "patellar movement",
+        "joint mechanics",
+        "bipedal lower-limb biomechanics",
+        "patellofemoral contact pressures",
+        "rotation of the femur",
+        "rotation of the tibia.",
+        "patella’s distal attachment",
+        "tibial and femoral rotations,"
+      ],
+      "Symptom": [
+        "patellofemoral pathology",
+        "pathology"
+      ],
+      "Population": [],
+      "Measurement": [
+        "biomechanical evidence",
+        "experimental data"
+      ]
+    }
+  },
+  "Abstract 12": {
+    "entities": {
+      "Anatomical Entity": [
+        "knee joint",
+        "proximal tibia",
+        "polyethene liner",
+        "soft tissue",
+        "ligament",
+        "muscle",
+        "tibial component"
+      ],
+      "Terms of Body Movements": [
+        "tibial rotational alignment",
+        "internal",
+        "external rotation",
+        "standing",
+        "bending position",
+        "contact pressure",
+        "stress",
+        "tensile stress",
+        "rotational alignment on the proximal tibia.",
+        "contact area on the polyethylene liner",
+        "posterior tibial slope",
+        "neutral rotation",
+        "rotational alignment"
+      ],
+      "Symptom": [
+        "posterior-stabilized total knee arthroplasty",
+        "posterior-stabilized TKA"
+      ],
+      "Population": [
+        "a healthy volunteer"
+      ],
+      "Measurement": [
+        "computer simulation",
+        "Computer tomographic",
+        "magnetic resonance imaging scan",
+        "3D geometrical model",
+        "virtual surgery",
+        "von Mises stress",
+        "0, 3, 5, and 7 degrees",
+        "MPa"
+      ]
+    }
+  },
+  "Abstract 13": {
+    "entities": {
+      "Anatomical Entity": [
+        "knee",
+        "lower limbs",
+        "entire leg",
+        "knees"
+      ],
+      "Terms of Body Movements": [
+        "three-dimensional limb alignment",
+        "weight-bearing",
+        "flexion",
+        "adduction",
+        "tibial internal rotation",
+        "three-dimensional deformities",
+        "standing",
+        "supine"
+      ],
+      "Symptom": [
+        "knee osteoarthritis",
+        "knee OA",
+        "osteoarthritic change",
+        "osteoarthritis."
+      ],
+      "Population": [
+        "Forty five knees of 25 patients",
+        "patients with knee OA",
+        "Kellgren-Lawrence grades 1 and 4",
+        "Grades 2 and 4",
+        "grades 1 and 2, and 1 and 3"
+      ],
+      "Measurement": [
+        "radiographs",
+        "CT images",
+        "conventional CT",
+        "320-row detector upright CT",
+        "3D-3D surface registration technique",
+        "Kellgren-Lawrence grade"
+      ]
+    }
+  },
+  "Abstract 14": {
+    "entities": {
+      "Anatomical Entity": [
+        "foot",
+        "tibia",
+        "femur",
+        "quadriceps angle",
+        "tibial"
+      ],
+      "Terms of Body Movements": [
+        "rotation of the lower extremity",
+        "foot pronation",
+        "tibia internal rotation",
+        "femoral internal rotation",
+        "Three-dimensional kinematics",
+        "free-walking",
+        "peak foot pronation",
+        "tibia rotation",
+        "less femur internal rotation",
+        "tibial internal rotation"
+      ],
+      "Symptom": [
+        "Abnormal foot pronation",
+        "patellofemoral pain",
+        "PFP",
+        "nonpainful individuals"
+      ],
+      "Population": [
+        "Twenty-four female subjects with a diagnosis of PFP",
+        "17 female subjects without PFP",
+        "individuals without PFP",
+        "individuals with PFP"
+      ],
+      "Measurement": [
+        "six-camera motion analysis system",
+        "VICON"
+      ]
+    }
+  },
+  "Abstract 15": {
+    "entities": {
+      "Anatomical Entity": [
+        "peripatellar retinaculum",
+        "patellofemoral",
+        "patellofemoral joint",
+        "knee",
+        "knee extensor muscles",
+        "patella",
+        "trochlear groove"
+      ],
+      "Terms of Body Movements": [
+        "tibial rotation",
+        "in situ strain",
+        "contact pressures",
+        "contact areas",
+        "knee flexion angles",
+        "tibial rotations",
+        "physiological loading",
+        "joint biomechanics"
+      ],
+      "Symptom": [
+        "patellofemoral disorders",
+        "chondromalacia"
+      ],
+      "Population": [
+        "Six human cadaveric knees"
+      ],
+      "Measurement": [
+        "patellofemoral joint testing jig",
+        "Fuji pressure-sensitive film",
+        "four differential variable reluctance transducers"
+      ]
+    }
+  },
+  "Abstract 16": {
+    "entities": {
+      "Anatomical Entity": [
+        "patellar",
+        "femoral",
+        "tibial",
+        "patella",
+        "limb",
+        "tibia",
+        "femur",
+        "quadriceps",
+        "patellofemoral"
+      ],
+      "Terms of Body Movements": [
+        "patellar tilting",
+        "bone rotation",
+        "femoral rotation",
+        "tibial rotation",
+        "patella tilt angle",
+        "femoral rotation relative to tibia",
+        "limb alignment",
+        "quadriceps relaxed,",
+        "patellofemoral mechanics",
+        "bony alignment",
+        "bony malalignment"
+      ],
+      "Symptom": [
+        "patellofemoral pain",
+        "PFPS",
+        "Abnormal motions",
+        "patellar malalignment"
+      ],
+      "Population": [
+        "Forty seven patients",
+        "90 knees",
+        "34 females and 11 males",
+        "Forty five knees",
+        "bilaterally painful knees",
+        "unilaterally painful knees"
+      ],
+      "Measurement": [
+        "axial computed tomography study",
+        "axial CT images",
+        "Patella tilt angle of Grelsamer",
+        "Patella tilt angle of Sasaki",
+        "modified patella tilt angle of Fulkerson"
+      ]
+    }
+  },
+  "Abstract 17": {
+    "entities": {
+      "Anatomical Entity": [
+        "rear-foot",
+        "tibial",
+        "femoral",
+        "subtalar joint",
+        "talus",
+        "calcaneus",
+        "foot",
+        "ankle",
+        "mid-foot",
+        "mid-tarsal complex",
+        "ankle mortise",
+        "knee"
+      ],
+      "Terms of Body Movements": [
+        "eversion",
+        "tibial internal rotation",
+        "femoral internal rotation",
+        "Gait analysis",
+        "joint angles",
+        "barefoot, treadmill running",
+        "rearfoot eversion",
+        "hip internal rotation",
+        "simulated weight-bearing",
+        "rear-foot dorsiflexion",
+        "knee internal rotation",
+        "walking",
+        "squatting",
+        "dorsiflexion at the mid-foot",
+        "kinematic alterations",
+        "dorsiflexion"
+      ],
+      "Symptom": [
+        "Patellofemoral pain syndrome",
+        "PFPS"
+      ],
+      "Population": [
+        "female, distance runners",
+        "female runners with a history of PFPS",
+        "normal controls",
+        "runners with PFPS",
+        "Subjects with PFPS"
+      ],
+      "Measurement": [
+        "Computed tomography",
+        "Three-dimensional models",
+        "principal axis lengths",
+        "orientations"
+      ]
+    }
+  },
+  "Abstract 18": {
+    "entities": {
+      "Anatomical Entity": [
+        "lower extremity",
+        "Hip",
+        "knee",
+        "ankle"
+      ],
+      "Terms of Body Movements": [
+        "Hip internal and external rotation",
+        "knee flexion",
+        "ankle dorsiflexion",
+        "plantarflexion ROM",
+        "lower extremity function"
+      ],
+      "Symptom": [
+        "medial tibial stress syndrome",
+        "MTSS"
+      ],
+      "Population": [
+        "football referees",
+        "39 referees",
+        "those with a history of MTSS",
+        "those without"
+      ],
+      "Measurement": [
+        "navicular drop test",
+        "Craig's test",
+        "heel elevation endurance test",
+        "goniometer",
+        "Pittsburgh Sleep Quality Index",
+        "PSQI",
+        "Visual Analog Scale",
+        "VAS",
+        "regression analysis",
+        "p = 0.006",
+        "p = 0.045",
+        "p = 0.007",
+        "p = 0.046",
+        "p = 0.015",
+        "(p> 0.05)."
+      ]
+    }
+  },
+  "Abstract 19": {
+    "entities": {
+      "Anatomical Entity": [
+        "trunk",
+        "pelvis",
+        "lower limb",
+        "hip",
+        "knee"
+      ],
+      "Terms of Body Movements": [
+        "biomechanical risk factors",
+        "peak hip adduction",
+        "peak knee internal rotation",
+        "stance",
+        "peak trunk ipsilateral"
+      ],
+      "Symptom": [
+        "Iliotibial band syndrome"
+      ],
+      "Population": [
+        "runners",
+        "Female shod runners",
+        "Female shod runners who went onto developing Iliotibial band syndrome",
+        "Female shod runners with Iliotibial band syndrome"
+      ],
+      "Measurement": [
+        "systematic review",
+        "electronic search",
+        "Forest plots",
+        "meta-analysis"
+      ]
+    }
+  }
+}

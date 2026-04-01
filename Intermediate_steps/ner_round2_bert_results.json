@@ -1,7 +1,7 @@
 {
     "biobert": {
         "model_id": "dmis-lab/biobert-base-cased-v1.1",
-        "device": "cuda",
+        "device": "cpu",
         "cases": [
             {
                 "abstract_id": "abs_001",
@@ -1862,7 +1862,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "femoral antétorsion"
+                    "morphostatic deformation"
                 ]
             },
             {
@@ -1938,7 +1938,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "plantar concavity"
+                    "femoral antétorsion"
                 ]
             },
             {
@@ -5974,7 +5974,7 @@
     },
     "pubmedbert": {
         "model_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
-        "device": "cuda",
+        "device": "cpu",
         "cases": [
             {
                 "abstract_id": "abs_001",
@@ -11947,7 +11947,7 @@
     },
     "scibert": {
         "model_id": "allenai/scibert_scivocab_uncased",
-        "device": "cuda",
+        "device": "cpu",
         "cases": [
             {
                 "abstract_id": "abs_001",
@@ -13770,7 +13770,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "plantar concavity"
+                    "femoral antétorsion"
                 ]
             },
             {
@@ -13808,7 +13808,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "femoral antétorsion"
+                    "plantar concavity"
                 ]
             },
             {
@@ -13846,7 +13846,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "plantar concavity"
+                    "femoral antétorsion"
                 ]
             },
             {
@@ -13865,7 +13865,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "femoral antétorsion"
+                    "plantar concavity"
                 ]
             },
             {
@@ -13884,7 +13884,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "femoral antétorsion"
+                    "plantar concavity"
                 ]
             },
             {
@@ -13903,7 +13903,7 @@
                     "femoral antétorsion"
                 ],
                 "predicted_locations": [
-                    "femoral antétorsion"
+                    "plantar concavity"
                 ]
             },
             {

@@ -54,14 +54,9 @@ POPULATION_SPECIFICATION_PATH = INTERMEDIATE_DIR / "population_specification.jso
 ROUND_ONE_SCHEMA = {
     "Anatomical Entity": "Any structure within a biological organism.",
     "Symptom": "Medical symptoms, conditions, and clinically relevant complaints.",
-    "Terms of Body Movements": (
-        "Movements, biomechanical measures, postures, alignments, and motion "
-        "phrases like 'ankle dorsiflexion' or 'hip internal rotation'."
-    ),
-    "Population": (
-        "The population of interest, including age, sex, sample size, clinical "
-        "status, and study groups."
-    ),
+    "Terms of Body Movements": "Movements, biomechanical measures, postures, alignments, and motion phrases like 'ankle dorsiflexion' or 'hip internal rotation'.",
+    "Population": "The population of interest, including age, sex, sample size, clinical status, and study groups.",
+    "Measurement": "Specific measurement tools, experimental methods, statistical values, angles, or scores used to draw conclusions. Examples: Clarke's Angle, Meary's angle, p < 0.05, forest plots.",
 }
 
 ROUND_TWO_SCHEMAS = {

@@ -1,5 +1,5 @@
 """
-Task 3 – Build anatomical_entities_enriched.json.
+Task 3  Build anatomical_entities_enriched.json.
 
 For every unique Anatomical-Entity in normalized_entities.json, record:
   • all mentions across abstracts
