@@ -1,6 +1,6 @@
 """
-re_extract_open.py
-==================
+relation_extraction.py
+======================
 Open-schema relation extraction from normalized_entities.json using an LLM.
 
 Unlike the original relations_GPT5.json (fixed 6-relation schema), this script
@@ -10,11 +10,11 @@ as subject and object.
 
 Input
 -----
-  Intermediate_steps/normalized_entities.json
+  data/processed/01_ner_normalized/normalized_entities.json
 
 Output
 ------
-  LLMExtraction/relations_open.json
+  data/processed/03_relations_extracted/relations_open.json
 
 Output format (keyed by abstract_id, same envelope as relations_GPT5.json):
   {
@@ -32,10 +32,10 @@ Output format (keyed by abstract_id, same envelope as relations_GPT5.json):
 
 Usage
 -----
-  python re_extract_open.py
-  python re_extract_open.py --input path/to/normalized_entities.json
-  python re_extract_open.py --output path/to/relations_open.json
-  python re_extract_open.py --dry-run     # print prompts, don't call API
+  python -m src.pipeline.relation_extraction
+  python -m src.pipeline.relation_extraction --input path/to/normalized_entities.json
+  python -m src.pipeline.relation_extraction --output path/to/relations_open.json
+  python -m src.pipeline.relation_extraction --dry-run     # print prompts, don't call API
 """
 
 from __future__ import annotations
@@ -53,9 +53,13 @@ import anthropic
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
-BASE_DIR    = Path(__file__).resolve().parent
-INPUT_PATH  = BASE_DIR / "Intermediate_steps" / "normalized_entities.json"
-OUTPUT_PATH = BASE_DIR / "LLMExtraction" / "relations_open.json"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # src/pipeline → project root
+DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+NER_NORMALIZED_DIR = DATA_PROCESSED_DIR / "01_ner_normalized"
+RELATIONS_EXTRACTED_DIR = DATA_PROCESSED_DIR / "03_relations_extracted"
+
+INPUT_PATH = NER_NORMALIZED_DIR / "normalized_entities.json"
+OUTPUT_PATH = RELATIONS_EXTRACTED_DIR / "relations_open.json"
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PROMPT

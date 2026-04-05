@@ -35,18 +35,22 @@ log = logging.getLogger(__name__)
 
 # Resolve all important project paths relative to this file so the module works
 # regardless of the current shell location.
-BASE_DIR = Path(__file__).resolve().parent
-INTERMEDIATE_DIR = BASE_DIR / "Intermediate_steps"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # Go from src/pipeline to project root
+DATA_RAW_DIR = BASE_DIR / "data" / "raw"
+DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+
 DEFAULT_ARTICLES_CANDIDATES = (
-    BASE_DIR / "Data" / "Flatfeet_clean.csv",
+    DATA_RAW_DIR / "Flatfeet_clean.csv",
     BASE_DIR / "Flatfeet_clean.csv",
 )
-RAW_ENTITIES_PATH = INTERMEDIATE_DIR / "entities_pretrainedmodel.json"
-NORMALIZED_ENTITIES_PATH = INTERMEDIATE_DIR / "normalized_entities.json"
-ROUND_TWO_ENTITIES_PATH = INTERMEDIATE_DIR / "entities_2nd_pretrainedmodel.json"
-ENTITY_SPECIFICATION_PATH = INTERMEDIATE_DIR / "entity_specification.json"
-POPULATION_CLASSIFIED_PATH = INTERMEDIATE_DIR / "population_classified.json"
-POPULATION_SPECIFICATION_PATH = INTERMEDIATE_DIR / "population_specification.json"
+
+# NER pipeline stages
+RAW_ENTITIES_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entities_pretrainedmodel.json"
+NORMALIZED_ENTITIES_PATH = DATA_PROCESSED_DIR / "01_ner_normalized" / "normalized_entities.json"
+ROUND_TWO_ENTITIES_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entities_2nd_pretrainedmodel.json"
+ENTITY_SPECIFICATION_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entity_specification.json"
+POPULATION_CLASSIFIED_PATH = DATA_PROCESSED_DIR / "02_entity_enrichment" / "population_classified.json"
+POPULATION_SPECIFICATION_PATH = DATA_PROCESSED_DIR / "02_entity_enrichment" / "population_specification.json"
 
 
 # These schemas are copied from the notebook so the extracted JSON structure
@@ -154,8 +158,8 @@ TOKEN_SPLIT_PATTERN = re.compile(r"([\s/(),]+)")
 # Generic I/O helpers
 # ---------------------------------------------------------------------------
 
-def ensure_intermediate_dir(directory: Path = INTERMEDIATE_DIR) -> Path:
-    """Create the intermediate output directory on demand."""
+def ensure_intermediate_dir(directory: Path = DATA_PROCESSED_DIR) -> Path:
+    """Create the processed data directory on demand."""
     directory.mkdir(parents=True, exist_ok=True)
     return directory
 

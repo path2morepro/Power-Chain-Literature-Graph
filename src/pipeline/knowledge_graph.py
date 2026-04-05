@@ -1,10 +1,10 @@
 """
-build_graph.py
-==============
+knowledge_graph.py
+==================
 Constructs a biomedical knowledge graph from:
-  • anatomical_entities_enriched.json
-  • normalized_entities.json
-  • relations_GPT5.json
+  • data/processed/02_entity_enrichment/anatomical_entities_enriched.json
+  • data/processed/01_ner_normalized/normalized_entities.json
+  • data/processed/03_relations_extracted/relations_claude.json
 
 DATA STRUCTURE
 --------------
@@ -57,16 +57,16 @@ EDGE TYPES
 
 2. "contributes_to" / "associated_with"  – Symptom ↔ Symptom, Symptom ↔ Movement,
    or Movement ↔ Movement.
-   Source: relations_GPT5.json (only the two named relation types).
+   Source: relations_claude.json (only the two named relation types).
    Subject/object strings are matched to entity_ids via a normalised-form lookup.
 
 Usage
 -----
-  python build_graph.py
+  python -m src.pipeline.knowledge_graph
 
 Output
 ------
-  graph.json   (same directory)
+  data/processed/04_knowledge_graph/graph_using_relation.json
 """
 
 import json
@@ -77,6 +77,18 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────────────────
+# Path definitions
+# ─────────────────────────────────────────────────────────────
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # src/pipeline → project root
+DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+
+NORMALIZED_ENTITIES_PATH = DATA_PROCESSED_DIR / "01_ner_normalized" / "normalized_entities.json"
+ANATOMICAL_ENTITIES_PATH = DATA_PROCESSED_DIR / "02_entity_enrichment" / "anatomical_entities_enriched.json"
+RELATIONS_PATH = DATA_PROCESSED_DIR / "03_relations_extracted" / "relations_claude.json"
+GRAPH_OUTPUT_PATH = DATA_PROCESSED_DIR / "04_knowledge_graph" / "graph_using_relation.json"
 
 # ─────────────────────────────────────────────────────────────
 # I/O helpers
@@ -361,9 +373,9 @@ def build_relation_edges(
 
 def main():
     log.info("Loading source files …")
-    normalized  = load("Intermediate_steps/normalized_entities.json")
-    anatomical  = load("Intermediate_steps/anatomical_entities_enriched.json")
-    relations   = load("LLMExtraction/relations_GPT5.json")
+    normalized  = load(str(NORMALIZED_ENTITIES_PATH))
+    anatomical  = load(str(ANATOMICAL_ENTITIES_PATH))
+    relations   = load(str(RELATIONS_PATH))
 
     nodes, abs_index = collect_nodes(normalized, anatomical)
     form_lookup      = build_form_lookup(nodes)
@@ -381,7 +393,7 @@ def main():
                 "and Body-Movement terms. "
                 "Anatomical nodes connect to Symptom/Movement nodes via 'anatomical_link' edges. "
                 "Symptom and Movement nodes connect to each other via 'contributes_to' "
-                "or 'associated_with' edges extracted from GPT-5 relation triples."
+                "or 'associated_with' edges extracted from Claude relation triples."
             ),
             "node_types":  ["Anatomical Entity", "Symptom", "Movement"],
             "edge_types":  ["anatomical_link", "contributes_to", "associated_with"],
@@ -392,7 +404,8 @@ def main():
         "edges": all_edges,
     }
 
-    save(graph, "Visualization/graph_using_relation.json")
+    GRAPH_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    save(graph, str(GRAPH_OUTPUT_PATH))
     log.info("Graph summary: %d nodes, %d edges (%d anatomy + %d relation)",
              len(nodes), len(all_edges), len(anat_edges), len(rel_edges))
 

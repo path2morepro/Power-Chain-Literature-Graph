@@ -720,13 +720,15 @@ renderAll();
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
-    project_root   = Path(__file__).resolve().parent
-    norm_path      = project_root / "Intermediate_steps" / "normalized_entities.json"
-    relations_path = project_root / "LLMExtraction" / "relations_open.json"
-    out_path       = project_root / "re_annotation_tool.html"
+    project_root   = Path(__file__).resolve().parent.parent.parent  # src/tools → project root
+    norm_path      = project_root / "data" / "processed" / "01_ner_normalized" / "normalized_entities.json"
+    relations_path = project_root / "data" / "processed" / "03_relations_extracted" / "relations_open.json"
+    out_path       = project_root / "outputs" / "annotations_relations.html"
 
     if not norm_path.exists():
         sys.exit(f"ERROR: cannot find {norm_path}")
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
 
     # relations_open.json is optional — tool works with empty relations too
     relations = {}
@@ -737,7 +739,7 @@ def main():
         print(f"  → {total} triples across {len(relations)} abstracts")
     else:
         print(f"WARNING: {relations_path} not found — tool will start with no pre-filled triples.")
-        print(f"  Run re_extract_open.py first, or annotate from scratch.")
+        print(f"  Run relation_extraction.py first, or annotate from scratch.")
 
     print(f"Loading normalized entities from {norm_path} ...")
     normalized = load_json(norm_path)

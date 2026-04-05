@@ -1,3 +1,22 @@
-.venv
-__pycache__
-.vscode
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated outputs (annotation tools, visualizations)
+/outputs/*.html
+
+# OS
+.DS_Store
+*.egg-info/

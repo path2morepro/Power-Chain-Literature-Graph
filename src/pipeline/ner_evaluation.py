@@ -14,7 +14,7 @@ Implemented evaluation blocks
    - Generate an HTML visualization with GOLD / PRED highlights
 
 2. Round-two anatomy-location evaluation
-   - Reuse the hashed baseline from `NER.py`
+   - Reuse the hashed baseline from `ner.py`
    - Run the BERT-based candidate ranking variants from the notebook
    - Evaluate all methods against `Data/golden_standard.csv`
 """
@@ -35,34 +35,36 @@ import pandas as pd
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-import NER
+from . import ner
 
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
 
 
-BASE_DIR = Path(__file__).resolve().parent
-INTERMEDIATE_DIR = BASE_DIR / "Intermediate_steps"
-LLM_DIR = BASE_DIR / "LLMExtraction"
-DATA_DIR = BASE_DIR / "Data"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # src/pipeline → project root
+DATA_RAW_DIR = BASE_DIR / "data" / "raw"
+DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
-PRED_ROUND_ONE_PATH = INTERMEDIATE_DIR / "entities_pretrainedmodel.json"
-GOLD_ROUND_ONE_PATH = LLM_DIR / "entities_manual_gold.json"
-ROUND_TWO_METHOD1_PATH = INTERMEDIATE_DIR / "entities_2nd_pretrainedmodel.json"
-ROUND_TWO_METHOD2_PATH = INTERMEDIATE_DIR / "entity_specification.json"
-GOLD_STANDARD_PATH = DATA_DIR / "golden_standard.csv"
+# Baselines and predictions
+PRED_ROUND_ONE_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entities_pretrainedmodel.json"
+GOLD_ROUND_ONE_PATH = DATA_PROCESSED_DIR / "evaluation" / "extraction_gold_standard" / "entities_manual_gold.json"
+ROUND_TWO_METHOD1_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entities_2nd_pretrainedmodel.json"
+ROUND_TWO_METHOD2_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entity_specification.json"
+GOLD_STANDARD_PATH = DATA_RAW_DIR / "golden_standard.csv"
 
-ROUND_ONE_PRED_WITH_MENTIONS_PATH = INTERMEDIATE_DIR / "entities_pretrainedmodel_with_mentions.json"
-ROUND_ONE_GOLD_WITH_MENTIONS_PATH = INTERMEDIATE_DIR / "entities_GPT5_with_mentions.json"
-ROUND_ONE_METRICS_PATH = INTERMEDIATE_DIR / "ner_round1_metrics.csv"
-ROUND_ONE_COUNTS_PATH = INTERMEDIATE_DIR / "ner_round1_count_comparison.csv"
-ROUND_ONE_COMPARISON_JSON_PATH = INTERMEDIATE_DIR / "ner_round1_comparison.json"
-ROUND_ONE_VISUALIZATION_PATH = INTERMEDIATE_DIR / "ner_round1_visualization.html"
+# Round 1 evaluation outputs
+ROUND_ONE_PRED_WITH_MENTIONS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "entities_pretrainedmodel_with_mentions.json"
+ROUND_ONE_GOLD_WITH_MENTIONS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "entities_GPT5_with_mentions.json"
+ROUND_ONE_METRICS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "metrics.csv"
+ROUND_ONE_COUNTS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "count_comparison.csv"
+ROUND_ONE_COMPARISON_JSON_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "comparison.json"
+ROUND_ONE_VISUALIZATION_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "visualization.html"
 
-ROUND_TWO_BERT_RESULTS_PATH = INTERMEDIATE_DIR / "ner_round2_bert_results.json"
-ROUND_TWO_EVALUATION_JSON_PATH = INTERMEDIATE_DIR / "ner_round2_evaluation.json"
-ROUND_TWO_EVALUATION_TABLE_PATH = INTERMEDIATE_DIR / "ner_round2_evaluation.csv"
+# Round 2 evaluation outputs
+ROUND_TWO_BERT_RESULTS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round2" / "bert_results.json"
+ROUND_TWO_EVALUATION_JSON_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round2" / "evaluation.json"
+ROUND_TWO_EVALUATION_TABLE_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round2" / "evaluation.csv"
 
 DEFAULT_BERT_MODEL_SPECS = {
     "biobert": "dmis-lab/biobert-base-cased-v1.1",
@@ -143,10 +145,10 @@ def collect_mention_occurrences(text: str, entity_text: str) -> list[dict[str, A
     """Locate all occurrences of one entity string inside an abstract.
 
     The matching strategy intentionally mirrors the raw-entity position logic in
-    `NER.py`: exact match first, then an ignore-case fallback, and finally a
+    `ner.py`: exact match first, then an ignore-case fallback, and finally a
     placeholder unmatched mention when the text cannot be located.
     """
-    token_matches = NER._tokenize_with_spans(text)
+    token_matches = ner._tokenize_with_spans(text)
 
     match_spans = list(re.finditer(re.escape(entity_text), text))
     if not match_spans:
@@ -166,7 +168,7 @@ def collect_mention_occurrences(text: str, entity_text: str) -> list[dict[str, A
         return occurrences
 
     for match in match_spans:
-        start_token = NER._char_to_start_token(token_matches, match.start())
+        start_token = ner._char_to_start_token(token_matches, match.start())
         occurrences.append(
             {
                 "original_text": entity_text,
@@ -380,7 +382,7 @@ def build_token_annotations(
     pred_entities: list[dict[str, Any]],
 ) -> tuple[list[re.Match[str]], dict[int, dict[str, Any]], list[str]]:
     """Build token-level labels so the HTML renderer can highlight GOLD and PRED spans."""
-    token_matches = NER._tokenize_with_spans(abstract_text)
+    token_matches = ner._tokenize_with_spans(abstract_text)
     token_annotations: dict[int, dict[str, Any]] = {
         index: {"labels": set(), "details": set()}
         for index in range(len(token_matches))
@@ -561,7 +563,7 @@ def render_round_one_visualization(
 
 def run_round_one_evaluation() -> dict[str, Any]:
     """Run the mention-aware first-round comparison and save all artifacts."""
-    abstracts = NER.load_abstracts_from_csv()
+    abstracts = ner.load_abstracts_from_csv()
     pred_raw = load_json(PRED_ROUND_ONE_PATH)
     gold_raw = load_json(GOLD_ROUND_ONE_PATH)
 
@@ -656,7 +658,7 @@ def normalize_method1_predictions(attributes: dict[str, list[str]]) -> list[str]
     """Normalize method-1 anatomy predictions into the canonical anatomy space."""
     predictions: list[str] = []
     for item in attributes.get("anatomical structure", []):
-        normalized_item = NER.normalize_anatomical_location(item)
+        normalized_item = ner.normalize_anatomical_location(item)
         if normalized_item and normalized_item not in predictions:
             predictions.append(normalized_item)
     return predictions
@@ -699,7 +701,7 @@ def load_method2_cases(
     path = Path(entity_specification_path)
     if path.exists():
         return load_json(path)
-    return NER.build_entity_specification_cases(
+    return ner.build_entity_specification_cases(
         method1_data["abstracts"],
         top_k=top_k,
         embedding_dim=embedding_dim,
@@ -780,7 +782,7 @@ def evaluate_round_two_predictions(
     gold_rows = pd.read_csv(golden_standard_path)
     round_two_lookup = method1_data["round2_lookup"]
     abstract_entity_records = method1_data["abstracts"]
-    abstract_anatomy_lookup = NER.build_abstract_anatomy_lookup(abstract_entity_records)
+    abstract_anatomy_lookup = ner.build_abstract_anatomy_lookup(abstract_entity_records)
 
     bert_case_lookup: dict[str, dict[tuple[str, str, str, int | None], list[str]]] = {}
     for model_name, cases in bert_method2_cases.items():
@@ -808,14 +810,14 @@ def evaluate_round_two_predictions(
 
         abstract_id = abstract_id_label(int(row["Abstract"]))
         field = field_by_type[gold_type]
-        query_form = NER.normalize_eval_phrase(row["Full Phrase"], field)
-        gold_location = NER.normalize_anatomical_location(row["Anatomical Location"])
+        query_form = ner.normalize_eval_phrase(row["Full Phrase"], field)
+        gold_location = ner.normalize_anatomical_location(row["Anatomical Location"])
 
         method1_attributes = round_two_lookup.get(field, {}).get(query_form, {})
         method1_predictions = normalize_method1_predictions(method1_attributes)
         method1_correct = any(location_match(prediction, gold_location) for prediction in method1_predictions)
 
-        traditional_predictions = NER.rank_anatomical_candidates(
+        traditional_predictions = ner.rank_anatomical_candidates(
             query_form,
             abstract_anatomy_lookup.get(abstract_id, []),
             top_k=top_k,
@@ -915,7 +917,7 @@ def run_round_two_evaluation(
     """Run the second-round BERT comparison and save its outputs."""
     method1_data = load_json(ROUND_TWO_METHOD1_PATH)
     abstract_entity_records = method1_data["abstracts"]
-    abstract_anatomy_lookup = NER.build_abstract_anatomy_lookup(abstract_entity_records)
+    abstract_anatomy_lookup = ner.build_abstract_anatomy_lookup(abstract_entity_records)
     method2_cases = load_method2_cases(
         method1_data,
         entity_specification_path=ROUND_TWO_METHOD2_PATH,

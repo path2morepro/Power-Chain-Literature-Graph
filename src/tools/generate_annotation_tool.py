@@ -1,16 +1,16 @@
 """
 generate_annotation_tool.py
 ============================
-Reads LLMExtraction/entities_GPT5.json and Data/Flatfeet_clean.csv from the
-project directory, then writes a self-contained annotation_tool.html that
-embeds all data inline — no server needed.
+Reads data/processed/evaluation/extraction_gold_standard/entities_manual_gold.json
+and data/raw/Flatfeet_clean.csv from the project, then writes a
+self-contained annotation_tool.html that embeds all data inline — no server needed.
 
 Usage
 -----
-  python generate_annotation_tool.py
-  # → writes annotation_tool.html in the current directory
+  python -m src.tools.generate_annotation_tool
+  # → writes outputs/annotations_ner.html
 
-Output format (matches entities_GPT5.json exactly):
+Output format (matches entities_manual_gold.json exactly):
   {
     "Abstract 1": {
       "entities": {
@@ -698,30 +698,31 @@ renderAll();
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
-    project_root = Path(__file__).resolve().parent
+    project_root = Path(__file__).resolve().parent.parent.parent  # src/tools → project root
 
-    csv_path  = project_root / "Data" / "Flatfeet_clean.csv"
-    json_path = project_root / "LLMExtraction" / "entities_GPT5.json"
-    out_path  = project_root / "annotation_tool.html"
+    csv_path  = project_root / "data" / "raw" / "Flatfeet_clean.csv"
+    json_path = project_root / "data" / "processed" / "evaluation" / "extraction_gold_standard" / "entities_manual_gold.json"
+    out_path  = project_root / "outputs" / "annotations_ner.html"
 
     if not csv_path.exists():
         sys.exit(f"ERROR: cannot find {csv_path}")
     if not json_path.exists():
         sys.exit(f"ERROR: cannot find {json_path}")
 
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
     print(f"Loading abstracts from {csv_path} ...")
     abstracts = load_abstracts(csv_path)
     print(f"  → {len(abstracts)} abstracts loaded")
 
-    print(f"Loading GPT-5 annotations from {json_path} ...")
+    print(f"Loading annotations from {json_path} ...")
     gpt5 = load_gpt5_annotations(json_path)
     print(f"  → {len(gpt5)} abstract annotations loaded")
 
     print(f"Writing annotation tool to {out_path} ...")
     html = build_html(abstracts, gpt5)
     out_path.write_text(html, encoding="utf-8")
-    print(f"  Done! Open annotation_tool.html in your browser.")
-    print(f"  Tip: xdg-open annotation_tool.html")
+    print(f"  Done! Open {out_path.name} in your browser.")
 
 
 if __name__ == "__main__":
