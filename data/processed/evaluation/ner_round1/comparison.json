@@ -1,0 +1,8254 @@
+{
+    "metrics": [
+        {
+            "field": "Anatomical Entity",
+            "pred_mentions": 238,
+            "gold_mentions": 330,
+            "matched_mentions": 176,
+            "precision": 0.7394957983193278,
+            "recall": 0.5333333333333333,
+            "f1": 0.619718309859155
+        },
+        {
+            "field": "Measurement",
+            "pred_mentions": 187,
+            "gold_mentions": 129,
+            "matched_mentions": 62,
+            "precision": 0.3315508021390374,
+            "recall": 0.4806201550387597,
+            "f1": 0.3924050632911393
+        },
+        {
+            "field": "Population",
+            "pred_mentions": 90,
+            "gold_mentions": 112,
+            "matched_mentions": 28,
+            "precision": 0.3111111111111111,
+            "recall": 0.25,
+            "f1": 0.27722772277227725
+        },
+        {
+            "field": "Symptom",
+            "pred_mentions": 95,
+            "gold_mentions": 180,
+            "matched_mentions": 77,
+            "precision": 0.8105263157894737,
+            "recall": 0.42777777777777776,
+            "f1": 0.56
+        },
+        {
+            "field": "Terms of Body Movements",
+            "pred_mentions": 140,
+            "gold_mentions": 306,
+            "matched_mentions": 99,
+            "precision": 0.7071428571428572,
+            "recall": 0.3235294117647059,
+            "f1": 0.4439461883408072
+        },
+        {
+            "field": "OVERALL",
+            "pred_mentions": 750,
+            "gold_mentions": 1057,
+            "matched_mentions": 442,
+            "precision": 0.5893333333333334,
+            "recall": 0.4181646168401135,
+            "f1": 0.4892086330935252
+        }
+    ],
+    "matched_keys": [
+        [
+            "abs_001",
+            "Anatomical Entity",
+            "knee joint",
+            216
+        ],
+        [
+            "abs_001",
+            "Anatomical Entity",
+            "knee joint",
+            224
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "kujala score",
+            135
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "pearson correlation test",
+            143
+        ],
+        [
+            "abs_001",
+            "Population",
+            "nonathletic population",
+            48
+        ],
+        [
+            "abs_001",
+            "Population",
+            "young adults",
+            100
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            44
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            77
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            93
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            167
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            193
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "anterior knee pain",
+            245
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee injury",
+            55
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "muscular imbalance",
+            64
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "footplate",
+            73
+        ],
+        [
+            "abs_002",
+            "Population",
+            "control group",
+            111
+        ],
+        [
+            "abs_002",
+            "Population",
+            "control group",
+            140
+        ],
+        [
+            "abs_002",
+            "Population",
+            "flat foot group",
+            87
+        ],
+        [
+            "abs_002",
+            "Population",
+            "flat foot group",
+            104
+        ],
+        [
+            "abs_002",
+            "Population",
+            "flat foot group",
+            133
+        ],
+        [
+            "abs_002",
+            "Population",
+            "flat foot group",
+            157
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle stiffness",
+            22
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle stiffness",
+            37
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle stiffness",
+            162
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "plantar flexion",
+            127
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "hamstring",
+            58
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "hamstring",
+            111
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "hip",
+            56
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "hip",
+            93
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "plantar flexor",
+            60
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "plantar flexor",
+            113
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "plantar flexor",
+            133
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "plantar flexor",
+            148
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "quadriceps",
+            57
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "quadriceps",
+            110
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "handheld digital dynamometer",
+            100
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "isokinetic device",
+            120
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "pedobarography",
+            128
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "plantar fasciitis",
+            11
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "plantar heel pain",
+            79
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot posture",
+            1
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot posture",
+            38
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot posture",
+            74
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot posture",
+            188
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "spinal biomechanics",
+            212
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "bmi",
+            190
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "chi-square",
+            129
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "clarke's angle",
+            53
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "clarke's angle",
+            100
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "independent t-tests",
+            131
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "numerical rating scale",
+            120
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mechanical low back pain",
+            1
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            5
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            51
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            87
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            180
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            207
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "mlbp",
+            225
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "symptoms",
+            237
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "lower extremities",
+            64
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "lower extremities",
+            171
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "lower limb",
+            13
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "lower limb",
+            155
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "lower limbs",
+            155
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "radiographs",
+            50
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "student t-test",
+            122
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "primary symptomatic flatfoot",
+            19
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "symptomatic primary flat feet",
+            81
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "femoral torsion",
+            157
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "tibial torsion",
+            159
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "tibiofemoral rotation",
+            161
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "leg muscles",
+            17
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "lower extremities",
+            98
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "lower extremities",
+            209
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "medial gastrocnemius",
+            83
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "rectus femoris muscle",
+            78
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "tibialis anterior muscle",
+            73
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "myotonometry",
+            61
+        ],
+        [
+            "abs_006",
+            "Population",
+            "normal foot group",
+            35
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "foot arch",
+            2
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "foot arch",
+            98
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "foot arch",
+            188
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            57
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            75
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            224
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            237
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "dorsiflexion lunge test",
+            108
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "goniometer",
+            117
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "handheld dynamometer",
+            100
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "independent t-test",
+            123
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "navicular drop test",
+            91
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "pearson correlation coefficient",
+            134
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "muscular imbalances",
+            32
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "ankle mobility",
+            51
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "ankle mobility",
+            119
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "ankle mobility",
+            162
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "ankle mobility",
+            258
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "plantar flexion",
+            173
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "plantar flexion",
+            217
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            48
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            104
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            167
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            201
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            207
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            213
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "range of motion",
+            265
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "foot",
+            1
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "foot",
+            42
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "foot",
+            63
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "foot",
+            100
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "foot",
+            194
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "plantar concavity",
+            36
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "contact index ii",
+            101
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "contact index ii",
+            138
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "multiple regression",
+            184
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children",
+            3
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children",
+            65
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children",
+            79
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children",
+            118
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children",
+            156
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "flat foot",
+            0
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "femoral antétorsion",
+            111
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "femoral antétorsion",
+            162
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "intoeing",
+            109
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "intoeing",
+            171
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "big toe",
+            433
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            16
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            140
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            157
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            163
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            291
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            303
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            313
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            367
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            399
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            466
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "foot",
+            490
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "lower limbs",
+            40
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "lower limbs",
+            70
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            11
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            99
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            330
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "subtalar joint",
+            220
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "subtalar joint",
+            271
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "subtalar joint",
+            409
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "talocrural joint",
+            198
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "320-row upright computed tomography",
+            20
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ap meary's angle",
+            166
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ap meary's angle",
+            340
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ap meary's angle",
+            349
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ap meary's angle",
+            369
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "kellgren-lawrence grade",
+            114
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            85
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            148
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            185
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            258
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            285
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "lateral meary's angle",
+            346
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "radiographs",
+            18
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "x ray images",
+            81
+        ],
+        [
+            "abs_009",
+            "Population",
+            "healthy adult volunteers",
+            27
+        ],
+        [
+            "abs_009",
+            "Population",
+            "healthy adult volunteers",
+            44
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "knee osteoarthritis",
+            6
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "knee osteoarthritis",
+            33
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "planovalgus deformity",
+            388
+        ],
+        [
+            "abs_010",
+            "Population",
+            "adult orthopaedic surgeon",
+            45
+        ],
+        [
+            "abs_010",
+            "Population",
+            "adult population",
+            25
+        ],
+        [
+            "abs_010",
+            "Population",
+            "paediatric population",
+            16
+        ],
+        [
+            "abs_010",
+            "Symptom",
+            "instability",
+            13
+        ],
+        [
+            "abs_010",
+            "Symptom",
+            "patellofemoral pain",
+            10
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femur",
+            5
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femur",
+            98
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "knee",
+            29
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patella",
+            67
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patella",
+            85
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patella",
+            114
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patella",
+            125
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patellofemoral joint",
+            14
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patellofemoral joint",
+            171
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patellofemoral joint",
+            186
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibia",
+            7
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibia",
+            69
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibia",
+            106
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibia",
+            109
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibia",
+            119
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibial tubercle",
+            119
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "biomechanical evidence",
+            128
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "experimental data",
+            152
+        ],
+        [
+            "abs_011",
+            "Symptom",
+            "pathology",
+            141
+        ],
+        [
+            "abs_011",
+            "Symptom",
+            "pathology",
+            173
+        ],
+        [
+            "abs_011",
+            "Symptom",
+            "pathology",
+            211
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "femoral rotation",
+            51
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "femoral rotation",
+            111
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "patellar movement",
+            125
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "tibial rotation",
+            69
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "ligament",
+            236
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "ligament",
+            287
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "muscle",
+            238
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "polyethene liner",
+            107
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "polyethene liner",
+            283
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "proximal tibia",
+            70
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "soft tissue",
+            115
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "tibial component",
+            153
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "3d geometrical model",
+            48
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "computer simulation",
+            28
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "computer tomographic",
+            31
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "von mises stress",
+            192
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            96
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            144
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            148
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            213
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            226
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "bending position",
+            250
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "external rotation",
+            76
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "external rotation",
+            163
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "neutral rotation",
+            172
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "neutral rotation",
+            255
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "neutral rotation",
+            291
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            94
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            134
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            176
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            211
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            224
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            248
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing",
+            268
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "tibial rotational alignment",
+            11
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "entire leg",
+            75
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "entire leg",
+            103
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knees",
+            55
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knees",
+            202
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knees",
+            244
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "lower limbs",
+            44
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "320-row detector upright ct",
+            89
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "3d-3d surface registration technique",
+            114
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "conventional ct",
+            86
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "ct images",
+            71
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "kellgren-lawrence grade",
+            124
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "kellgren-lawrence grade",
+            146
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "knee oa",
+            64
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "knee osteoarthritis",
+            4
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "knee osteoarthritis",
+            17
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "knee osteoarthritis",
+            50
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "osteoarthritic change",
+            241
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "adduction",
+            129
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "adduction",
+            156
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "adduction",
+            172
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "flexion",
+            128
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "flexion",
+            155
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "three-dimensional limb alignment",
+            23
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            131
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            158
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            186
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            207
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            227
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "tibia",
+            41
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "tibia",
+            73
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "tibia",
+            107
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "tibia",
+            139
+        ],
+        [
+            "abs_014",
+            "Measurement",
+            "six-camera motion analysis system",
+            85
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "nonpainful individuals",
+            144
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "patellofemoral pain",
+            17
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            19
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            33
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            52
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            60
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            66
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            111
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            133
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "pfp",
+            154
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "femoral internal rotation",
+            45
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "foot pronation",
+            1
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "foot pronation",
+            39
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "foot pronation",
+            104
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "foot pronation",
+            136
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "tibia internal rotation",
+            41
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "knee extensor muscles",
+            69
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patella",
+            19
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patella",
+            93
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patella",
+            144
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patella",
+            156
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral joint",
+            59
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral joint",
+            110
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "peripatellar retinaculum",
+            19
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "peripatellar retinaculum",
+            93
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "peripatellar retinaculum",
+            156
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "trochlear groove",
+            149
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "fuji pressure-sensitive film",
+            81
+        ],
+        [
+            "abs_015",
+            "Symptom",
+            "chondromalacia",
+            42
+        ],
+        [
+            "abs_015",
+            "Symptom",
+            "patellofemoral disorders",
+            38
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "knee flexion angles",
+            121
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "knee flexion angles",
+            140
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "tibial rotation",
+            11
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "tibial rotation",
+            48
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "tibial rotation",
+            136
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "tibial rotation",
+            164
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            21
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            28
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            46
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            163
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            167
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            202
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            206
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            215
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            219
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            249
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            264
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            269
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            285
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral",
+            290
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femur",
+            38
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            5
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            10
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            69
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            84
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            176
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            191
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            225
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            237
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            276
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            313
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            323
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            331
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patella",
+            363
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "quadriceps",
+            158
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            23
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            35
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            165
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            171
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            203
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            210
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            216
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            223
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            252
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            266
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            273
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            287
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibia",
+            294
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "axial ct images",
+            148
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "patellar malalignment",
+            331
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "patellar malalignment",
+            363
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "patellofemoral pain",
+            28
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "pfps",
+            30
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "pfps",
+            50
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "pfps",
+            104
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "limb alignment",
+            97
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "limb alignment",
+            342
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patellar tilting",
+            5
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patellar tilting",
+            10
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patellar tilting",
+            69
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "ankle",
+            126
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "ankle",
+            250
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "ankle mortise",
+            250
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "calcaneus",
+            52
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "calcaneus",
+            141
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            21
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            89
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            102
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            124
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            166
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            193
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            196
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            221
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            232
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "foot",
+            260
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "mid-foot",
+            221
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "mid-tarsal complex",
+            241
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            21
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            166
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            193
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            196
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            232
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rear-foot",
+            260
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "subtalar joint",
+            44
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "talus",
+            50
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "talus",
+            139
+        ],
+        [
+            "abs_017",
+            "Measurement",
+            "computed tomography",
+            117
+        ],
+        [
+            "abs_017",
+            "Measurement",
+            "orientations",
+            154
+        ],
+        [
+            "abs_017",
+            "Measurement",
+            "principal axis lengths",
+            150
+        ],
+        [
+            "abs_017",
+            "Population",
+            "normal controls",
+            74
+        ],
+        [
+            "abs_017",
+            "Population",
+            "normal controls",
+            115
+        ],
+        [
+            "abs_017",
+            "Population",
+            "normal controls",
+            205
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "patellofemoral pain syndrome",
+            0
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            3
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            38
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            69
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            98
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            170
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            175
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            190
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            214
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "pfps",
+            280
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "femoral internal rotation",
+            29
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "hip internal rotation",
+            110
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "knee internal rotation",
+            200
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "knee internal rotation",
+            253
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "rear-foot dorsiflexion",
+            196
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "rear-foot dorsiflexion",
+            232
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "squatting",
+            211
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            24
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            105
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "walking",
+            209
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "craig's test",
+            82
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "goniometer",
+            114
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "heel elevation endurance test",
+            85
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "navicular drop test",
+            79
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "pittsburgh sleep quality index",
+            121
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "visual analog scale",
+            153
+        ],
+        [
+            "abs_018",
+            "Population",
+            "football referees",
+            23
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "medial tibial stress syndrome",
+            17
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            21
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            42
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            58
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            158
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            209
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            248
+        ],
+        [
+            "abs_018",
+            "Symptom",
+            "mtss",
+            271
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "ankle dorsiflexion",
+            104
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "hip internal and external rotation",
+            96
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "knee flexion",
+            101
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "knee flexion",
+            189
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "knee flexion",
+            197
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "knee flexion",
+            214
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "knee flexion",
+            258
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "plantarflexion rom",
+            107
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "lower limb",
+            84
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "pelvis",
+            82
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "trunk",
+            81
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "trunk",
+            226
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "forest plots",
+            136
+        ],
+        [
+            "abs_019",
+            "Population",
+            "runners",
+            33
+        ],
+        [
+            "abs_019",
+            "Population",
+            "runners",
+            95
+        ],
+        [
+            "abs_019",
+            "Population",
+            "runners",
+            188
+        ],
+        [
+            "abs_019",
+            "Population",
+            "runners",
+            212
+        ],
+        [
+            "abs_019",
+            "Population",
+            "runners",
+            247
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            1
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            91
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            193
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            214
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            243
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "iliotibial band syndrome",
+            294
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "stance",
+            209
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "stance",
+            229
+        ]
+    ],
+    "pred_only_keys": [
+        [
+            "abs_001",
+            "Anatomical Entity",
+            "medial longitudinal arch",
+            4
+        ],
+        [
+            "abs_001",
+            "Anatomical Entity",
+            "medical longitudinal arch",
+            210
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "clarke's angle",
+            239
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "prevalence",
+            22
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flat foot",
+            14
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flat foot",
+            97
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "pronated foot",
+            19
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "severity of knee pain",
+            232
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "joint congruence",
+            10
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "joint-driving device",
+            83
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ligament elasticity",
+            13
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "torque sensor",
+            79
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "ankle stiffness",
+            22
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "ankle stiffness",
+            37
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "ankle stiffness",
+            162
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "demographic factors",
+            168
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "joint stiffness measures",
+            179
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "kinematic analyses",
+            176
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects",
+            25
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects",
+            41
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects",
+            54
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects",
+            186
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle dorsiflexion",
+            98
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle dorsiflexion",
+            183
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ankle motion",
+            5
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            29
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            45
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            87
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            104
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            133
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            157
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "flat foot",
+            188
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "ligament elasticity",
+            13
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "reaction time",
+            106
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "reaction time",
+            144
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "strength",
+            95
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "strength",
+            104
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "strength",
+            130
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            30
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            66
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            77
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            163
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            182
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients",
+            208
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "flat foot postures",
+            73
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot pressure",
+            122
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "flat foot",
+            32
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "flat foot",
+            48
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "flat foot",
+            108
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "flat foot",
+            199
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "pes planus",
+            30
+        ],
+        [
+            "abs_004",
+            "Population",
+            "age",
+            191
+        ],
+        [
+            "abs_004",
+            "Population",
+            "control group",
+            155
+        ],
+        [
+            "abs_004",
+            "Population",
+            "gender",
+            193
+        ],
+        [
+            "abs_004",
+            "Population",
+            "healthy controls",
+            90
+        ],
+        [
+            "abs_004",
+            "Population",
+            "patients",
+            84
+        ],
+        [
+            "abs_004",
+            "Population",
+            "patients",
+            226
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "disability",
+            11
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "foot posture",
+            60
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "foot posture",
+            221
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "postural changes",
+            216
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "coronal",
+            137
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "length",
+            71
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "sagittal planes",
+            139
+        ],
+        [
+            "abs_005",
+            "Population",
+            "adult patients",
+            16
+        ],
+        [
+            "abs_005",
+            "Population",
+            "adult patients",
+            174
+        ],
+        [
+            "abs_005",
+            "Population",
+            "age",
+            38
+        ],
+        [
+            "abs_005",
+            "Population",
+            "age",
+            109
+        ],
+        [
+            "abs_005",
+            "Population",
+            "control subjects",
+            105
+        ],
+        [
+            "abs_005",
+            "Population",
+            "control subjects",
+            133
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            17
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            32
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            91
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            98
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            131
+        ],
+        [
+            "abs_005",
+            "Population",
+            "patients",
+            175
+        ],
+        [
+            "abs_005",
+            "Population",
+            "women",
+            34
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "primary symptomatic flat foot",
+            177
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "unilateral flat foot",
+            92
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotations",
+            76
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "biceps femoris muscle",
+            92
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "dominant leg",
+            172
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "dominant leg",
+            182
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "flexible flat foot",
+            23
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "flexible flat foot",
+            196
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "non-dominant leg",
+            172
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            15
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            70
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            107
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            125
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            157
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            179
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            206
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            217
+        ],
+        [
+            "abs_006",
+            "Measurement",
+            "stiffness",
+            232
+        ],
+        [
+            "abs_006",
+            "Population",
+            "subjects",
+            31
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "relax condition",
+            193
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "arch height",
+            160
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "calf muscle circumference",
+            184
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "isometric strength",
+            46
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "isometric strength",
+            115
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "isometric strength",
+            269
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "muscular strength",
+            164
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "muscular strength",
+            193
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "scores",
+            243
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants",
+            54
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants",
+            83
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants",
+            159
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants",
+            221
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants",
+            228
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            108
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "morphostatic deformations",
+            47
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "lower limb disorders",
+            67
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "neurological abnormality",
+            26
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "external tibial torsion",
+            178
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "external tibial torsion",
+            225
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "femoral antetorsion",
+            212
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "internal rotation",
+            197
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "tibal torsion",
+            114
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            139
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            156
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            162
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            290
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            302
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "flat foot",
+            312
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "kl-1",
+            326
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "kl-2",
+            328
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee joint",
+            130
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee joint",
+            295
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "anterior-posterior (ap) meary's angle",
+            89
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "bmi",
+            56
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "dorsiflexion angle",
+            216
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "internal rotation angle",
+            193
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "internal rotation angle",
+            239
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "knee joint three-dimensional angles",
+            130
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            86
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            149
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            167
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            186
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            259
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            286
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            341
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            347
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            350
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "meary's angle",
+            370
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "varus angle",
+            267
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "varus angle",
+            297
+        ],
+        [
+            "abs_009",
+            "Population",
+            "patients",
+            31
+        ],
+        [
+            "abs_009",
+            "Population",
+            "patients",
+            48
+        ],
+        [
+            "abs_009",
+            "Population",
+            "patients",
+            105
+        ],
+        [
+            "abs_009",
+            "Population",
+            "patients",
+            449
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "hallux valgus",
+            418
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "hallux valgus",
+            426
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "hindfoot alignment",
+            466
+        ],
+        [
+            "abs_010",
+            "Anatomical Entity",
+            "tibial torsion",
+            41
+        ],
+        [
+            "abs_010",
+            "Measurement",
+            "best evidence",
+            38
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "body",
+            198
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "diarthrodial joints",
+            194
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "etiologic factors",
+            205
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "force vector",
+            41
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "patellofemoral contact pressures",
+            58
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "patellofemoral contact pressures",
+            76
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "pressures",
+            19
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "pressures",
+            60
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "pressures",
+            78
+        ],
+        [
+            "abs_011",
+            "Measurement",
+            "theories",
+            160
+        ],
+        [
+            "abs_011",
+            "Symptom",
+            "derangement",
+            144
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "knee joint biomechanics",
+            18
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "polyethylene liner",
+            125
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "resection plane",
+            59
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "area",
+            103
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "area",
+            122
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "area",
+            159
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "area",
+            188
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "biomechanical results",
+            304
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "contact area",
+            121
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "contact area",
+            158
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "contact area",
+            187
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "contact pressure",
+            101
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "contact pressure",
+            277
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "magnetic resonance imaging",
+            34
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            15
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            63
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            81
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            130
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            166
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            220
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            244
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            273
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "posterior slope",
+            296
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            105
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            112
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            194
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            216
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            240
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            260
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            280
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "stress",
+            289
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "tensile stress",
+            111
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "tensile stress",
+            239
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "tensile stress",
+            288
+        ],
+        [
+            "abs_012",
+            "Population",
+            "healthy volunteer",
+            40
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "internal rotation",
+            150
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "posterior-stabilized total knee arthroplasty",
+            22
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing position",
+            134
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing position",
+            176
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "standing position",
+            268
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "two-dimensional radiographs",
+            27
+        ],
+        [
+            "abs_013",
+            "Population",
+            "patients",
+            58
+        ],
+        [
+            "abs_013",
+            "Population",
+            "patients",
+            213
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing positions",
+            83
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing positions",
+            109
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "weight-bearing",
+            195
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "lower extremity",
+            8
+        ],
+        [
+            "abs_014",
+            "Measurement",
+            "degrees",
+            37
+        ],
+        [
+            "abs_014",
+            "Measurement",
+            "quadriceps angle",
+            168
+        ],
+        [
+            "abs_014",
+            "Population",
+            "female subjects",
+            54
+        ],
+        [
+            "abs_014",
+            "Population",
+            "female subjects",
+            63
+        ],
+        [
+            "abs_014",
+            "Population",
+            "subjects",
+            31
+        ],
+        [
+            "abs_014",
+            "Population",
+            "subjects",
+            55
+        ],
+        [
+            "abs_014",
+            "Population",
+            "subjects",
+            64
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "femur internal rotation",
+            116
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "human cadaveric knees",
+            51
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "areas",
+            26
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "areas",
+            76
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "in situ strain",
+            14
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "in situ strain",
+            88
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "in situ strain",
+            132
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "knee flexion angles",
+            121
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "knee flexion angles",
+            140
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "patellofemoral contact pressures",
+            22
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "patellofemoral contact pressures",
+            128
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "variable reluctance transducers",
+            100
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "bone rotation",
+            19
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "bone rotation",
+            62
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "bone rotation",
+            200
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            163
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            167
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            206
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            219
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            249
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            264
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            269
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            285
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "femoral rotation",
+            290
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            110
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            124
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            132
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            136
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            140
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "knees",
+            154
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            23
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            165
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            203
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            216
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            252
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            266
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial rotation",
+            287
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "fulkerson",
+            280
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "grelsamer",
+            244
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "patella tilt angle",
+            191
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "patella tilt angle",
+            237
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "patella tilt angle",
+            276
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "sasaki",
+            258
+        ],
+        [
+            "abs_016",
+            "Population",
+            "females",
+            114
+        ],
+        [
+            "abs_016",
+            "Population",
+            "males",
+            114
+        ],
+        [
+            "abs_016",
+            "Population",
+            "males",
+            117
+        ],
+        [
+            "abs_016",
+            "Population",
+            "patients",
+            108
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "bilaterally painful knees",
+            130
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "bony malalignment",
+            319
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "unilaterally painful knees",
+            138
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilting",
+            84
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilting",
+            176
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilting",
+            225
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "rearfoot",
+            102
+        ],
+        [
+            "abs_017",
+            "Measurement",
+            "lower-limb joint angles",
+            85
+        ],
+        [
+            "abs_017",
+            "Population",
+            "female",
+            34
+        ],
+        [
+            "abs_017",
+            "Population",
+            "female",
+            63
+        ],
+        [
+            "abs_017",
+            "Population",
+            "female runners",
+            63
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners",
+            10
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners",
+            36
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners",
+            64
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners",
+            96
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners",
+            185
+        ],
+        [
+            "abs_017",
+            "Symptom",
+            "injury",
+            8
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "compensatory dorsiflexion",
+            237
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "treadmill running",
+            90
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "height length",
+            179
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "knee flexion angle",
+            189
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "knee flexion angle",
+            197
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "knee flexion angle",
+            214
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "knee flexion angle",
+            258
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "left knee flexion angle",
+            188
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "left knee flexion angle",
+            213
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "regression analysis result",
+            206
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "right knee flexion angle",
+            196
+        ],
+        [
+            "abs_018",
+            "Population",
+            "referees",
+            24
+        ],
+        [
+            "abs_018",
+            "Population",
+            "referees",
+            30
+        ],
+        [
+            "abs_018",
+            "Population",
+            "referees",
+            166
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "clinical impact",
+            150
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "confidence intervals",
+            144
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "effect sizes",
+            267
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "mean differences",
+            141
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "methodological score",
+            179
+        ],
+        [
+            "abs_019",
+            "Symptom",
+            "running injury",
+            9
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "hip adduction",
+            200
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "knee internal rotation",
+            205
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "knee internal rotation",
+            221
+        ]
+    ],
+    "gold_only_keys": [
+        [
+            "abs_001",
+            "Anatomical Entity",
+            "pronated foot",
+            19
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "clarke's angle",
+            126
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "clarke's angle",
+            null
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "google form",
+            117
+        ],
+        [
+            "abs_001",
+            "Measurement",
+            "google form",
+            141
+        ],
+        [
+            "abs_001",
+            "Population",
+            "6-12 years of age",
+            39
+        ],
+        [
+            "abs_001",
+            "Population",
+            "613 years",
+            34
+        ],
+        [
+            "abs_001",
+            "Population",
+            "7-14 years of age",
+            28
+        ],
+        [
+            "abs_001",
+            "Population",
+            "total 284 subjects",
+            106
+        ],
+        [
+            "abs_001",
+            "Population",
+            "vadodara city",
+            103
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "abnormal alignment",
+            61
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flat foot",
+            66
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flatfoot",
+            24
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flatfoot",
+            165
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "flatfoot",
+            191
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "idiopathic anterior knee pain",
+            43
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            45
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            78
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            94
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            168
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            194
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            206
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            234
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "knee pain",
+            246
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "medial longitudinal arch",
+            201
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "medical",
+            12
+        ],
+        [
+            "abs_001",
+            "Symptom",
+            "medical",
+            210
+        ],
+        [
+            "abs_001",
+            "Terms of Body Movements",
+            "abnormal alignment",
+            61
+        ],
+        [
+            "abs_001",
+            "Terms of Body Movements",
+            "collapse",
+            2
+        ],
+        [
+            "abs_001",
+            "Terms of Body Movements",
+            "malalign",
+            214
+        ],
+        [
+            "abs_001",
+            "Terms of Body Movements",
+            "muscular imbalance",
+            64
+        ],
+        [
+            "abs_001",
+            "Terms of Body Movements",
+            "pronated",
+            19
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            5
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            22
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            37
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            98
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            162
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ankle",
+            183
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "joint",
+            10
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "joint",
+            83
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "joint",
+            179
+        ],
+        [
+            "abs_002",
+            "Anatomical Entity",
+            "ligament",
+            13
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "(0.35 ± 0.15",
+            129
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "(0.37 ± 0.16",
+            100
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "(mean ± standard deviation)",
+            90
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "0.28 ± 0.10",
+            107
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "0.33 ± 0.07",
+            136
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "joint-driving device",
+            83
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "t = 0.64, p = 0.06).",
+            142
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "t = −2.11, p = 0.04).",
+            113
+        ],
+        [
+            "abs_002",
+            "Measurement",
+            "torque sensor",
+            79
+        ],
+        [
+            "abs_002",
+            "Population",
+            "forty-five age- and gender-matched subjects",
+            50
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects with and without flat foot",
+            25
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects with and without flat foot",
+            41
+        ],
+        [
+            "abs_002",
+            "Population",
+            "subjects with flat foot",
+            186
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            29
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            45
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            87
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            104
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            133
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            157
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "flat foot",
+            188
+        ],
+        [
+            "abs_002",
+            "Symptom",
+            "increased stiffness",
+            95
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "congruence",
+            11
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            99
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            165
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            184
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "elasticity,",
+            14
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "joint stiffness measures",
+            179
+        ],
+        [
+            "abs_002",
+            "Terms of Body Movements",
+            "kinematic analyses",
+            176
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "lower extremity",
+            22
+        ],
+        [
+            "abs_003",
+            "Anatomical Entity",
+            "lower extremity",
+            48
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "p = 0.007",
+            154
+        ],
+        [
+            "abs_003",
+            "Measurement",
+            "p = 0.008",
+            139
+        ],
+        [
+            "abs_003",
+            "Population",
+            "37 flat feet and 33 without flat feet",
+            84
+        ],
+        [
+            "abs_003",
+            "Population",
+            "patients who have pf with and without abnormal foot postures",
+            30
+        ],
+        [
+            "abs_003",
+            "Population",
+            "pf patients with flat feet",
+            162
+        ],
+        [
+            "abs_003",
+            "Population",
+            "seventy patients with plantar heel pain",
+            76
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "abnormal foot postures",
+            37
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "flat feet.",
+            171
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "flat foot postures",
+            73
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "pf",
+            13
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "pf",
+            33
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "pf",
+            69
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "pf",
+            162
+        ],
+        [
+            "abs_003",
+            "Symptom",
+            "pf",
+            185
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot postures.",
+            38
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot postures.",
+            74
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot postures.",
+            188
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot pressure",
+            27
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "foot pressure",
+            63
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "muscle performance",
+            5
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "muscle performance",
+            24
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "muscle performance",
+            50
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "muscle performance",
+            179
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "muscle strength",
+            94
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "reaction time",
+            106
+        ],
+        [
+            "abs_003",
+            "Terms of Body Movements",
+            "reaction time",
+            144
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            33
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            49
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            60
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            109
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            142
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            200
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot",
+            221
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot posture",
+            60
+        ],
+        [
+            "abs_004",
+            "Anatomical Entity",
+            "foot posture",
+            221
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "95% ci: 2.52-15.69",
+            163
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "clarke's angle",
+            null
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "nrs",
+            123
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "or: 6.29",
+            161
+        ],
+        [
+            "abs_004",
+            "Measurement",
+            "p < 0.05",
+            137
+        ],
+        [
+            "abs_004",
+            "Population",
+            "50 healthy controls",
+            89
+        ],
+        [
+            "abs_004",
+            "Population",
+            "fifty patients diagnosed with mlbp",
+            83
+        ],
+        [
+            "abs_004",
+            "Population",
+            "individuals with flat feet",
+            168
+        ],
+        [
+            "abs_004",
+            "Population",
+            "mlbp patients",
+            225
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "flat foot",
+            32
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "flat foot",
+            48
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "flat foot",
+            108
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "flat foot",
+            199
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            5
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            51
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            87
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            114
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            149
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            180
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            207
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "lbp",
+            225
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "obesity",
+            19
+        ],
+        [
+            "abs_004",
+            "Symptom",
+            "pes planus",
+            30
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "altered spinal biomechanics",
+            211
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "compensatory postural changes",
+            215
+        ],
+        [
+            "abs_004",
+            "Terms of Body Movements",
+            "core muscle strength.",
+            23
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "femoral torsion",
+            157
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "flat foot",
+            53
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "flat foot",
+            86
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "flat foot",
+            93
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "flat foot",
+            179
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "tibial torsion",
+            159
+        ],
+        [
+            "abs_005",
+            "Anatomical Entity",
+            "tibiofemoral",
+            161
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "derived measurements",
+            69
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "three-dimensional reconstructions",
+            60
+        ],
+        [
+            "abs_005",
+            "Measurement",
+            "weight-bearing upright eos® examination",
+            56
+        ],
+        [
+            "abs_005",
+            "Population",
+            "12 women, 12 men",
+            33
+        ],
+        [
+            "abs_005",
+            "Population",
+            "17 patients)",
+            97
+        ],
+        [
+            "abs_005",
+            "Population",
+            "24 patients",
+            31
+        ],
+        [
+            "abs_005",
+            "Population",
+            "30 control subjects",
+            104
+        ],
+        [
+            "abs_005",
+            "Population",
+            "31 symptomatic primary flat feet",
+            80
+        ],
+        [
+            "abs_005",
+            "Population",
+            "7 patients;",
+            90
+        ],
+        [
+            "abs_005",
+            "Population",
+            "adult patients with primary symptomatic flatfoot",
+            16
+        ],
+        [
+            "abs_005",
+            "Population",
+            "age: 40 years)",
+            38
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "flat foot",
+            53
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "flat foot",
+            86
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "flat foot",
+            93
+        ],
+        [
+            "abs_005",
+            "Symptom",
+            "flat foot",
+            179
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "coronal",
+            137
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotation",
+            9
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotation",
+            76
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotation",
+            152
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotation",
+            162
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotation",
+            167
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotational abnormalities",
+            9
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "rotational abnormalities",
+            167
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "sagittal",
+            139
+        ],
+        [
+            "abs_005",
+            "Terms of Body Movements",
+            "weight-bearing upright",
+            56
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "bf",
+            47
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "bf",
+            95
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "bf",
+            117
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "bf",
+            130
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "bf",
+            166
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "leg",
+            17
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "leg",
+            173
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "leg",
+            183
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "long head of the biceps femoris muscle",
+            88
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "mg",
+            85
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "mg",
+            111
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "mg",
+            225
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "rf",
+            81
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "ta",
+            76
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "ta",
+            109
+        ],
+        [
+            "abs_006",
+            "Anatomical Entity",
+            "ta",
+            223
+        ],
+        [
+            "abs_006",
+            "Population",
+            "30 subjects",
+            30
+        ],
+        [
+            "abs_006",
+            "Population",
+            "bffg",
+            47
+        ],
+        [
+            "abs_006",
+            "Population",
+            "bffg",
+            117
+        ],
+        [
+            "abs_006",
+            "Population",
+            "bffg",
+            130
+        ],
+        [
+            "abs_006",
+            "Population",
+            "bffg",
+            166
+        ],
+        [
+            "abs_006",
+            "Population",
+            "group with both flexible flat feet",
+            41
+        ],
+        [
+            "abs_006",
+            "Population",
+            "group with flexible flat feet on one side",
+            52
+        ],
+        [
+            "abs_006",
+            "Population",
+            "nfg",
+            38
+        ],
+        [
+            "abs_006",
+            "Population",
+            "nfg",
+            114
+        ],
+        [
+            "abs_006",
+            "Population",
+            "nfg",
+            136
+        ],
+        [
+            "abs_006",
+            "Population",
+            "nfg",
+            170
+        ],
+        [
+            "abs_006",
+            "Population",
+            "offg",
+            60
+        ],
+        [
+            "abs_006",
+            "Population",
+            "offg",
+            134
+        ],
+        [
+            "abs_006",
+            "Population",
+            "offg",
+            147
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flat foot.",
+            24
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flat foot.",
+            245
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flexible flat feet",
+            44
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flexible flat feet",
+            54
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flexible flat foot",
+            23
+        ],
+        [
+            "abs_006",
+            "Symptom",
+            "flexible flat foot",
+            196
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            12
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            67
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            122
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            154
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            176
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            203
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "muscle tone",
+            229
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "relax condition",
+            193
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            15
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            70
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            107
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            125
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            157
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            179
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            206
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            217
+        ],
+        [
+            "abs_006",
+            "Terms of Body Movements",
+            "stiffness",
+            232
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "ankle joint",
+            102
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "arch height",
+            160
+        ],
+        [
+            "abs_007",
+            "Anatomical Entity",
+            "calf muscle",
+            184
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "(r=.095,p=.486)",
+            219
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "(r=.100,p=.463),",
+            190
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "(r=.190,p=.160),",
+            206
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "(r=.190,p=1.61).",
+            197
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "r=.095, p=.486",
+            null
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "r=.100, p=.463",
+            null
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "r=.190, p=.160",
+            null
+        ],
+        [
+            "abs_007",
+            "Measurement",
+            "r=.190, p=1.61",
+            null
+        ],
+        [
+            "abs_007",
+            "Population",
+            "flat foot group",
+            248
+        ],
+        [
+            "abs_007",
+            "Population",
+            "normal medial longitudinal arch group",
+            236
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants with flat foot",
+            228
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants with normal medial longitudinal arch",
+            54
+        ],
+        [
+            "abs_007",
+            "Population",
+            "participants with normal medial longitudinal arch",
+            221
+        ],
+        [
+            "abs_007",
+            "Population",
+            "twenty-eight normal medial longitudinal arch",
+            73
+        ],
+        [
+            "abs_007",
+            "Population",
+            "twenty-eight with flat foot participants",
+            79
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "flat foot",
+            20
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "flat foot",
+            61
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "flat foot",
+            81
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "flat foot",
+            230
+        ],
+        [
+            "abs_007",
+            "Symptom",
+            "flat foot",
+            248
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            171
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            196
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            205
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            211
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "isometric muscular strength",
+            192
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "isometric strength",
+            46
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "isometric strength",
+            115
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "isometric strength",
+            269
+        ],
+        [
+            "abs_007",
+            "Terms of Body Movements",
+            "movement",
+            19
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "femoral",
+            111
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "femoral",
+            162
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "femoral",
+            212
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "hip",
+            170
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "hip",
+            201
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "lower limb",
+            67
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "lower limb",
+            105
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "tibial",
+            179
+        ],
+        [
+            "abs_008",
+            "Anatomical Entity",
+            "tibial",
+            226
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "f = 54.78, r = 0.73, p < 0.001",
+            214
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "f = 7.79, r = 0.37, p < 0.001",
+            228
+        ],
+        [
+            "abs_008",
+            "Measurement",
+            "f = 70.36, r = 0.77, p < 0.001",
+            202
+        ],
+        [
+            "abs_008",
+            "Population",
+            "110 children",
+            78
+        ],
+        [
+            "abs_008",
+            "Population",
+            "110 children",
+            117
+        ],
+        [
+            "abs_008",
+            "Population",
+            "220 feet",
+            80
+        ],
+        [
+            "abs_008",
+            "Population",
+            "aged between 3 and 6 years old",
+            82
+        ],
+        [
+            "abs_008",
+            "Population",
+            "children with flat feet",
+            156
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "collapse of the foot",
+            39
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "congenital or neurological abnormality",
+            24
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "deformation",
+            7
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "deformation",
+            48
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "disorders torsional.",
+            69
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "essential flat foot",
+            61
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "flat feet",
+            123
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "flat feet",
+            130
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "flat feet",
+            158
+        ],
+        [
+            "abs_008",
+            "Symptom",
+            "morphostatic deformations",
+            47
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "excessive femoral antetorsion",
+            211
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "excessive internal rotation of the hip",
+            196
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "hip intoeing",
+            170
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "insufficient external tibial torsion",
+            177
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "insufficient external tibial torsion",
+            224
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "lower limb rotational profile",
+            105
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "tibal torsion).",
+            114
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "tibial torsion",
+            179
+        ],
+        [
+            "abs_008",
+            "Terms of Body Movements",
+            "tibial torsion",
+            226
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            13
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            101
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            332
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            358
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            379
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "arch",
+            494
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "hallux valgus",
+            418
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "hallux valgus",
+            426
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "hindfoot",
+            466
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "hindfoot",
+            490
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            6
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            33
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            51
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            130
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            295
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            317
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            323
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            445
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "knee",
+            472
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "talocrural",
+            198
+        ],
+        [
+            "abs_009",
+            "Anatomical Entity",
+            "talocrural",
+            407
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "anterior-posterior (ap) meary's angle",
+            null
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ct",
+            24
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "ct",
+            79
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "kl-1 to kl-2,3.",
+            326
+        ],
+        [
+            "abs_009",
+            "Measurement",
+            "three-dimensional angles",
+            132
+        ],
+        [
+            "abs_009",
+            "Population",
+            "116 lower limbs of 62 healthy adult volunteers and patients with medial knee oa",
+            39
+        ],
+        [
+            "abs_009",
+            "Population",
+            "mild and severe oa groups",
+            279
+        ],
+        [
+            "abs_009",
+            "Population",
+            "normal, mild, and severe group",
+            116
+        ],
+        [
+            "abs_009",
+            "Population",
+            "patients with knee osteoarthritis",
+            31
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "adult flatfoot",
+            398
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            139
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            156
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            162
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            290
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            302
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "flat foot",
+            312
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "medial knee oa",
+            50
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "mild flat feet",
+            458
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "moderate flat foot",
+            161
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            8
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            52
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            127
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            210
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            213
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            232
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            235
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            245
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            254
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            282
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "oa",
+            318
+        ],
+        [
+            "abs_009",
+            "Symptom",
+            "severe flat feet",
+            451
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "alignment",
+            411
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "alignment",
+            447
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "alignment",
+            467
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "alignment",
+            474
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "dorsiflexion angle",
+            216
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "internal rotation angle",
+            193
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "internal rotation angle",
+            239
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "knee joint varus angle",
+            295
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "knee valgus alignment",
+            445
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "knee valgus alignment",
+            472
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "subtalar joint alignment",
+            409
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "talocrural joint alignment",
+            null
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "varus angle",
+            267
+        ],
+        [
+            "abs_009",
+            "Terms of Body Movements",
+            "varus angle",
+            297
+        ],
+        [
+            "abs_010",
+            "Anatomical Entity",
+            "patellofemoral",
+            10
+        ],
+        [
+            "abs_010",
+            "Anatomical Entity",
+            "tibial",
+            3
+        ],
+        [
+            "abs_010",
+            "Measurement",
+            "review article",
+            31
+        ],
+        [
+            "abs_010",
+            "Terms of Body Movements",
+            "tibial torsion",
+            3
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            14
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            51
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            58
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            76
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            111
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            140
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            171
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "femoral",
+            186
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "lower-limb",
+            48
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "patella's",
+            114
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibial",
+            69
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibial",
+            109
+        ],
+        [
+            "abs_011",
+            "Anatomical Entity",
+            "tibial",
+            119
+        ],
+        [
+            "abs_011",
+            "Symptom",
+            "patellofemoral pathology",
+            140
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "bipedal lower-limb biomechanics",
+            47
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "contact areas",
+            16
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "fixed rotation",
+            0
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "force vector",
+            41
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "joint mechanics",
+            147
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "patella's distal attachment",
+            114
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "patellofemoral contact pressures",
+            58
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "patellofemoral contact pressures",
+            76
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "pressures",
+            19
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "pressures",
+            60
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "pressures",
+            78
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "rotation of the femur",
+            95
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "rotation of the tibia.",
+            103
+        ],
+        [
+            "abs_011",
+            "Terms of Body Movements",
+            "tibial and femoral rotations,",
+            109
+        ],
+        [
+            "abs_012",
+            "Anatomical Entity",
+            "knee joint",
+            18
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "0, 3, 5, and 7 degrees",
+            84
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "magnetic resonance imaging scan",
+            34
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "mpa",
+            231
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "mpa",
+            234
+        ],
+        [
+            "abs_012",
+            "Measurement",
+            "virtual surgery",
+            52
+        ],
+        [
+            "abs_012",
+            "Population",
+            "a healthy volunteer",
+            39
+        ],
+        [
+            "abs_012",
+            "Symptom",
+            "posterior-stabilized tka",
+            307
+        ],
+        [
+            "abs_012",
+            "Symptom",
+            "posterior-stabilized total knee arthroplasty",
+            22
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "contact area on the polyethylene liner",
+            121
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "contact pressure",
+            101
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "contact pressure",
+            277
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "internal",
+            73
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "internal",
+            150
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "posterior tibial slope",
+            206
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "rotational alignment",
+            12
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "rotational alignment",
+            66
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "rotational alignment",
+            264
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "rotational alignment on the proximal tibia.",
+            66
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            105
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            112
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            194
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            216
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            240
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            260
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            280
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "stress",
+            289
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "tensile stress",
+            111
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "tensile stress",
+            239
+        ],
+        [
+            "abs_012",
+            "Terms of Body Movements",
+            "tensile stress",
+            288
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            4
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            17
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            50
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            55
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            64
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            202
+        ],
+        [
+            "abs_013",
+            "Anatomical Entity",
+            "knee",
+            244
+        ],
+        [
+            "abs_013",
+            "Measurement",
+            "radiographs",
+            28
+        ],
+        [
+            "abs_013",
+            "Population",
+            "forty five knees of 25 patients",
+            53
+        ],
+        [
+            "abs_013",
+            "Population",
+            "grades 1 and 2, and 1 and 3",
+            174
+        ],
+        [
+            "abs_013",
+            "Population",
+            "grades 2 and 4",
+            164
+        ],
+        [
+            "abs_013",
+            "Population",
+            "kellgren-lawrence grades 1 and 4",
+            146
+        ],
+        [
+            "abs_013",
+            "Population",
+            "patients with knee oa",
+            null
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "osteoarthritis.",
+            18
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "osteoarthritis.",
+            51
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "osteoarthritis.",
+            204
+        ],
+        [
+            "abs_013",
+            "Symptom",
+            "osteoarthritis.",
+            246
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing",
+            83
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing",
+            109
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing",
+            138
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "standing",
+            190
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "supine",
+            81
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "supine",
+            107
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "supine",
+            144
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "supine",
+            192
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "three-dimensional deformities",
+            199
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "weight-bearing",
+            39
+        ],
+        [
+            "abs_013",
+            "Terms of Body Movements",
+            "weight-bearing",
+            232
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "femur",
+            75
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "femur",
+            116
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "foot",
+            1
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "foot",
+            39
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "foot",
+            72
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "foot",
+            104
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "foot",
+            136
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "quadriceps angle",
+            168
+        ],
+        [
+            "abs_014",
+            "Anatomical Entity",
+            "tibial",
+            139
+        ],
+        [
+            "abs_014",
+            "Measurement",
+            "vicon",
+            89
+        ],
+        [
+            "abs_014",
+            "Population",
+            "17 female subjects without pfp",
+            62
+        ],
+        [
+            "abs_014",
+            "Population",
+            "individuals with pfp",
+            131
+        ],
+        [
+            "abs_014",
+            "Population",
+            "individuals without pfp",
+            50
+        ],
+        [
+            "abs_014",
+            "Population",
+            "twenty-four female subjects with a diagnosis of pfp",
+            53
+        ],
+        [
+            "abs_014",
+            "Symptom",
+            "abnormal foot pronation",
+            0
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "free-walking",
+            81
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "less femur internal rotation",
+            115
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "peak foot pronation",
+            103
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "rotation of the lower extremity",
+            5
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "three-dimensional kinematics",
+            68
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "tibia rotation",
+            107
+        ],
+        [
+            "abs_014",
+            "Terms of Body Movements",
+            "tibial internal rotation",
+            139
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "knee",
+            53
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "knee",
+            69
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "knee",
+            121
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "knee",
+            140
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral",
+            22
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral",
+            38
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral",
+            59
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral",
+            110
+        ],
+        [
+            "abs_015",
+            "Anatomical Entity",
+            "patellofemoral",
+            128
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "four differential variable reluctance transducers",
+            98
+        ],
+        [
+            "abs_015",
+            "Measurement",
+            "patellofemoral joint testing jig",
+            59
+        ],
+        [
+            "abs_015",
+            "Population",
+            "six human cadaveric knees",
+            50
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "contact areas",
+            null
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "contact pressures",
+            23
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "contact pressures",
+            73
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "contact pressures",
+            129
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "in situ strain",
+            14
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "in situ strain",
+            88
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "in situ strain",
+            132
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "joint biomechanics",
+            28
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "joint biomechanics",
+            111
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "physiological loading",
+            65
+        ],
+        [
+            "abs_015",
+            "Terms of Body Movements",
+            "tibial rotations",
+            164
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "limb",
+            97
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "limb",
+            342
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            5
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            10
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            69
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            313
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            323
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            331
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellar",
+            363
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellofemoral",
+            28
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "patellofemoral",
+            46
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            23
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            165
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            203
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            216
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            252
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            266
+        ],
+        [
+            "abs_016",
+            "Anatomical Entity",
+            "tibial",
+            287
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "axial computed tomography study",
+            73
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "modified patella tilt angle of fulkerson",
+            275
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "patella tilt angle of grelsamer",
+            240
+        ],
+        [
+            "abs_016",
+            "Measurement",
+            "patella tilt angle of sasaki",
+            254
+        ],
+        [
+            "abs_016",
+            "Population",
+            "34 females and 11 males",
+            113
+        ],
+        [
+            "abs_016",
+            "Population",
+            "90 knees",
+            109
+        ],
+        [
+            "abs_016",
+            "Population",
+            "bilaterally painful knees",
+            130
+        ],
+        [
+            "abs_016",
+            "Population",
+            "forty five knees",
+            122
+        ],
+        [
+            "abs_016",
+            "Population",
+            "forty seven patients",
+            106
+        ],
+        [
+            "abs_016",
+            "Population",
+            "unilaterally painful knees",
+            138
+        ],
+        [
+            "abs_016",
+            "Symptom",
+            "abnormal motions",
+            31
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "bone rotation",
+            19
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "bone rotation",
+            62
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "bone rotation",
+            200
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "bony alignment",
+            305
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "bony malalignment",
+            319
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            163
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            167
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            206
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            219
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            249
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            264
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            269
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            285
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation",
+            290
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation relative to tibia",
+            167
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation relative to tibia",
+            206
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation relative to tibia",
+            219
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation relative to tibia",
+            269
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "femoral rotation relative to tibia",
+            290
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilt angle",
+            191
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilt angle",
+            237
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patella tilt angle",
+            276
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "patellofemoral mechanics",
+            46
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "quadriceps relaxed,",
+            158
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            23
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            165
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            203
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            216
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            252
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            266
+        ],
+        [
+            "abs_016",
+            "Terms of Body Movements",
+            "tibial rotation",
+            287
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "femoral",
+            0
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "femoral",
+            29
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "knee",
+            200
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "knee",
+            253
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "tibial",
+            24
+        ],
+        [
+            "abs_017",
+            "Anatomical Entity",
+            "tibial",
+            105
+        ],
+        [
+            "abs_017",
+            "Measurement",
+            "three-dimensional models",
+            135
+        ],
+        [
+            "abs_017",
+            "Population",
+            "female runners with a history of pfps",
+            63
+        ],
+        [
+            "abs_017",
+            "Population",
+            "female, distance runners",
+            34
+        ],
+        [
+            "abs_017",
+            "Population",
+            "runners with pfps",
+            96
+        ],
+        [
+            "abs_017",
+            "Population",
+            "subjects with pfps",
+            212
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "barefoot, treadmill running",
+            89
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            197
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            218
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            233
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "dorsiflexion",
+            238
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "dorsiflexion at the mid-foot",
+            218
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            18
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            40
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            103
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            164
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            194
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            227
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "eversion",
+            261
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "gait analysis",
+            79
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "joint angles",
+            86
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "kinematic alterations",
+            271
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "rearfoot eversion",
+            102
+        ],
+        [
+            "abs_017",
+            "Terms of Body Movements",
+            "simulated weight-bearing",
+            128
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "ankle",
+            104
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "hip",
+            96
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "knee",
+            101
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "knee",
+            189
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "knee",
+            197
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "knee",
+            214
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "knee",
+            258
+        ],
+        [
+            "abs_018",
+            "Anatomical Entity",
+            "lower extremity",
+            93
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "(p> 0.05).",
+            236
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "p = 0.006",
+            181
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "p = 0.007",
+            192
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "p = 0.015",
+            223
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "p = 0.045",
+            185
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "p = 0.046",
+            200
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "psqi",
+            125
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "regression analysis",
+            206
+        ],
+        [
+            "abs_018",
+            "Measurement",
+            "vas",
+            156
+        ],
+        [
+            "abs_018",
+            "Population",
+            "39 referees",
+            29
+        ],
+        [
+            "abs_018",
+            "Population",
+            "those with a history of mtss",
+            53
+        ],
+        [
+            "abs_018",
+            "Population",
+            "those without",
+            61
+        ],
+        [
+            "abs_018",
+            "Population",
+            "those without",
+            266
+        ],
+        [
+            "abs_018",
+            "Terms of Body Movements",
+            "lower extremity function",
+            93
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "hip",
+            200
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "knee",
+            205
+        ],
+        [
+            "abs_019",
+            "Anatomical Entity",
+            "knee",
+            221
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "electronic search",
+            109
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "meta-analysis",
+            159
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "systematic review",
+            38
+        ],
+        [
+            "abs_019",
+            "Measurement",
+            "systematic review",
+            67
+        ],
+        [
+            "abs_019",
+            "Population",
+            "female shod runners",
+            186
+        ],
+        [
+            "abs_019",
+            "Population",
+            "female shod runners",
+            210
+        ],
+        [
+            "abs_019",
+            "Population",
+            "female shod runners who went onto developing iliotibial band syndrome",
+            186
+        ],
+        [
+            "abs_019",
+            "Population",
+            "female shod runners with iliotibial band syndrome",
+            210
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "biomechanical risk factors",
+            86
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "biomechanical risk factors",
+            238
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "peak hip adduction",
+            199
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "peak knee internal rotation",
+            204
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "peak knee internal rotation",
+            220
+        ],
+        [
+            "abs_019",
+            "Terms of Body Movements",
+            "peak trunk ipsilateral",
+            225
+        ]
+    ]
+}

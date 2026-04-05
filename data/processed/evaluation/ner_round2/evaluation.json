@@ -1,0 +1,1788 @@
+{
+    "evaluation_rows": [
+        {
+            "abstract_id": "abs_001",
+            "type": "symptom",
+            "full_phrase": "anterior knee pain",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "anterior knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "knee"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [
+                    "medial longitudinal arch"
+                ],
+                "pubmedbert": [
+                    "medial longitudinal arch"
+                ],
+                "scibert": [
+                    "knee"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": true
+            }
+        },
+        {
+            "abstract_id": "abs_001",
+            "type": "movement",
+            "full_phrase": "medial longitudinal arch",
+            "gold_location": "foot",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "medial longitudinal arch"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_002",
+            "type": "symptom",
+            "full_phrase": "ankle stiffness",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "ligament elasticity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_002",
+            "type": "movement",
+            "full_phrase": "ankle dorsiflexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "ligament elasticity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "ligament elasticity"
+                ],
+                "pubmedbert": [
+                    "joint congruence"
+                ],
+                "scibert": [
+                    "ligament elasticity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_002",
+            "type": "movement",
+            "full_phrase": "plantar flexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "torque sensor"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "ligament elasticity"
+                ],
+                "pubmedbert": [
+                    "joint congruence"
+                ],
+                "scibert": [
+                    "ligament elasticity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_003",
+            "type": "symptom",
+            "full_phrase": "plantar heel pain",
+            "gold_location": "foot",
+            "method1_predictions": [
+                "plantar heel"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "plantar flexor"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "plantar flexor"
+                ],
+                "pubmedbert": [
+                    "plantar flexor"
+                ],
+                "scibert": [
+                    "plantar flexor"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_003",
+            "type": "movement",
+            "full_phrase": "hip muscle strength",
+            "gold_location": "hip",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "hip"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_003",
+            "type": "movement",
+            "full_phrase": "plantar flexor strength",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "plantar flexor"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_004",
+            "type": "symptom",
+            "full_phrase": "mechanical low back pain",
+            "gold_location": "spine",
+            "method1_predictions": [
+                "low back"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "spinal biomechanic"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "spinal biomechanic"
+                ],
+                "pubmedbert": [
+                    "spinal biomechanic"
+                ],
+                "scibert": [
+                    "spinal biomechanic"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_004",
+            "type": "movement",
+            "full_phrase": "spinal biomechanics",
+            "gold_location": "spine",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "spinal biomechanic"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_005",
+            "type": "movement",
+            "full_phrase": "femoral torsion",
+            "gold_location": "femur",
+            "method1_predictions": [
+                "femoral torsion"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower extremity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "lower extremity"
+                ],
+                "pubmedbert": [
+                    "lower limb"
+                ],
+                "scibert": [
+                    "lower extremity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_005",
+            "type": "movement",
+            "full_phrase": "tibial torsion",
+            "gold_location": "tibia",
+            "method1_predictions": [
+                "tibial torsion"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower extremity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "lower extremity"
+                ],
+                "pubmedbert": [
+                    "lower extremity"
+                ],
+                "scibert": [
+                    "lower limb"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_005",
+            "type": "movement",
+            "full_phrase": "tibiofemoral rotation",
+            "gold_location": "knee",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower extremity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "lower extremity"
+                ],
+                "pubmedbert": [
+                    "lower extremity"
+                ],
+                "scibert": [
+                    "lower extremity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_006",
+            "type": "symptom",
+            "full_phrase": "tibialis anterior muscle stiffness",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibiali anterior muscle"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_006",
+            "type": "symptom",
+            "full_phrase": "medial gastrocnemius muscle stiffness",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "medial gastrocnemiu"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_007",
+            "type": "movement",
+            "full_phrase": "ankle dorsiflexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "medial longitudinal arch"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_007",
+            "type": "movement",
+            "full_phrase": "plantar flexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "medial longitudinal arch"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "medial longitudinal arch"
+                ],
+                "pubmedbert": [
+                    "medial longitudinal arch"
+                ],
+                "scibert": [
+                    "medial longitudinal arch"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_007",
+            "type": "movement",
+            "full_phrase": "ankle mobility",
+            "gold_location": "ankle",
+            "method1_predictions": [
+                "ankle"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "foot arch"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "foot arch"
+                ],
+                "pubmedbert": [
+                    "foot arch"
+                ],
+                "scibert": [
+                    "foot arch"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_007",
+            "type": "movement",
+            "full_phrase": "isometric muscular strength",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "foot arch"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_008",
+            "type": "movement",
+            "full_phrase": "femoral antetorsion",
+            "gold_location": "femur",
+            "method1_predictions": [
+                "femoral antetorsion"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "morphostatic deformation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "plantar concavity"
+                ],
+                "pubmedbert": [
+                    "plantar concavity"
+                ],
+                "scibert": [
+                    "plantar concavity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_008",
+            "type": "symptom",
+            "full_phrase": "hip intoeing",
+            "gold_location": "hip",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "foot"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_008",
+            "type": "movement",
+            "full_phrase": "tibial torsion",
+            "gold_location": "tibia",
+            "method1_predictions": [
+                "tibial torsion"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "morphostatic deformation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_008",
+            "type": "movement",
+            "full_phrase": "internal rotation of the hip",
+            "gold_location": "hip",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "morphostatic deformation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_008",
+            "type": "movement",
+            "full_phrase": "external tibial torsion",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "morphostatic deformation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "morphostatic deformation"
+                ],
+                "pubmedbert": [
+                    "plantar concavity"
+                ],
+                "scibert": [
+                    "plantar concavity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_009",
+            "type": "movement",
+            "full_phrase": "talocrural internal rotation",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "talocrural"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_009",
+            "type": "movement",
+            "full_phrase": "subtalar dorsiflexion",
+            "gold_location": "subtalar",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "subtalar"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_009",
+            "type": "movement",
+            "full_phrase": "subtalar varus angle",
+            "gold_location": "subtalar",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "subtalar"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_009",
+            "type": "symptom",
+            "full_phrase": "knee joint varus angle",
+            "gold_location": "knee",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "knee"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_009",
+            "type": "movement",
+            "full_phrase": "hindfoot alignment",
+            "gold_location": "foot",
+            "method1_predictions": [
+                "hindfoot"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "foot"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [
+                    "flat foot"
+                ],
+                "pubmedbert": [
+                    "subtalar"
+                ],
+                "scibert": [
+                    "foot"
+                ]
+            },
+            "bert_correct": {
+                "biobert": true,
+                "pubmedbert": false,
+                "scibert": true
+            }
+        },
+        {
+            "abstract_id": "abs_010",
+            "type": "movement",
+            "full_phrase": "tibial torsion",
+            "gold_location": "tibia",
+            "method1_predictions": [
+                "tibial torsion"
+            ],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial torsion"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_010",
+            "type": "symptom",
+            "full_phrase": "patellofemoral pain",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial torsion"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibial torsion"
+                ],
+                "pubmedbert": [
+                    "tibial torsion"
+                ],
+                "scibert": [
+                    "tibial torsion"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_010",
+            "type": "symptom",
+            "full_phrase": "patellofemoral instability",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial torsion"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_011",
+            "type": "movement",
+            "full_phrase": "femoral rotation",
+            "gold_location": "femur",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "patellofemoral"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibial tubercle"
+                ],
+                "pubmedbert": [
+                    "patellofemoral"
+                ],
+                "scibert": [
+                    "tibial tubercle"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_011",
+            "type": "movement",
+            "full_phrase": "tibial rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibia"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [
+                    "tibial tubercle"
+                ],
+                "pubmedbert": [
+                    "patellofemoral"
+                ],
+                "scibert": [
+                    "tibial tubercle"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_011",
+            "type": "symptom",
+            "full_phrase": "patellofemoral contact pressure",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "patellofemoral"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_011",
+            "type": "movement",
+            "full_phrase": "patellar movement",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "patella"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [
+                    "patellofemoral"
+                ],
+                "pubmedbert": [
+                    "patella"
+                ],
+                "scibert": [
+                    "patellofemoral"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": true,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_012",
+            "type": "movement",
+            "full_phrase": "tibial rotational alignment",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial component"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibial component"
+                ],
+                "pubmedbert": [
+                    "tibial component"
+                ],
+                "scibert": [
+                    "tibial component"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_012",
+            "type": "movement",
+            "full_phrase": "posterior tibial slope",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "proximal tibia"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_012",
+            "type": "symptom",
+            "full_phrase": "ligament tensile stress",
+            "gold_location": "knee",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "ligament"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_012",
+            "type": "movement",
+            "full_phrase": "internal rotation of tibial component",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial component"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_013",
+            "type": "movement",
+            "full_phrase": "tibial internal rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "knee"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "entire leg"
+                ],
+                "pubmedbert": [
+                    "lower limb"
+                ],
+                "scibert": [
+                    "lower limb"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_013",
+            "type": "movement",
+            "full_phrase": "knee flexion",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "knee"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_013",
+            "type": "movement",
+            "full_phrase": "knee adduction",
+            "gold_location": "knee",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "knee"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_014",
+            "type": "movement",
+            "full_phrase": "foot pronation",
+            "gold_location": "foot",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower extremity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibia"
+                ],
+                "pubmedbert": [
+                    "lower extremity"
+                ],
+                "scibert": [
+                    "lower extremity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_014",
+            "type": "movement",
+            "full_phrase": "tibial internal rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibia"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_014",
+            "type": "movement",
+            "full_phrase": "femoral internal rotation",
+            "gold_location": "femur",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibia"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibia"
+                ],
+                "pubmedbert": [
+                    "lower extremity"
+                ],
+                "scibert": [
+                    "lower extremity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_014",
+            "type": "symptom",
+            "full_phrase": "patellofemoral pain",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower extremity"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "tibia"
+                ],
+                "pubmedbert": [
+                    "lower extremity"
+                ],
+                "scibert": [
+                    "lower extremity"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_015",
+            "type": "movement",
+            "full_phrase": "tibial rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "human cadaveric knee"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "patellofemoral"
+                ],
+                "pubmedbert": [
+                    "knee extensor muscle"
+                ],
+                "scibert": [
+                    "patella"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_015",
+            "type": "symptom",
+            "full_phrase": "patellofemoral contact pressure",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "patellofemoral"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_015",
+            "type": "symptom",
+            "full_phrase": "peripatellar retinaculum strain",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "peripatellar retinaculum"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_015",
+            "type": "movement",
+            "full_phrase": "knee flexion",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "knee extensor muscle"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_016",
+            "type": "movement",
+            "full_phrase": "femoral rotation",
+            "gold_location": "femur",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "femoral rotation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_016",
+            "type": "movement",
+            "full_phrase": "tibial rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "tibial rotation"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_016",
+            "type": "movement",
+            "full_phrase": "patellar tilting",
+            "gold_location": "patella / plantar fasciiti",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "patella"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [
+                    "femoral rotation"
+                ],
+                "pubmedbert": [
+                    "bone rotation"
+                ],
+                "scibert": [
+                    "bone rotation"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "rearfoot eversion",
+            "gold_location": "rearfoot",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "rearfoot"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "tibial internal rotation",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "talu"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "calcaneu"
+                ],
+                "pubmedbert": [
+                    "subtalar"
+                ],
+                "scibert": [
+                    "rearfoot"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "femoral internal rotation",
+            "gold_location": "femur",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "subtalar"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "ankle mortise"
+                ],
+                "pubmedbert": [
+                    "subtalar"
+                ],
+                "scibert": [
+                    "rearfoot"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "hip internal rotation",
+            "gold_location": "hip",
+            "method1_predictions": [
+                "hip"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "calcaneu"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "rearfoot"
+                ],
+                "pubmedbert": [
+                    "subtalar"
+                ],
+                "scibert": [
+                    "rearfoot"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "rearfoot dorsiflexion",
+            "gold_location": "rearfoot",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "rearfoot"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "knee internal rotation",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "calcaneu"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "rearfoot"
+                ],
+                "pubmedbert": [
+                    "subtalar"
+                ],
+                "scibert": [
+                    "rearfoot"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_017",
+            "type": "movement",
+            "full_phrase": "mid-foot dorsiflexion",
+            "gold_location": "mid foot",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "mid foot"
+            ],
+            "traditional_method2_correct": true,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "movement",
+            "full_phrase": "hip internal rotation",
+            "gold_location": "hip",
+            "method1_predictions": [
+                "hip"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "movement",
+            "full_phrase": "hip external rotation",
+            "gold_location": "hip",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "movement",
+            "full_phrase": "knee flexion",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "movement",
+            "full_phrase": "ankle dorsiflexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "movement",
+            "full_phrase": "ankle plantarflexion",
+            "gold_location": "ankle",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_018",
+            "type": "symptom",
+            "full_phrase": "medial tibial stress syndrome",
+            "gold_location": "tibia",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_019",
+            "type": "movement",
+            "full_phrase": "hip adduction",
+            "gold_location": "hip",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "lower limb"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "lower limb"
+                ],
+                "pubmedbert": [
+                    "lower limb"
+                ],
+                "scibert": [
+                    "lower limb"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_019",
+            "type": "movement",
+            "full_phrase": "knee internal rotation",
+            "gold_location": "knee",
+            "method1_predictions": [
+                "knee"
+            ],
+            "method1_correct": true,
+            "traditional_method2_predictions": [
+                "lower limb"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [
+                    "lower limb"
+                ],
+                "pubmedbert": [
+                    "lower limb"
+                ],
+                "scibert": [
+                    "lower limb"
+                ]
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        },
+        {
+            "abstract_id": "abs_019",
+            "type": "movement",
+            "full_phrase": "trunk ipsilateral lean",
+            "gold_location": "spine",
+            "method1_predictions": [],
+            "method1_correct": false,
+            "traditional_method2_predictions": [
+                "trunk"
+            ],
+            "traditional_method2_correct": false,
+            "bert_predictions": {
+                "biobert": [],
+                "pubmedbert": [],
+                "scibert": []
+            },
+            "bert_correct": {
+                "biobert": false,
+                "pubmedbert": false,
+                "scibert": false
+            }
+        }
+    ],
+    "evaluation_summary": {
+        "method1_round2_extraction": {
+            "total": 70,
+            "predicted": 17,
+            "coverage": 24.285714285714285,
+            "correct": 9,
+            "accuracy": 52.94117647058824,
+            "recall": 12.857142857142856
+        },
+        "traditional_method2_similarity_benchmark": {
+            "total": 70,
+            "predicted": 64,
+            "coverage": 91.42857142857143,
+            "correct": 17,
+            "accuracy": 26.5625,
+            "recall": 24.285714285714285
+        },
+        "biobert_method2": {
+            "total": 70,
+            "predicted": 30,
+            "coverage": 42.857142857142854,
+            "correct": 1,
+            "accuracy": 3.3333333333333335,
+            "recall": 1.4285714285714286
+        },
+        "pubmedbert_method2": {
+            "total": 70,
+            "predicted": 30,
+            "coverage": 42.857142857142854,
+            "correct": 1,
+            "accuracy": 3.3333333333333335,
+            "recall": 1.4285714285714286
+        },
+        "scibert_method2": {
+            "total": 70,
+            "predicted": 30,
+            "coverage": 42.857142857142854,
+            "correct": 2,
+            "accuracy": 6.666666666666667,
+            "recall": 2.857142857142857
+        }
+    }
+}

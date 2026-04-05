@@ -52,7 +52,7 @@ EDGE TYPES
 ----------
 1. "anatomical_link"  – Anatomical Entity ↔ Symptom or Anatomical Entity ↔ Movement
    Source: anatomical_entities_enriched.json (related_symptom_entity_ids /
-           related_movement_entity_ids).
+           related_movement_entity_documentationids).
    These edges represent "this anatomy is involved in this symptom/movement".
 
 2. "contributes_to" / "associated_with"  – Symptom ↔ Symptom, Symptom ↔ Movement,

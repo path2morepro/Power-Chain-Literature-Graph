@@ -35,7 +35,7 @@ import pandas as pd
 import torch
 from transformers import AutoModel, AutoTokenizer
 
-from . import ner
+from src.pipeline import ner
 
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
