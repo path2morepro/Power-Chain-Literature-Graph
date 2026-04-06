@@ -1,0 +1,74 @@
+================================================================================
+RELATION EXTRACTION EVALUATION REPORT
+================================================================================
+
+OVERALL METRICS (Exact Triple Match)
+--------------------------------------------------------------------------------
+Total Gold Relations:           163
+Total Predicted Relations:      174
+True Positives:                 162
+False Positives:                12
+False Negatives:                1
+Precision:                      0.9310
+Recall:                         0.9939
+F1-Score:                       0.9614
+Abstracts Evaluated:            19
+
+PER-RELATION-TYPE METRICS
+--------------------------------------------------------------------------------
+
+associated_with:
+  Precision: 0.9306
+  Recall:    0.9853
+  F1-Score:  0.9571
+  (TP=67, FP=5, FN=1)
+
+contributes_to:
+  Precision: 0.9630
+  Recall:    1.0000
+  F1-Score:  0.9811
+  (TP=26, FP=1, FN=0)
+
+located_in:
+  Precision: 0.8529
+  Recall:    1.0000
+  F1-Score:  0.9206
+  (TP=29, FP=5, FN=0)
+
+measured_by:
+  Precision: 0.9677
+  Recall:    1.0000
+  F1-Score:  0.9836
+  (TP=30, FP=1, FN=0)
+
+prevalence_in:
+  Precision: 1.0000
+  Recall:    1.0000
+  F1-Score:  1.0000
+  (TP=10, FP=0, FN=0)
+
+TOP 10 ABSTRACTS BY F1-SCORE
+--------------------------------------------------------------------------------
+abs_002   Gold= 6  Pred= 6  Match= 6  F1=1.0000
+abs_004   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_006   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_007   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_008   Gold=11  Pred=11  Match=11  F1=1.0000
+abs_009   Gold=13  Pred=13  Match=13  F1=1.0000
+abs_010   Gold= 4  Pred= 4  Match= 4  F1=1.0000
+abs_012   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_013   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_014   Gold= 6  Pred= 6  Match= 6  F1=1.0000
+
+BOTTOM 10 ABSTRACTS BY F1-SCORE
+--------------------------------------------------------------------------------
+abs_014   Gold= 6  Pred= 6  Match= 6  F1=1.0000
+abs_015   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_016   Gold=12  Pred=12  Match=12  F1=1.0000
+abs_017   Gold=13  Pred=13  Match=13  F1=1.0000
+abs_018   Gold= 8  Pred= 8  Match= 8  F1=1.0000
+abs_019   Gold= 9  Pred= 9  Match= 9  F1=1.0000
+abs_011   Gold= 9  Pred=10  Match= 9  F1=0.9474
+abs_001   Gold= 9  Pred=10  Match= 8  F1=0.8421
+abs_003   Gold= 6  Pred=11  Match= 6  F1=0.7059
+abs_005   Gold= 3  Pred= 7  Match= 3  F1=0.6000

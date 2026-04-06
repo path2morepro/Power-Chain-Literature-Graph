@@ -3,26 +3,11 @@
 This module reorganizes the notebook-based evaluation code into a reusable,
 documented Python module.
 
-Implemented evaluation blocks
------------------------------
-1. Round-one NER comparison
-   - Compare `Intermediate_steps/entities_pretrainedmodel.json` against
-     `LLMExtraction/entities_GPT5.json`
-   - Treat the GPT-5 extraction as the gold standard
-   - Add mention positions before comparison
-   - Compare extracted-entity counts
-   - Generate an HTML visualization with GOLD / PRED highlights
-
-2. Round-two anatomy-location evaluation
-   - Reuse the hashed baseline from `ner.py`
-   - Run the BERT-based candidate ranking variants from the notebook
-   - Evaluate all methods against `Data/golden_standard.csv`
 """
 
 from __future__ import annotations
 
 import argparse
-import html
 import json
 import logging
 import re
@@ -55,11 +40,13 @@ GOLD_STANDARD_PATH = DATA_RAW_DIR / "golden_standard.csv"
 
 # Round 1 evaluation outputs
 ROUND_ONE_PRED_WITH_MENTIONS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "entities_pretrainedmodel_with_mentions.json"
-ROUND_ONE_GOLD_WITH_MENTIONS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "entities_GPT5_with_mentions.json"
+ROUND_ONE_GOLD_WITH_MENTIONS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "entities_gold_with_mentions.json"
 ROUND_ONE_METRICS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "metrics.csv"
-ROUND_ONE_COUNTS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "count_comparison.csv"
-ROUND_ONE_COMPARISON_JSON_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "comparison.json"
-ROUND_ONE_VISUALIZATION_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "visualization.html"
+
+# Round 1 visualization data (JSON/CSV for rendering)
+OUTPUTS_VIS_DIR = BASE_DIR / "outputs" / "visualizations" / "ner_round1"
+ROUND_ONE_COUNTS_PATH = OUTPUTS_VIS_DIR / "count_comparison.csv"
+ROUND_ONE_COMPARISON_JSON_PATH = OUTPUTS_VIS_DIR / "comparison.json"
 
 # Round 2 evaluation outputs
 ROUND_TWO_BERT_RESULTS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round2" / "bert_results.json"
@@ -373,190 +360,6 @@ def build_round_one_metrics(
 
 
 # ---------------------------------------------------------------------------
-# Round-one visualization
-# ---------------------------------------------------------------------------
-
-def build_token_annotations(
-    abstract_text: str,
-    gold_entities: list[dict[str, Any]],
-    pred_entities: list[dict[str, Any]],
-) -> tuple[list[re.Match[str]], dict[int, dict[str, Any]], list[str]]:
-    """Build token-level labels so the HTML renderer can highlight GOLD and PRED spans."""
-    token_matches = ner._tokenize_with_spans(abstract_text)
-    token_annotations: dict[int, dict[str, Any]] = {
-        index: {"labels": set(), "details": set()}
-        for index in range(len(token_matches))
-    }
-    unmatched_notes: list[str] = []
-
-    def _mark_entities(entities: list[dict[str, Any]], label: str) -> None:
-        for entity in entities:
-            position = entity["mention"]["position"]
-            token_length = entity["mention"].get("token_length", 1) or 1
-            detail = f"{label} | {entity['field']} | {entity['entity_form']}"
-
-            if position is None:
-                unmatched_notes.append(detail)
-                continue
-
-            for token_index in range(position, min(position + token_length, len(token_matches))):
-                token_annotations[token_index]["labels"].add(label)
-                token_annotations[token_index]["details"].add(detail)
-
-    _mark_entities(gold_entities, "GOLD")
-    _mark_entities(pred_entities, "PRED")
-    return token_matches, token_annotations, unmatched_notes
-
-
-def render_round_one_visualization(
-    pred_payload: dict[str, list[dict[str, Any]]],
-    gold_payload: dict[str, list[dict[str, Any]]],
-    output_path: str | Path = ROUND_ONE_VISUALIZATION_PATH,
-) -> str:
-    """Render a displaCy-like HTML visualization for the round-one comparison."""
-    gold_by_abstract = {
-        abstract_entry["abstract"]["abstract_id"]: abstract_entry
-        for abstract_entry in gold_payload["abstracts"]
-    }
-    pred_by_abstract = {
-        abstract_entry["abstract"]["abstract_id"]: abstract_entry
-        for abstract_entry in pred_payload["abstracts"]
-    }
-
-    sections: list[str] = []
-    for abstract_id in sorted(set(gold_by_abstract) | set(pred_by_abstract)):
-        gold_entry = gold_by_abstract.get(abstract_id)
-        pred_entry = pred_by_abstract.get(abstract_id)
-        abstract_text = (
-            gold_entry["abstract"]["text"]
-            if gold_entry is not None
-            else pred_entry["abstract"]["text"]
-        )
-        gold_entities = [] if gold_entry is None else gold_entry["entities"]
-        pred_entities = [] if pred_entry is None else pred_entry["entities"]
-
-        token_matches, token_annotations, unmatched_notes = build_token_annotations(
-            abstract_text,
-            gold_entities,
-            pred_entities,
-        )
-
-        rendered_tokens: list[str] = []
-        for token_index, token in enumerate(token_matches):
-            token_text = html.escape(token.group(0))
-            labels = token_annotations[token_index]["labels"]
-            details = sorted(token_annotations[token_index]["details"])
-            title = html.escape("\n".join(details))
-
-            if labels == {"GOLD"}:
-                style = "background:#ffd700;"
-            elif labels == {"PRED"}:
-                style = "background:#7fdbff;"
-            elif labels == {"GOLD", "PRED"}:
-                style = "background:linear-gradient(90deg,#ffd700 0%,#ffd700 50%,#7fdbff 50%,#7fdbff 100%);"
-            else:
-                style = ""
-
-            if style:
-                rendered_tokens.append(
-                    f'<span class="token hl" style="{style}" title="{title}">{token_text}</span>'
-                )
-            else:
-                rendered_tokens.append(f'<span class="token">{token_text}</span>')
-
-        unmatched_html = ""
-        if unmatched_notes:
-            unmatched_items = "".join(f"<li>{html.escape(note)}</li>" for note in unmatched_notes)
-            unmatched_html = (
-                "<div class='unmatched'><strong>Unmatched extracted entities</strong>"
-                f"<ul>{unmatched_items}</ul></div>"
-            )
-
-        sections.append(
-            f"""
-            <section class="abstract">
-              <h2>{html.escape(abstract_id)}</h2>
-              <div class="text-block">{' '.join(rendered_tokens)}</div>
-              {unmatched_html}
-            </section>
-            """
-        )
-
-    html_output = f"""
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <title>Round 1 NER Comparison</title>
-        <style>
-          body {{
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            margin: 24px;
-            background: #fafafa;
-            color: #222;
-          }}
-          .legend {{
-            display: flex;
-            gap: 12px;
-            margin-bottom: 24px;
-            flex-wrap: wrap;
-          }}
-          .pill {{
-            padding: 6px 12px;
-            border-radius: 999px;
-            font-size: 13px;
-            font-weight: 600;
-          }}
-          .gold {{ background: #ffd700; }}
-          .pred {{ background: #7fdbff; }}
-          .both {{
-            background: linear-gradient(90deg,#ffd700 0%,#ffd700 50%,#7fdbff 50%,#7fdbff 100%);
-          }}
-          .abstract {{
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 12px;
-            padding: 16px;
-            margin-bottom: 18px;
-          }}
-          .text-block {{
-            line-height: 2.2;
-            font-size: 15px;
-          }}
-          .token {{
-            display: inline-block;
-            padding: 2px 4px;
-            margin: 1px 2px;
-            border-radius: 6px;
-          }}
-          .hl {{
-            box-shadow: inset 0 -1px 0 rgba(0,0,0,0.08);
-          }}
-          .unmatched {{
-            margin-top: 14px;
-            font-size: 13px;
-            color: #555;
-          }}
-        </style>
-      </head>
-      <body>
-        <h1>Round 1 NER Comparison</h1>
-        <div class="legend">
-          <span class="pill gold">GOLD</span>
-          <span class="pill pred">PRED</span>
-          <span class="pill both">GOLD + PRED</span>
-        </div>
-        {''.join(sections)}
-      </body>
-    </html>
-    """
-
-    target = Path(output_path)
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(html_output, encoding="utf-8")
-    log.info("Saved → %s", target)
-    return html_output
-
-
 # ---------------------------------------------------------------------------
 # Round-one orchestration
 # ---------------------------------------------------------------------------
@@ -580,7 +383,6 @@ def run_round_one_evaluation() -> dict[str, Any]:
     metrics_df.to_csv(ROUND_ONE_METRICS_PATH, index=False)
     counts_df.to_csv(ROUND_ONE_COUNTS_PATH, index=False)
     save_json(comparison_payload, ROUND_ONE_COMPARISON_JSON_PATH)
-    render_round_one_visualization(pred_payload, gold_payload, ROUND_ONE_VISUALIZATION_PATH)
 
     return {
         "pred_with_mentions": pred_payload,
@@ -588,7 +390,6 @@ def run_round_one_evaluation() -> dict[str, Any]:
         "metrics": metrics_df.to_dict(orient="records"),
         "count_comparison": counts_df.to_dict(orient="records"),
         "comparison": comparison_payload,
-        "visualization_path": str(ROUND_ONE_VISUALIZATION_PATH),
     }
 
 

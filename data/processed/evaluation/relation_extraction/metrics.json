@@ -1,0 +1,11 @@
+{
+  "tp": 162,
+  "fp": 12,
+  "fn": 1,
+  "precision": 0.931,
+  "recall": 0.9939,
+  "f1": 0.9614,
+  "total_gold_relations": 163,
+  "total_predicted_relations": 174,
+  "abstracts_evaluated": 19
+}

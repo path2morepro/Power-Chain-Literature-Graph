@@ -404,7 +404,7 @@ const STYLE = {
 };
 
 // ── load graph.json ────────────────────────────────────────
-fetch("graph.json")
+fetch("../../data/processed/04_knowledge_graph/graph.json")
   .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json(); })
   .then(graph => initGraph(graph))
   .catch(err => {
@@ -412,7 +412,7 @@ fetch("graph.json")
       `<div style="color:#f85149;font-size:13px;">
          Failed to load graph.json<br>
          <span style="color:#8b949e;font-size:11px;">${err.message}</span><br><br>
-         <span style="color:#8b949e;font-size:10px;">Run build_graph.py first, then serve this folder via HTTP.</span>
+         <span style="color:#8b949e;font-size:10px;">Run build_graph.py first, then serve from project root via HTTP.</span>
        </div>`;
   });
 
