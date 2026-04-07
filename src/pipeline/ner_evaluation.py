@@ -30,6 +30,7 @@ log = logging.getLogger(__name__)
 BASE_DIR = Path(__file__).resolve().parent.parent.parent  # src/pipeline → project root
 DATA_RAW_DIR = BASE_DIR / "data" / "raw"
 DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
+                     
 
 # Baselines and predictions
 PRED_ROUND_ONE_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entities_pretrainedmodel.json"
@@ -47,6 +48,10 @@ ROUND_ONE_METRICS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round1" / "met
 OUTPUTS_VIS_DIR = BASE_DIR / "outputs" / "visualizations" / "ner_round1"
 ROUND_ONE_COUNTS_PATH = OUTPUTS_VIS_DIR / "count_comparison.csv"
 ROUND_ONE_COMPARISON_JSON_PATH = OUTPUTS_VIS_DIR / "comparison.json"
+
+# Round 1 normalized entities (deduplicated forms for visualization)
+ROUND_ONE_NORMALIZED_PRED_PATH = OUTPUTS_VIS_DIR / "normalized_pred.json"
+ROUND_ONE_NORMALIZED_GOLD_PATH = OUTPUTS_VIS_DIR / "normalized_gold.json"
 
 # Round 2 evaluation outputs
 ROUND_TWO_BERT_RESULTS_PATH = DATA_PROCESSED_DIR / "evaluation" / "ner_round2" / "bert_results.json"
@@ -250,28 +255,85 @@ def flatten_round_one_mentions(payload: dict[str, list[dict[str, Any]]]) -> list
     return rows
 
 
-def mention_key(row: dict[str, Any]) -> tuple[str, str, str, int | None]:
-    """Build the mention-level comparison key used for round-one metrics."""
+def mention_key(row: dict[str, Any]) -> tuple[str, str, str]:
+    """Build the form-level comparison key for entity-based metrics.
+
+    Standard NER evaluation: an entity form is considered extracted once per
+    abstract/field combination, regardless of how many times the text appears
+    or where it occurs in the abstract. Multiple identical extractions count as 1.
+    """
     return (
         row["abstract_id"],
         row["field"],
         row["normalized_form"],
-        row["position"],
     )
 
 
-def mention_key_sort_value(key: tuple[str, str, str, int | None]) -> tuple[str, str, str, float]:
-    """Provide a stable sort key even when mention positions are missing."""
-    abstract_id, field, normalized_form, position = key
-    sortable_position = float("inf") if position is None else float(position)
-    return abstract_id, field, normalized_form, sortable_position
+def mention_key_sort_value(key: tuple[str, str, str]) -> tuple[str, str, str]:
+    """Provide a stable sort key for form-level entity keys."""
+    return key
+
+
+def build_round_one_normalized_entities(
+    mention_payload: dict[str, list[dict[str, Any]]],
+    source: str,
+) -> dict[str, list[dict[str, Any]]]:
+    """Extract unique entity forms from mention payload (deduplicated per abstract/field).
+
+    Takes mention-level data and deduplicates by (field, normalized_form) per abstract,
+    removing position information. Useful for form-level visualization and comparison.
+    """
+    abstract_records: list[dict[str, Any]] = []
+
+    for abstract_entry in mention_payload["abstracts"]:
+        abstract_id = abstract_entry["abstract"]["abstract_id"]
+        abstract_text = abstract_entry["abstract"]["text"]
+
+        # Deduplicate entities by (field, normalized_form) within this abstract
+        seen_forms: set[tuple[str, str]] = set()
+        normalized_entities: list[dict[str, Any]] = []
+
+        for entity in abstract_entry["entities"]:
+            normalized_form = normalize_surface_text(entity["entity_form"])
+            form_key = (entity["field"], normalized_form)
+            if form_key not in seen_forms:
+                seen_forms.add(form_key)
+                normalized_entities.append(
+                    {
+                        "field": entity["field"],
+                        "entity_form": entity["entity_form"],
+                        "normalized_form": normalized_form,
+                        "source": source,
+                    }
+                )
+
+        # Sort by field then by entity form
+        normalized_entities.sort(key=lambda e: (e["field"], e["entity_form"]))
+
+        abstract_records.append(
+            {
+                "abstract": {
+                    "abstract_id": abstract_id,
+                    "text": abstract_text,
+                },
+                "entities": normalized_entities,
+            }
+        )
+
+    return {"abstracts": abstract_records}
+
 
 
 def build_round_one_metrics(
     pred_payload: dict[str, list[dict[str, Any]]],
     gold_payload: dict[str, list[dict[str, Any]]],
 ) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, Any]]:
-    """Compute mention-level metrics and count comparisons for round one."""
+    """Compute form-level entity metrics and count comparisons for round one.
+
+    Metrics are computed at the entity-form level (abstract_id, field, normalized_form).
+    An entity is counted once per abstract/field, regardless of how many times it appears.
+    This is the standard NER evaluation approach in the biomedical NLP literature.
+    """
     pred_rows = flatten_round_one_mentions(pred_payload)
     gold_rows = flatten_round_one_mentions(gold_payload)
 
@@ -379,6 +441,12 @@ def run_round_one_evaluation() -> dict[str, Any]:
     save_json(pred_payload, ROUND_ONE_PRED_WITH_MENTIONS_PATH)
     save_json(gold_payload, ROUND_ONE_GOLD_WITH_MENTIONS_PATH)
 
+    # Build and save normalized entities (deduplicated forms for visualization)
+    normalized_pred = build_round_one_normalized_entities(pred_payload, source="PRED")
+    normalized_gold = build_round_one_normalized_entities(gold_payload, source="GOLD")
+    save_json(normalized_pred, ROUND_ONE_NORMALIZED_PRED_PATH)
+    save_json(normalized_gold, ROUND_ONE_NORMALIZED_GOLD_PATH)
+
     metrics_df, counts_df, comparison_payload = build_round_one_metrics(pred_payload, gold_payload)
     metrics_df.to_csv(ROUND_ONE_METRICS_PATH, index=False)
     counts_df.to_csv(ROUND_ONE_COUNTS_PATH, index=False)
@@ -387,6 +455,8 @@ def run_round_one_evaluation() -> dict[str, Any]:
     return {
         "pred_with_mentions": pred_payload,
         "gold_with_mentions": gold_payload,
+        "normalized_pred": normalized_pred,
+        "normalized_gold": normalized_gold,
         "metrics": metrics_df.to_dict(orient="records"),
         "count_comparison": counts_df.to_dict(orient="records"),
         "comparison": comparison_payload,

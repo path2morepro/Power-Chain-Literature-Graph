@@ -228,16 +228,22 @@
     <script>
       let goldData = null;
       let predData = null;
+      let normalizedGold = null;
+      let normalizedPred = null;
       let abstracts = [];
 
-      // Fetch both files
+      // Fetch mentions (for highlighting) and normalized entities (for display)
       Promise.all([
         fetch('../../../data/processed/evaluation/ner_round1/entities_gold_with_mentions.json').then(r => r.json()),
-        fetch('../../../data/processed/evaluation/ner_round1/entities_pretrainedmodel_with_mentions.json').then(r => r.json())
+        fetch('../../../data/processed/evaluation/ner_round1/entities_pretrainedmodel_with_mentions.json').then(r => r.json()),
+        fetch('normalized_gold.json').then(r => r.json()),
+        fetch('normalized_pred.json').then(r => r.json())
       ])
-        .then(([gold, pred]) => {
+        .then(([gold, pred, normGold, normPred]) => {
           goldData = gold;
           predData = pred;
+          normalizedGold = normGold;
+          normalizedPred = normPred;
 
           // Build abstract list from both sources
           const abstractIds = new Set();
@@ -276,30 +282,31 @@
           btn.classList.toggle('active', btn.textContent.trim() === abstractId);
         });
 
-        // Find entries in both files
-        const goldEntry = (goldData.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
-        const predEntry = (predData.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
+        // Find entries in mention data (for highlighting)
+        const goldMentionEntry = (goldData.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
+        const predMentionEntry = (predData.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
 
-        if (!goldEntry && !predEntry) return;
+        // Find entries in normalized data (for entity list)
+        const goldNormEntry = (normalizedGold.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
+        const predNormEntry = (normalizedPred.abstracts || []).find(a => a.abstract.abstract_id === abstractId);
 
-        const abstractText = goldEntry ? goldEntry.abstract.text : predEntry.abstract.text;
-        const goldEntities = goldEntry ? goldEntry.entities : [];
-        const predEntities = predEntry ? predEntry.entities : [];
+        if (!goldMentionEntry && !predMentionEntry) return;
 
-        // Build highlighted text
-        const highlightedText = buildHighlightedText(abstractText, goldEntities, predEntities);
+        const abstractText = goldMentionEntry ? goldMentionEntry.abstract.text : predMentionEntry.abstract.text;
+        const goldMentions = goldMentionEntry ? goldMentionEntry.entities : [];
+        const predMentions = predMentionEntry ? predMentionEntry.entities : [];
+        const goldNormEntities = goldNormEntry ? goldNormEntry.entities : [];
+        const predNormEntities = predNormEntry ? predNormEntry.entities : [];
 
-        // Group by field for side-by-side comparison
-        const goldByField = groupBy(goldEntities, e => e.field);
-        const predByField = groupBy(predEntities, e => e.field);
-        const allFields = Array.from(new Set([...Object.keys(goldByField), ...Object.keys(predByField)])).sort();
+        // Build highlighted text using mentions (positions)
+        const highlightedText = buildHighlightedText(abstractText, goldMentions, predMentions);
 
-        // Build matched set
+        // Build matched set using normalized forms
         const matchedSet = new Set();
-        goldEntities.forEach(ge => {
-          predEntities.forEach(pe => {
-            if (ge.field === pe.field && ge.entity_form === pe.entity_form) {
-              matchedSet.add(`${ge.field}|${ge.entity_form}`);
+        goldNormEntities.forEach(ge => {
+          predNormEntities.forEach(pe => {
+            if (ge.field === pe.field && ge.normalized_form === pe.normalized_form) {
+              matchedSet.add(`${ge.field}|${ge.normalized_form}`);
             }
           });
         });
@@ -307,12 +314,12 @@
         let html = `<div class="abstract-id">${escapeHtml(abstractId)}</div>`;
         html += `<div class="abstract-text">${highlightedText}</div>`;
 
-        // Entity comparison section
+        // Normalized entity comparison section (deduplicated forms)
         html += '<div class="entity-comparison">';
-        html += `<div class="entity-col gold"><h3>Gold (${goldEntities.length})</h3><ul class="entity-list">`;
+        html += `<div class="entity-col gold"><h3>Gold Entities (${goldNormEntities.length})</h3><ul class="entity-list">`;
 
-        const goldHtml = goldEntities.map(e => {
-          const key = `${e.field}|${e.entity_form}`;
+        const goldHtml = goldNormEntities.map(e => {
+          const key = `${e.field}|${e.normalized_form}`;
           const isMatched = matchedSet.has(key);
           return `
             <li class="entity-item ${isMatched ? 'matched' : 'unmatched'}">
@@ -324,10 +331,10 @@
         html += goldHtml || '<li style="color: #999; padding: 8px;">None</li>';
 
         html += '</ul></div>';
-        html += `<div class="entity-col pred"><h3>Predictions (${predEntities.length})</h3><ul class="entity-list">`;
+        html += `<div class="entity-col pred"><h3>Predicted Entities (${predNormEntities.length})</h3><ul class="entity-list">`;
 
-        const predHtml = predEntities.map(e => {
-          const key = `${e.field}|${e.entity_form}`;
+        const predHtml = predNormEntities.map(e => {
+          const key = `${e.field}|${e.normalized_form}`;
           const isMatched = matchedSet.has(key);
           return `
             <li class="entity-item ${isMatched ? 'matched' : 'unmatched'}">
