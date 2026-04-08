@@ -87,7 +87,12 @@ DATA_PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
 NORMALIZED_ENTITIES_PATH = DATA_PROCESSED_DIR / "01_ner_normalized" / "normalized_entities.json"
 ANATOMICAL_ENTITIES_PATH = DATA_PROCESSED_DIR / "02_entity_enrichment" / "anatomical_entities_enriched.json"
-RELATIONS_PATH = DATA_PROCESSED_DIR / "03_relations_extracted" / "relations_claude.json"
+RELATIONS_PATH = DATA_PROCESSED_DIR / "03_relations_extracted" / "relations_Claude.json"
+ENTITY_SPECIFICATION_PATH = DATA_PROCESSED_DIR / "evaluation" / "baselines" / "entity_specification.json"
+
+# Output graphs for both methods
+GRAPH_METHOD1_PATH = DATA_PROCESSED_DIR / "04_knowledge_graph" / "graph_ES.json"
+GRAPH_METHOD2_PATH = DATA_PROCESSED_DIR / "04_knowledge_graph" / "graph_LI.json"
 GRAPH_OUTPUT_PATH = DATA_PROCESSED_DIR / "04_knowledge_graph" / "graph_using_relation.json"
 
 # ─────────────────────────────────────────────────────────────
@@ -368,46 +373,264 @@ def build_relation_edges(
     return relation_edges
 
 # ─────────────────────────────────────────────────────────────
-# Main
+# Step 3c – METHOD 1: entity specification edges (symptom/movement → anatomy)
 # ─────────────────────────────────────────────────────────────
+
+def build_entity_specification_edges(
+    entity_specs: list,
+    nodes: dict,
+    form_lookup: dict,
+    abs_index: dict,
+    edge_id_start: int,
+) -> list[dict]:
+    """
+    METHOD 1: Link symptoms/movements to anatomies using entity_specification.json.
+
+    For each entity_spec entry (symptom/movement with candidate anatomies and
+    predicted_locations), create an edge from the symptom/movement to its
+    best-ranked anatomical location.
+    """
+    edge_acc: dict[tuple, dict] = {}
+    edge_id = edge_id_start
+
+    sym_mov_types = {"Symptom", "Movement"}
+
+    for spec in entity_specs:
+        abstract_id = spec["abstract_id"]
+        entity_form = spec["entity_form"]
+        field = spec["field"]
+        predicted_locs = spec.get("predicted_locations", [])
+
+        if not predicted_locs or field not in sym_mov_types:
+            continue
+
+        ab_data = abs_index.get(abstract_id, {})
+
+        # Find source entity (symptom/movement)
+        src_norm = _norm(entity_form)
+        src_ids = form_lookup.get(src_norm, [])
+
+        if not src_ids:
+            continue
+
+        # Get target entity (predicted anatomy location)
+        target_form = predicted_locs[0]  # Take the top-1 prediction
+        tgt_norm = _norm(target_form)
+        tgt_ids = form_lookup.get(tgt_norm, [])
+
+        if not tgt_ids:
+            continue
+
+        for src_eid in src_ids:
+            for tgt_eid in tgt_ids:
+                if src_eid == tgt_eid:
+                    continue
+                if nodes[src_eid]["type"] not in sym_mov_types:
+                    continue
+                if nodes[tgt_eid]["type"] != "Anatomical Entity":
+                    continue
+
+                # Create edge key (source, target, relation_type)
+                key = (src_eid, tgt_eid, "located_in")
+
+                if key not in edge_acc:
+                    edge_acc[key] = {
+                        "id":                  f"e_{edge_id:04d}",
+                        "source":              src_eid,
+                        "target":              tgt_eid,
+                        "relation":            "located_in",
+                        "edge_class":          "specification",
+                        "abstracts":           [],
+                        "population_entities": [],
+                    }
+                    edge_id += 1
+
+                edge = edge_acc[key]
+
+                # Add abstract entry (avoid duplicates)
+                existing_abs_ids = {a["abstract_id"] for a in edge["abstracts"]}
+                if abstract_id not in existing_abs_ids:
+                    edge["abstracts"].append({
+                        "abstract_id":   abstract_id,
+                        "abstract_text": ab_data.get("text", ""),
+                        "evidence":      f"{entity_form} → {target_form} (entity specification ranking)",
+                    })
+
+                # Merge population entities
+                existing_pop = {p["entity_id"] for p in edge["population_entities"]}
+                for pop in ab_data.get("population_entities", []):
+                    if pop["entity_id"] not in existing_pop:
+                        edge["population_entities"].append(pop)
+                        existing_pop.add(pop["entity_id"])
+
+    spec_edges = list(edge_acc.values())
+    log.info("Entity specification edges: %d", len(spec_edges))
+    return spec_edges
+
+# ─────────────────────────────────────────────────────────────
+# Step 3d – METHOD 2: located_in relation edges (from relations_claude.json)
+# ─────────────────────────────────────────────────────────────
+
+def build_located_in_edges(
+    relations: dict,
+    nodes: dict,
+    form_lookup: dict,
+    abs_index: dict,
+    edge_id_start: int,
+) -> list[dict]:
+    """
+    METHOD 2: Link symptoms/movements to anatomies using explicit "located_in"
+    relations from relations_claude.json.
+
+    For each relation triple with relation_type == "located_in":
+      • Subject should be Symptom or Movement
+      • Object should be Anatomical Entity
+      • Create edge: symptom/movement → anatomy
+    """
+    edge_acc: dict[tuple, dict] = {}
+    edge_id = edge_id_start
+
+    sym_mov_types = {"Symptom", "Movement"}
+
+    for abstract_id, triple_list in relations.items():
+        ab_data = abs_index.get(abstract_id, {})
+
+        for triple in triple_list:
+            if triple["relation"] != "located_in":
+                continue
+
+            subj_norm = _norm(triple["subject"])
+            obj_norm  = _norm(triple["object"])
+
+            src_ids = form_lookup.get(subj_norm, [])
+            tgt_ids = form_lookup.get(obj_norm,  [])
+
+            if not src_ids or not tgt_ids:
+                log.debug("No match (located_in)  abs=%s  subj='%s' obj='%s'",
+                          abstract_id, triple["subject"], triple["object"])
+                continue
+
+            for src_eid in src_ids:
+                for tgt_eid in tgt_ids:
+                    if src_eid == tgt_eid:
+                        continue
+                    if nodes[src_eid]["type"] not in sym_mov_types:
+                        continue
+                    if nodes[tgt_eid]["type"] != "Anatomical Entity":
+                        continue
+
+                    key = (src_eid, tgt_eid, "located_in")
+
+                    if key not in edge_acc:
+                        edge_acc[key] = {
+                            "id":                  f"e_{edge_id:04d}",
+                            "source":              src_eid,
+                            "target":              tgt_eid,
+                            "relation":            "located_in",
+                            "edge_class":          "relation",
+                            "abstracts":           [],
+                            "population_entities": [],
+                        }
+                        edge_id += 1
+
+                    edge = edge_acc[key]
+
+                    # Add abstract entry
+                    existing_abs_ids = {a["abstract_id"] for a in edge["abstracts"]}
+                    if abstract_id not in existing_abs_ids:
+                        edge["abstracts"].append({
+                            "abstract_id":   abstract_id,
+                            "abstract_text": ab_data.get("text", ""),
+                            "evidence":      triple.get("evidence", ""),
+                        })
+
+                    # Merge population entities
+                    existing_pop = {p["entity_id"] for p in edge["population_entities"]}
+                    for pop in ab_data.get("population_entities", []):
+                        if pop["entity_id"] not in existing_pop:
+                            edge["population_entities"].append(pop)
+                            existing_pop.add(pop["entity_id"])
+
+    located_in_edges = list(edge_acc.values())
+    log.info("Located_in relation edges: %d", len(located_in_edges))
+    return located_in_edges
 
 def main():
     log.info("Loading source files …")
-    normalized  = load(str(NORMALIZED_ENTITIES_PATH))
-    anatomical  = load(str(ANATOMICAL_ENTITIES_PATH))
-    relations   = load(str(RELATIONS_PATH))
+    normalized      = load(str(NORMALIZED_ENTITIES_PATH))
+    anatomical      = load(str(ANATOMICAL_ENTITIES_PATH))
+    relations       = load(str(RELATIONS_PATH))
+    entity_specs    = load(str(ENTITY_SPECIFICATION_PATH)) if Path(ENTITY_SPECIFICATION_PATH).exists() else []
 
     nodes, abs_index = collect_nodes(normalized, anatomical)
     form_lookup      = build_form_lookup(nodes)
 
-    anat_edges, next_id = build_anatomical_edges(anatomical, nodes, abs_index)
-    rel_edges           = build_relation_edges(relations, nodes, form_lookup,
-                                               abs_index, next_id)
+    # === METHOD 1: Entity Enrichment (enriched anatomical data) ===
+    log.info("\n--- Building METHOD 1: Entity Enrichment ---")
+    anat_edges_m1, next_id_m1 = build_anatomical_edges(anatomical, nodes, abs_index)
+    # Build other relation edges for METHOD 1 with correct starting ID
+    other_rel_edges_m1 = build_relation_edges(relations, nodes, form_lookup, abs_index, next_id_m1)
 
-    all_edges = anat_edges + rel_edges
+    all_edges_m1 = anat_edges_m1 + other_rel_edges_m1
 
-    graph = {
+    graph_m1 = {
         "metadata": {
+            "method": "METHOD 1: Entity Enrichment",
             "description": (
-                "Biomedical knowledge graph linking Anatomical Entities, Symptoms, "
-                "and Body-Movement terms. "
-                "Anatomical nodes connect to Symptom/Movement nodes via 'anatomical_link' edges. "
-                "Symptom and Movement nodes connect to each other via 'contributes_to' "
-                "or 'associated_with' edges extracted from Claude relation triples."
+                "Knowledge graph where Anatomical Entity ↔ Symptom/Movement links are "
+                "derived from enriched anatomical data (anatomical_entities_enriched.json). "
+                "Anatomical links come from pre-enriched semantic relationships."
             ),
             "node_types":  ["Anatomical Entity", "Symptom", "Movement"],
             "edge_types":  ["anatomical_link", "contributes_to", "associated_with"],
             "node_count":  len(nodes),
-            "edge_count":  len(all_edges),
+            "edge_count":  len(all_edges_m1),
+            "anatomical_link_edges": len(anat_edges_m1),
+            "other_relation_edges": len(other_rel_edges_m1),
         },
         "nodes": nodes,
-        "edges": all_edges,
+        "edges": all_edges_m1,
     }
 
-    GRAPH_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    save(graph, str(GRAPH_OUTPUT_PATH))
-    log.info("Graph summary: %d nodes, %d edges (%d anatomy + %d relation)",
-             len(nodes), len(all_edges), len(anat_edges), len(rel_edges))
+    GRAPH_METHOD1_PATH.parent.mkdir(parents=True, exist_ok=True)
+    save(graph_m1, str(GRAPH_METHOD1_PATH))
+    log.info("✓ Saved METHOD 1: %s", GRAPH_METHOD1_PATH)
+    log.info("  Summary: %d nodes, %d edges (%d anatomical_links + %d other relations)",
+             len(nodes), len(all_edges_m1), len(anat_edges_m1), len(other_rel_edges_m1))
+
+    # === METHOD 2: Located_in Relations (explicit relation triples) ===
+    log.info("\n--- Building METHOD 2: Located_in Relations ---")
+    located_in_edges_m2 = build_located_in_edges(relations, nodes, form_lookup, abs_index, 0)
+    # Build other relation edges for METHOD 2 with correct starting ID
+    next_id_m2 = len(located_in_edges_m2)
+    other_rel_edges_m2 = build_relation_edges(relations, nodes, form_lookup, abs_index, next_id_m2)
+
+    all_edges_m2 = located_in_edges_m2 + other_rel_edges_m2
+
+    graph_m2 = {
+        "metadata": {
+            "method": "METHOD 2: Located_in Relations",
+            "description": (
+                "Knowledge graph where Symptom/Movement ↔ Anatomical Entity links are "
+                "derived from explicit 'located_in' relations in relations_claude.json. "
+                "Anatomical links come from extracted relation triples."
+            ),
+            "node_types":  ["Anatomical Entity", "Symptom", "Movement"],
+            "edge_types":  ["anatomical_link", "contributes_to", "associated_with"],
+            "node_count":  len(nodes),
+            "edge_count":  len(all_edges_m2),
+            "anatomical_link_edges": len(located_in_edges_m2),
+            "other_relation_edges": len(other_rel_edges_m2),
+        },
+        "nodes": nodes,
+        "edges": all_edges_m2,
+    }
+
+    GRAPH_METHOD2_PATH.parent.mkdir(parents=True, exist_ok=True)
+    save(graph_m2, str(GRAPH_METHOD2_PATH))
+    log.info("✓ Saved METHOD 2: %s", GRAPH_METHOD2_PATH)
+    log.info("  Summary: %d nodes, %d edges (%d anatomical_links + %d other relations)",
+             len(nodes), len(all_edges_m2), len(located_in_edges_m2), len(other_rel_edges_m2))
 
 
 if __name__ == "__main__":

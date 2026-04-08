@@ -53,6 +53,15 @@
             "precision": 0.5761772853185596,
             "recall": 0.42362525458248473,
             "f1": 0.48826291079812206
+        },
+        {
+            "field": "OVERALL_EXCL_MEASUREMENT",
+            "pred_mentions": 249,
+            "gold_mentions": 400,
+            "matched_mentions": 155,
+            "precision": 0.6224899598393574,
+            "recall": 0.3875,
+            "f1": 0.47765793528505396
         }
     ],
     "matched_keys": [

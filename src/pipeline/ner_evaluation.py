@@ -383,6 +383,25 @@ def build_round_one_metrics(
         }
     )
 
+    # Overall metrics excluding "Measurement" field
+    pred_keys_excl_meas = {key for key in pred_keys if key[1] != "Measurement"}
+    gold_keys_excl_meas = {key for key in gold_keys if key[1] != "Measurement"}
+    matched_keys_excl_meas = pred_keys_excl_meas & gold_keys_excl_meas
+
+    overall_precision_excl = len(matched_keys_excl_meas) / len(pred_keys_excl_meas) if pred_keys_excl_meas else 0.0
+    overall_recall_excl = len(matched_keys_excl_meas) / len(gold_keys_excl_meas) if gold_keys_excl_meas else 0.0
+    metric_rows.append(
+        {
+            "field": "OVERALL_EXCL_MEASUREMENT",
+            "pred_mentions": len(pred_keys_excl_meas),
+            "gold_mentions": len(gold_keys_excl_meas),
+            "matched_mentions": len(matched_keys_excl_meas),
+            "precision": overall_precision_excl,
+            "recall": overall_recall_excl,
+            "f1": f1_score(overall_precision_excl, overall_recall_excl),
+        }
+    )
+
     count_rows: list[dict[str, Any]] = []
     abstract_ids = sorted(set(pred_df.get("abstract_id", pd.Series(dtype=str))) | set(gold_df.get("abstract_id", pd.Series(dtype=str))))
     for abstract_id in abstract_ids:

@@ -280,6 +280,7 @@
   .rel-contributes_to  { background:#2d2206; color:var(--e-contrib); border:1px solid var(--e-contrib); }
   .rel-associated_with { background:#0c2033; color:var(--e-assoc);   border:1px solid var(--e-assoc); }
   .rel-anatomical_link { background:var(--c-anat-dim); color:var(--e-anat); border:1px solid var(--e-anat); }
+  .rel-located_in      { background:var(--c-anat-dim); color:var(--e-anat); border:1px solid var(--e-anat); }
 
   /* empty state */
   .empty-state {
@@ -391,6 +392,10 @@ const STYLE = {
       color:{ color:"#3fb950", opacity:.5, highlight:"#3fb950" },
       dashes:true, width:1, arrows:{to:{enabled:true,scaleFactor:.4}},
     },
+    "located_in": {
+      color:{ color:"#3fb950", opacity:.5, highlight:"#3fb950" },
+      dashes:true, width:1, arrows:{to:{enabled:true,scaleFactor:.4}},
+    },
     "contributes_to": {
       color:{ color:"#e3b341", opacity:.8, highlight:"#f0c855" },
       dashes:false, width:2, arrows:{to:{enabled:true,scaleFactor:.6}},
@@ -404,7 +409,7 @@ const STYLE = {
 };
 
 // ── load graph.json ────────────────────────────────────────
-fetch("../../data/processed/04_knowledge_graph/graph.json")
+fetch("../../data/processed/04_knowledge_graph/graph_LI.json")
   .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json(); })
   .then(graph => initGraph(graph))
   .catch(err => {

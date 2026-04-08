@@ -84,7 +84,6 @@ Output:
     "Anatomical Entity": ["medial longitudinal arch", "knee joint"],
     "Symptom": ["flat foot", "anterior knee pain", "muscular imbalance", "knee injury"],
     "Terms of Body Movements": ["Clarke's Angle", "malalignment", "biomechanics of knee joint"],
-    "Population": ["nonathletic population", "young adults"],
-    "Measurement": ["Clarke's Angle"]
+    "Population": ["nonathletic population", "young adults"]
   }
 }
